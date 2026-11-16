@@ -28,9 +28,10 @@
     "hasPart": [
       { "@type": "SoftwareSourceCode", "name": "veritas-rl", "codeRepository": "https://github.com/nagarjunak-pixel/veritas-rl", "programmingLanguage": ["Python", "C++"] },
       { "@type": "SoftwareSourceCode", "name": "axiom-zero", "codeRepository": "https://github.com/nagarjunak-pixel/axiom-zero", "programmingLanguage": ["Python", "C++"] },
-      { "@type": "SoftwareSourceCode", "name": "aegis-runtime", "codeRepository": "https://github.com/nagarjunak-pixel/aegis-runtime", "programmingLanguage": "Python" },
-      { "@type": "SoftwareSourceCode", "name": "prism-gate", "codeRepository": "https://github.com/nagarjunak-pixel/prism-gate", "programmingLanguage": "Python" },
-      { "@type": "SoftwareSourceCode", "name": "chronos-mesh", "codeRepository": "https://github.com/nagarjunak-pixel/chronos-mesh", "programmingLanguage": "Python" },
+      { "@type": "SoftwareSourceCode", "name": "quant-forge", "codeRepository": "https://github.com/nagarjunak-pixel/quant-forge", "programmingLanguage": ["Python", "C++"] },
+      { "@type": "SoftwareSourceCode", "name": "aegis-runtime", "codeRepository": "https://github.com/nagarjunak-pixel/aegis-runtime", "programmingLanguage": ["Python", "TypeScript"] },
+      { "@type": "SoftwareSourceCode", "name": "prism-gate", "codeRepository": "https://github.com/nagarjunak-pixel/prism-gate", "programmingLanguage": ["Python", "TypeScript"] },
+      { "@type": "SoftwareSourceCode", "name": "chronos-mesh", "codeRepository": "https://github.com/nagarjunak-pixel/chronos-mesh", "programmingLanguage": ["Python", "TypeScript"] },
       { "@type": "SoftwareSourceCode", "name": "company-os", "codeRepository": "https://github.com/nagarjunak-pixel/company-os", "programmingLanguage": "Python" },
       { "@type": "SoftwareSourceCode", "name": "surya-shiksha", "codeRepository": "https://github.com/nagarjunak-pixel/surya-shiksha", "programmingLanguage": "TypeScript" },
       { "@type": "SoftwareSourceCode", "name": "llm-knowledge-base", "codeRepository": "https://github.com/nagarjunak-pixel/llm-knowledge-base", "programmingLanguage": "Python" },
@@ -84,7 +85,7 @@
         </div>
 
         <div class="grid-2">
-          <article class="card" data-proj-cat="frontier">
+          <article id="veritas-rl" class="card" data-proj-cat="frontier">
             <span class="eyebrow">Frontier RLVR &amp; Parallelism</span>
             <h3><a href="https://github.com/nagarjunak-pixel/veritas-rl" target="_blank" rel="noopener">veritas-rl</a></h3>
             <p>Critic-free GRPO/DAPO Verifiable-Reward RL engine with native C++20 advantage kernels, DoRA weight decomposition (ICML '24 Oral), causal Online-Softmax Ring-Attention + Megatron 2D tensor parallelism, and live Step-Level Process Reward Model (PRM) test-time compute.</p>
@@ -93,7 +94,7 @@
             </div>
           </article>
 
-          <article class="card" data-proj-cat="frontier">
+          <article id="axiom-zero" class="card" data-proj-cat="frontier">
             <span class="eyebrow">Verified Transformer Runtime &amp; Interpretability</span>
             <h3><a href="https://github.com/nagarjunak-pixel/axiom-zero" target="_blank" rel="noopener">axiom-zero</a></h3>
             <p>From-scratch RoPE + GQA + SwiGLU Transformer with CoW Paged-KV cache, native C++20 lossless speculative decoding kernel, Anthropic-style Top-K Sparse Autoencoder (SAE) causal circuit steering, and 1-UIP CDCL RUP formal proof verification.</p>
@@ -102,7 +103,16 @@
             </div>
           </article>
 
-          <article class="card" data-proj-cat="frontier agents">
+          <article id="quant-forge" class="card" data-proj-cat="frontier">
+            <span class="eyebrow">Sub-Byte LLM Compression &amp; Roofline Engine</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/quant-forge" target="_blank" rel="noopener">quant-forge</a></h3>
+            <p>Native C++20 bit-packed 2-weights/byte INT4 register-fused GEMM (6.40x compression), Second-Order Cholesky GPTQ (25.49x lower MSE vs RTN), Salient-Channel AWQ, SpinQuant Walsh-Hadamard outlier rotation, OCP FP8 E4M3/E5M2, and H100/M3 Max Roofline autotuner.</p>
+            <div class="tag-list">
+              <span class="tag">C++20 INT4</span><span class="tag">Cholesky GPTQ</span><span class="tag">AWQ</span><span class="tag">SpinQuant FWHT</span><span class="tag">FP8</span>
+            </div>
+          </article>
+
+          <article id="aegis-runtime" class="card" data-proj-cat="frontier agents">
             <span class="eyebrow">Zero-Trust Enterprise Agent Control Plane</span>
             <h3><a href="https://github.com/nagarjunak-pixel/aegis-runtime" target="_blank" rel="noopener">aegis-runtime</a></h3>
             <p>Deterministic zero-trust control plane for enterprise AI agents featuring a formal AST policy compiler, Biba/Bell-LaPadula taint lattices, AES-256-GCM PII vaulting, transactional SAP/ERP compensating rollbacks, and RFC-6962 Merkle + Ed25519 audit ledgers.</p>
@@ -111,7 +121,7 @@
             </div>
           </article>
 
-          <article class="card" data-proj-cat="frontier">
+          <article id="prism-gate" class="card" data-proj-cat="frontier">
             <span class="eyebrow">Multi-Tenant LLM Inference Gateway</span>
             <h3><a href="https://github.com/nagarjunak-pixel/prism-gate" target="_blank" rel="noopener">prism-gate</a></h3>
             <p>High-throughput OpenAI-compatible multi-tenant LLM gateway implementing TCP-Vegas adaptive concurrency limiting, speculative cascade model routing, inline atomic claim-faithfulness judging, and PSI + Jensen-Shannon statistical drift monitoring.</p>
@@ -120,7 +130,7 @@
             </div>
           </article>
 
-          <article class="card" data-proj-cat="frontier">
+          <article id="chronos-mesh" class="card" data-proj-cat="frontier">
             <span class="eyebrow">Neuro-Symbolic Operations Research</span>
             <h3><a href="https://github.com/nagarjunak-pixel/chronos-mesh" target="_blank" rel="noopener">chronos-mesh</a></h3>
             <p>Multi-echelon supply-chain digital twin combining exact Branch-and-Bound Mixed-Integer Linear Programming (MILP) rerouting across Cost/SLA/Scope-3 Carbon Pareto frontiers with a Monte Carlo CVaR95 tail-risk engine.</p>
@@ -147,7 +157,7 @@
             </div>
           </article>
 
-          <article class="card" data-proj-cat="agents teaching">
+          <article id="surya-shiksha" class="card" data-proj-cat="agents teaching">
             <span class="eyebrow">Agentic EdTech Platform</span>
             <h3><a href="https://github.com/nagarjunak-pixel/surya-shiksha" target="_blank" rel="noopener">surya-shiksha</a></h3>
             <p>Agentic learning operating system powered by 12 specialized GPT-4o agents handling adaptive curriculum generation, Socratic tutoring, mastery tracking, and formative assessment.</p>
