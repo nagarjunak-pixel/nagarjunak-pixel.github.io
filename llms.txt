@@ -44,3 +44,15 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [20-Year Comparative Architectural Analysis (2006–2026)](https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html): Longitudinal synthesis of SAP BI, In-Memory HANA, Cloud MLOps, and Agentic AI.
 - [GitHub Gist — Enterprise AI & SAP Architecture Profile](https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a): Public reference summary on gist.github.com.
 - [Corporate AI Training Brochure (8 Courses PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-AI-Training-Brochure.pdf): 1-page corporate training syllabus and booking sheet.
+
+## Regional & Specialist Architecture Briefs + JSON Resume
+
+- [Dubai & Abu Dhabi UAE Lead AI Architect Brief](https://nagarjunak-pixel.github.io/uae-dubai-ai-architect.html): Immediate UAE employer-sponsored onboarding & sovereign/enterprise fit.
+- [Saudi Arabia (Riyadh & Vision 2030) AI & SAP Transformation Brief](https://nagarjunak-pixel.github.io/saudi-arabia-ksa-ai-architect.html): Energy, industrial, pharma, and Vision 2030 capability alignment.
+- [SAP HANA, BW, BPC & Generative AI Integration Architect](https://nagarjunak-pixel.github.io/sap-genai-integration-architect.html): 12 years global SAP + 10 years production ML/Agentic AI.
+- [Principal Forward Deployed AI Engineer Track](https://nagarjunak-pixel.github.io/forward-deployed-ai-architect.html): Embedded problem-to-production delivery & frontier runtime engineering.
+- [Enterprise MCP & OAuth 2.0 Architecture Article](https://nagarjunak-pixel.github.io/articles/model-context-protocol-mcp-enterprise-oauth-architecture.html): Secure MCP gateway patterns.
+- [Multi-Tenant LLM Gateways & Statistical Drift Article](https://nagarjunak-pixel.github.io/articles/high-throughput-llm-gateway-finops-drift-detection.html): Concurrency, cascade routing, and PSI/JSD drift.
+- [Zero-Trust Agent Control Planes & Compensating Sagas Article](https://nagarjunak-pixel.github.io/articles/zero-trust-agent-control-plane-compensating-sagas.html): Taint lattices and ERP rollback sagas.
+- [Upskilling 300+ Enterprise Engineers in Agentic AI](https://nagarjunak-pixel.github.io/articles/upskilling-enterprise-engineering-teams-agentic-ai.html): Corporate training methodology from 280+ live sessions.
+- [JSON Resume v1.0.0 Endpoint (resume.json)](https://nagarjunak-pixel.github.io/resume.json): Standardized ATS/developer resume schema.

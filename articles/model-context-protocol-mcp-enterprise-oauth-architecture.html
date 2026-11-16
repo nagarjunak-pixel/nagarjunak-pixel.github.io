@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Model Context Protocol (MCP) Architecture: OAuth 2.0 &amp; Least Privilege | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="Architectural guide by Nagarjuna Reddy Kamireddy on designing secure enterprise Model Context Protocol (MCP) servers: host/client/server boundaries, OAuth 2.0 token lifecycle, least-privilege tool scoping, and ERP OData diagnostics.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/model-context-protocol-mcp-enterprise-oauth-architecture.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Enterprise Model Context Protocol (MCP) Architecture: OAuth 2.0 Boundaries, Least Privilege & ERP Tool Gateways",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/model-context-protocol-mcp-enterprise-oauth-architecture.html",
+    "keywords": ["Model Context Protocol", "MCP", "OAuth 2.0", "SAP BTP OData", "Agentic Security", "Nagarjuna Reddy Kamireddy"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (10)</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="container" style="max-width:860px; padding-top:2.6rem; padding-bottom:2.8rem;">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a> / Enterprise MCP &amp; OAuth 2.0</div>
+      <span class="eyebrow">By Nagarjuna Reddy Kamireddy (Nagarjuna K) · Agent Protocols &amp; Security</span>
+      <h1 style="font-size:clamp(1.75rem, 3.2vw, 2.4rem); line-height:1.18; margin:0.35rem 0 0.8rem;">Enterprise Model Context Protocol (MCP) Architecture: OAuth 2.0 Boundaries, Least Privilege &amp; ERP Tool Gateways</h1>
+      <p style="color:var(--text-dim); font-size:0.9rem;">Published November 16, 2026 · Anthropic Advanced MCP Training · Lead AI Architect</p>
+
+      <p style="color:var(--text-muted);">The <strong>Model Context Protocol (MCP)</strong> standardizes how agent hosts discover capabilities and invoke external enterprise tools over JSON-RPC transports. However, moving MCP from local `stdio` developer laptops into enterprise cloud and ERP landscapes introduces subtle security and identity pitfalls.</p>
+
+      <h2>1. Separating Transport Auth From Business-Layer Authorization</h2>
+      <p style="color:var(--text-muted);">When prototyping FastMCP adapters against enterprise OData and REST backends (such as SAP BTP / ABAP OData, Spring Boot services, and operational CRMs), teams often conflate OAuth 2.0 token acquisition with business-layer data authorization. An OAuth 2.0 `client_credentials` grant proves machine-to-machine identity at the gateway, yet downstream ERP/ADT endpoints still enforce user-level authorization objects, business-logon contexts, and row-level scopes. Enterprise MCP servers must propagate user identity assertions (such as Okta/OAuth 2.0 on-behalf-of tokens) rather than sharing a single over-privileged service principal.</p>
+
+      <h2>2. Four Design Rules for Production-Grade MCP Tool Servers</h2>
+      <ul style="color:var(--text-muted);">
+        <li><strong>Coarse Intent Tools Over Raw SQL/OData Pass-Through:</strong> Expose bounded business actions (`get_approved_manual_revision`, `validate_part_callout`) with strict Pydantic input schemas rather than generic query strings vulnerable to prompt injection.</li>
+        <li><strong>Read/Write Capability Segregation:</strong> Separate read-only discovery MCP servers from state-mutating servers, requiring fresh out-of-band human confirmation tokens on every write tool.</li>
+        <li><strong>Token Caching With Clock-Skew Margin:</strong> Cache short-lived OAuth 2.0 tokens in memory with proactive refresh buffers and deterministic negative-test suites (401/403/429 handling).</li>
+        <li><strong>Independent Inspector Verification:</strong> Validate every tool contract, capability negotiation, and error payload independently via MCP Inspector before wiring multi-agent orchestrators.</li>
+      </ul>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>Hands-On MCP Corporate Workshops</h3>
+        <p><strong>Nagarjuna Reddy Kamireddy</strong> teaches dedicated 3–5 day Agentic AI &amp; MCP Engineering Bootcamps for enterprise developer teams. View <a href="/training.html">Training Syllabus</a> or explore <a href="/sap-genai-integration-architect.html">SAP + GenAI Architecture</a>.</p>
+      </div>
+    </article>
+  </main>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

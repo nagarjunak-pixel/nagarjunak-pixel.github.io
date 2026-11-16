@@ -1,0 +1,100 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Nagarjuna Reddy Kamireddy",
+    "label": "Lead AI Architect | AI Solutions Architect | GenAI Lead (Agentic AI & RAG) | Corporate AI Trainer",
+    "image": "https://nagarjunak-pixel.github.io/assets/img/nagarjuna-reddy-kamireddy.jpg",
+    "email": "gmailtonagarjuna@gmail.com",
+    "phone": "+971 50 742 4361",
+    "url": "https://nagarjunak-pixel.github.io/",
+    "summary": "Lead AI Architect with 20+ years in enterprise data and AI (aliases: Nagarjuna Kamireddy, Nagarjuna K, Nagarjun Reddy Kamireddi): a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global) built on 12 years embedded at client sites as an SAP BW / BPC / HANA Lead Consultant across the UK, Malaysia, Singapore, the US, and India. Most recently owned architecture, AWS Terraform platform, and delivery for a 12+ member team across 23+ AI initiatives at John Deere — 750K+ automated requests and 42K+ hours saved in FY26. Currently in Dubai, UAE and available immediately globally.",
+    "location": {
+      "city": "Dubai",
+      "countryCode": "AE",
+      "region": "Dubai"
+    },
+    "profiles": [
+      { "network": "LinkedIn", "username": "nagarjuna-kamireddy", "url": "https://www.linkedin.com/in/nagarjuna-kamireddy" },
+      { "network": "GitHub", "username": "nagarjunak-pixel", "url": "https://github.com/nagarjunak-pixel" },
+      { "network": "GitHub Gist", "username": "nagarjunak-pixel", "url": "https://gist.github.com/nagarjunak-pixel" }
+    ]
+  },
+  "work": [
+    {
+      "name": "John Deere",
+      "position": "AI Architect & Technical Lead (Official Title: Senior Data Scientist)",
+      "location": "Pune, India",
+      "startDate": "2023-01",
+      "endDate": "2026-10",
+      "summary": "Owned architecture, AWS platform, and delivery for 23+ AI initiatives across a 12+ member team in Customer & Product Support (750K+ automated requests, 42K+ hours saved in FY26).",
+      "highlights": [
+        "Built StoneAge multi-model agentic writing copilot (LangGraph, OpenSearch hybrid search, GPT-5/GPT-4o/Gemini routing, React, FastAPI, Okta).",
+        "Rescued a ~30%-accurate GenAI product to ~70% accuracy via GPT-4o Vision diagram extraction, product-family routing, and deterministic rule checks (46 active users).",
+        "Designed a 6-agent authoring system backed by a Neo4j knowledge graph and built AIFlow (255 CI quality checks + zero-latency live drift/cost telemetry).",
+        "Repaired ~171K broken links (~8,600 hrs saved), generated ~110K standards-compliant documents (100% Large Tractor adoption), and automated ~25% of support tickets (~83% accuracy).",
+        "Built self-service Terraform + GitHub Actions AWS platform; served on AI Governance Council (NIST AI RMF / EU AI Act); upskilled 300+ employees."
+      ]
+    },
+    {
+      "name": "Suryagentic Institute",
+      "position": "Founder & Lead Instructor — Agentic AI Engineering",
+      "location": "Hyderabad, India & Online",
+      "startDate": "2025-01",
+      "summary": "Delivers hands-on corporate and practitioner Agentic AI Engineering programmes (280+ live sessions in 2026, 570+ online teaching hours across 8 corporate courses)."
+    },
+    {
+      "name": "Persistent Systems",
+      "position": "Engineering Lead — Machine Learning",
+      "location": "Pune, India",
+      "startDate": "2021-01",
+      "endDate": "2023-01",
+      "summary": "Delivered end-to-end client ML deployments and MLOps across PIAM access recommendation, iDataCleanse deduplication, face recognition, VMS recommendation, VectorFlow POD, and Vertina NLP."
+    },
+    {
+      "name": "Vertiv",
+      "position": "Data Scientist",
+      "location": "Hyderabad, India",
+      "startDate": "2020-03",
+      "endDate": "2021-01",
+      "summary": "Built production ML/DL compliance and Customer 360 models with AWS Athena pushdown and Tableau executive dashboards."
+    },
+    {
+      "name": "Soham Global",
+      "position": "Software Engineer — Machine Learning",
+      "location": "India",
+      "startDate": "2016-03",
+      "endDate": "2020-02",
+      "summary": "Built leakage-safe forecasting, market-basket analysis, and recommendation systems; founded Surya HANA Academy (~1,000 professionals trained until 2019)."
+    },
+    {
+      "name": "GlaxoSmithKline (GSK), PETRONAS/Deloitte, DHL, Symantec & Lenovo",
+      "position": "Enterprise SAP HANA / BW / BPC Lead Consultant",
+      "location": "United Kingdom, Malaysia, Singapore, United States, India",
+      "startDate": "2004-06",
+      "endDate": "2016-02",
+      "summary": "In-database HANA PAL/APL/R ML at GSK Brentford UK (2014–2016); cut PETRONAS/Deloitte data load from 48 hours to 12 minutes (2011–2012); global BPC/BW consulting at DHL, Symantec, Lenovo & High Industries."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Periyar University",
+      "area": "Applied Science, Information Technology",
+      "studyType": "M.Sc. (Integrated) — First Class",
+      "endDate": "2004"
+    }
+  ],
+  "certificates": [
+    { "name": "AWS Certified Solutions Architect – Professional (SAP-C02)", "issuer": "Amazon Web Services" },
+    { "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)", "issuer": "NVIDIA" },
+    { "name": "SAP Certified Application Associate – SAP HANA", "issuer": "SAP" },
+    { "name": "SAP Certified Application Associate – SAP BW 7.4", "issuer": "SAP" },
+    { "name": "SAP Certified Application Associate – SAP Simple Finance 1503", "issuer": "SAP" },
+    { "name": "SAP Certified Application Associate – SAP BPC 10.0", "issuer": "SAP" }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Full Professional" },
+    { "language": "Telugu", "fluency": "Native" },
+    { "language": "Hindi", "fluency": "Professional Working" },
+    { "language": "Tamil", "fluency": "Professional Working" }
+  ]
+}

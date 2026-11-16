@@ -1,0 +1,80 @@
+name: 24/7 SEO, AI Entity Graph & IndexNow Guardian
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Runs automatically every 12 hours in GitHub Cloud (24/7 unattended)
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  validate-and-sync-search-engines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout canonical repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate HTML, Schema.org JSON-LD, JSON Resume, Atom Feed & Sitemap
+        run: |
+          python3 - << 'PY'
+          import os, re, json, xml.etree.ElementTree as ET
+
+          json.load(open("person.json"))
+          json.load(open("resume.json"))
+          ET.parse("sitemap.xml")
+          ET.parse("feed.xml")
+
+          count = 0
+          for dp, _, files in os.walk("."):
+              if ".git" in dp or ".github" in dp:
+                  continue
+              for fn in files:
+                  if fn.endswith(".html"):
+                      p = os.path.join(dp, fn)
+                      txt = open(p).read()
+                      for m in re.finditer(r'<script type="application/ld\+json">\s*(.*?)\s*</script>', txt, re.S):
+                          json.loads(m.group(1))
+                      count += 1
+          print(f"Validated {count} HTML pages, person.json, resume.json, feed.xml, and sitemap.xml")
+          PY
+
+      - name: Verify live HTTPS availability & submit all canonical + sub-site URLs to IndexNow (Bing / ChatGPT Search / Copilot / Yandex)
+        run: |
+          python3 - << 'PY'
+          import urllib.request, json, xml.etree.ElementTree as ET
+
+          tree = ET.parse("sitemap.xml")
+          urls = [el.text for el in tree.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
+
+          # Check live root & llms-full.txt health
+          for check_url in ["https://nagarjunak-pixel.github.io/", "https://nagarjunak-pixel.github.io/llms-full.txt"]:
+              req = urllib.request.Request(check_url, method="HEAD")
+              with urllib.request.urlopen(req, timeout=15) as r:
+                  print("LIVE OK:", r.status, check_url)
+
+          payload = {
+              "host": "nagarjunak-pixel.github.io",
+              "key": "b7e4c9a2d1f84e3b9c6a0d5e8f2a1b4c",
+              "keyLocation": "https://nagarjunak-pixel.github.io/b7e4c9a2d1f84e3b9c6a0d5e8f2a1b4c.txt",
+              "urlList": urls
+          }
+
+          for ep in ["https://api.indexnow.org/indexnow", "https://www.bing.com/indexnow", "https://yandex.com/indexnow"]:
+              req = urllib.request.Request(
+                  ep,
+                  data=json.dumps(payload).encode("utf-8"),
+                  headers={"Content-Type": "application/json; charset=utf-8"},
+                  method="POST"
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as resp:
+                      print(f"IndexNow {ep} -> HTTP {resp.status} ({len(urls)} URLs synced)")
+              except Exception as e:
+                  print(f"IndexNow {ep} note: {e}")
+          PY
