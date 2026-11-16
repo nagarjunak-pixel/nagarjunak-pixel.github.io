@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Agentic AI, RAG &amp; SAP HANA Case Studies | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="Production architectural case studies by Nagarjuna Reddy Kamireddy: StoneAge multi-model engineering copilot, rescuing a 30%-accurate LLM workflow to 70% via Vision agents, AIFlow 255-metric evaluation gates, Neo4j GraphRAG, and SAP HANA pushdown.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/case-studies.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Full Profile">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Enterprise Agentic AI, GraphRAG &amp; SAP HANA Case Studies — Nagarjuna Reddy Kamireddy">
+  <meta property="og:description" content="How we shipped 23+ production AI systems (750K+ automated requests, 42K+ hours saved in FY26), rescued failing GenAI accuracy from 30% to 70%, and enforced 255 CI quality gates.">
+  <meta property="og:url" content="https://nagarjunak-pixel.github.io/case-studies.html">
+  <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "headline": "Enterprise Production AI, GraphRAG, LLM Evaluation & SAP HANA Case Studies",
+        "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+        "datePublished": "2026-11-16",
+        "dateModified": "2026-11-16",
+        "url": "https://nagarjunak-pixel.github.io/case-studies.html",
+        "about": ["Agentic AI", "LangGraph", "GraphRAG", "Neo4j", "LLM Evaluation", "AWS Terraform", "SAP HANA"]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nagarjunak-pixel.github.io/" },
+          { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "https://nagarjunak-pixel.github.io/case-studies.html" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/case-studies.html" aria-current="page">Case Studies</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+        <li><a href="/llms.txt">llms.txt</a></li>
+        <li><a class="nav-cta" href="/#contact">Hire / Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="/">Home</a> / Case Studies</div>
+        <span class="eyebrow">Shipped Production Architectures (2004 – 2026)</span>
+        <h1>Enterprise Production AI, GraphRAG &amp; SAP Architecture Case Studies</h1>
+        <p>Detailed architectural breakdowns from <strong>Nagarjuna Reddy Kamireddy</strong> (Nagarjuna Kamireddy / Nagarjuna K) across Fortune-100 industrial manufacturing, pharmaceuticals, energy trading, and global IT consulting.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+
+        <article class="case-block" id="stoneage">
+          <span class="eyebrow">Case Study 01 · John Deere (2023–2026)</span>
+          <h2>StoneAge: Multi-Model Agentic Writing Copilot Inside the Engineering System of Record</h2>
+          <div class="case-kpis">
+            <span class="kpi-chip">Part of 750K+ FY26 Automated Requests</span>
+            <span class="kpi-chip">Multi-Model Routing (GPT-5, GPT-4o, Gemini)</span>
+            <span class="kpi-chip">Safety-Critical Wording Guardrails</span>
+            <span class="kpi-chip">Explicit Human-Approved Record Writes</span>
+          </div>
+          <p><strong>Problem:</strong> Technical writers authoring and maintaining complex heavy-machinery service manuals needed AI assistance directly inside the company's engineering system of record (PLM environment), where hallucinated torque specs, unapproved terminology, or missing safety warnings are unacceptable.</p>
+          <p style="margin-top:0.65rem;"><strong>Architecture &amp; Solution:</strong> Architected <strong>StoneAge</strong> as a multi-agent LangGraph copilot integrated with React, FastAPI, OpenSearch hybrid lexical+vector retrieval, and Okta SSO:</p>
+          <ul style="margin-top:0.55rem; color: var(--text-muted);">
+            <li><strong>Task-Specific Multi-Model Router:</strong> Dynamically routed drafting, structural synthesis, and verification steps across <strong>GPT-5, GPT-4o, and Gemini</strong> based on reasoning complexity, context window, and latency budget.</li>
+            <li><strong>Search-Plus-Rules Over Fine-Tuning:</strong> Deliberately avoided model weight fine-tuning so rapidly evolving product specifications remain 100% auditable and immediately updatable via approved OpenSearch indices and deterministic rule engines.</li>
+            <li><strong>Safety &amp; Auditability:</strong> Flagged safety-critical wording automatically; enforced a hard architectural invariant where agents can mutate official engineering records <em>only</em> after a fresh, non-cached human approval, logging every attempt.</li>
+          </ul>
+        </article>
+
+        <article class="case-block" id="vision-turnaround">
+          <span class="eyebrow">Case Study 02 · John Deere · GenAI Rescue</span>
+          <h2>Rescuing a Failing ~30%-Accurate GenAI Product to ~70% Production Accuracy</h2>
+          <div class="case-kpis">
+            <span class="kpi-chip">~30% → ~70% Verified Accuracy (+40 pts)</span>
+            <span class="kpi-chip">46 Daily Production Users</span>
+            <span class="kpi-chip">GPT-4o Vision Diagram Parsing</span>
+          </div>
+          <p><strong>Problem:</strong> An existing single-prompt, single-model GenAI application failed on dense engineering schematics and product-family variations, stalling at roughly <strong>~30% accuracy</strong> and losing user trust.</p>
+          <p style="margin-top:0.65rem;"><strong>Architecture &amp; Solution:</strong> Decomposed the monolithic call into a deterministic <strong>step-by-step agentic workflow</strong>:</p>
+          <ul style="margin-top:0.55rem; color: var(--text-muted);">
+            <li><strong>Stage 1 — Multimodal Diagram Ingestion:</strong> Extracted callouts, part topology, and spatial relationships from engineering diagrams using <strong>GPT-4o Vision</strong>.</li>
+            <li><strong>Stage 2 — Product-Family Routing:</strong> Classified equipment family and routed context strictly to family-specific domain rules and terminology stores, eliminating cross-model contamination.</li>
+            <li><strong>Stage 3 — Rule-Engine Verification Gate:</strong> Checked every structured output against deterministic domain constraints before surfacing to authors — lifting production accuracy to <strong>~70%</strong> and driving active adoption across <strong>46 specialists</strong>.</li>
+          </ul>
+        </article>
+
+        <article class="case-block" id="aiflow-graphrag">
+          <span class="eyebrow">Case Study 03 · John Deere · Evaluation, GraphRAG &amp; Scale Automation</span>
+          <h2>AIFlow (255 Quality Gates), 6-Agent Neo4j GraphRAG &amp; High-Volume Support Automation</h2>
+          <div class="case-kpis">
+            <span class="kpi-chip">255 Automated Eval Checks</span>
+            <span class="kpi-chip">~171K Broken Links Repaired (~8,600 hrs)</span>
+            <span class="kpi-chip">~110K Compliant Docs (100% Large Tractor Adoption)</span>
+            <span class="kpi-chip">~25% Support Tickets Automated (~83% Accuracy · ~4,700 hrs)</span>
+          </div>
+          <p><strong>Connected Knowledge (6-Agent Neo4j GraphRAG):</strong> Parsed hierarchical engineering manuals without flattening structural hierarchy and built a <strong>6-agent authoring team backed by a Neo4j knowledge graph</strong> so every synthesized technical response carries traceable paragraph- and node-level citations.</p>
+          <p style="margin-top:0.65rem;"><strong>Measurable Quality (AIFlow):</strong> Built <strong>AIFlow</strong>, an internal library of <strong>255 quality, faithfulness, safety, and formatting checks</strong> integrated directly into CI/CD pipelines to block deployments whenever answer quality regresses — paired with asynchronous production telemetry tracking accuracy, drift, cost, and latency with zero user-facing latency penalty.</p>
+          <p style="margin-top:0.65rem;"><strong>High-Volume Production Automation:</strong></p>
+          <ul style="margin-top:0.55rem; color: var(--text-muted);">
+            <li>Automatically repaired <strong>~171,000 broken cross-document engineering links</strong> (~8,600 hours saved — equivalent to ~3 FTEs per year).</li>
+            <li>Generated <strong>~110,000 standards-compliant documents</strong>, achieving <strong>100% adoption</strong> across the Large Tractor business unit.</li>
+            <li>Automated <strong>~25% of incoming support tickets</strong> end-to-end at <strong>~83% accuracy</strong>, routing uncertain confidence bands cleanly to human specialists (~4,700 hours saved).</li>
+          </ul>
+        </article>
+
+        <article class="case-block" id="aws-governance">
+          <span class="eyebrow">Case Study 04 · Cloud Platform &amp; Responsible AI Governance</span>
+          <h2>Self-Service AWS AI Deployment Platform &amp; Enterprise AI Governance Council</h2>
+          <div class="case-kpis">
+            <span class="kpi-chip">Adopted Department-Wide + 3 Partner Orgs</span>
+            <span class="kpi-chip">12+ Engineers Led · 300+ Staff Enabled</span>
+            <span class="kpi-chip">NIST AI RMF &amp; EU AI Act Alignment</span>
+          </div>
+          <p>Built a standardized, self-service <strong>AWS AI deployment platform using Terraform and GitHub Actions</strong> (ECS Fargate, Lambda, S3, DynamoDB, Athena, IAM) adopted across the home department and three partner organizations while owning AWS FinOps cost governance. Served on the enterprise <strong>AI Governance Council</strong> applying <strong>NIST AI RMF and EU AI Act</strong> risk tiers to decide which AI initiatives to scale, remediate, or retire.</p>
+        </article>
+
+        <article class="case-block" id="enterprise-ml-sap">
+          <span class="eyebrow">Case Study 05 · Persistent Systems, GSK (UK) &amp; PETRONAS / Deloitte</span>
+          <h2>From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown &amp; Enterprise MLOps</h2>
+          <div class="case-kpis">
+            <span class="kpi-chip">PETRONAS Load: 48 Hours → 12 Minutes</span>
+            <span class="kpi-chip">GSK UK: In-DB HANA ML (PAL / APL / R)</span>
+            <span class="kpi-chip">6 Production Client ML Systems at Persistent</span>
+          </div>
+          <ul style="color: var(--text-muted);">
+            <li><strong>Persistent Systems (Engineering Lead — ML, 2021–2023):</strong> Delivered static/dynamic model serving, optimization, and secure MLOps pipelines across <em>PIAM</em> physical identity access recommendation, <em>iDataCleanse</em> entity deduplication, computer-vision face recognition, <em>VMS</em> recommendation, <em>VectorFlow POD</em>, and <em>Vertina NLP</em>.</li>
+            <li><strong>GlaxoSmithKline (GSK), Brentford, UK (HANA Lead Consultant, 2014–2016):</strong> Pioneered code-to-data pushdown by running regression, random forest, SVM, clustering, ARIMA/Holt-Winters forecasting, and churn scoring directly inside SAP HANA (PAL, APL, embedded R), shrinking MRP and financial consolidation batch cycles from hours to minutes.</li>
+            <li><strong>PETRONAS Energy Trading &amp; Deloitte, Kuala Lumpur (HANA / BPC Architect, 2011–2012):</strong> Re-architected an energy-trading data pipeline in SAP HANA, cutting load execution from <strong>48 hours down to 12 minutes</strong> (240× speedup) and securing full internal rollout approval.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="margin-top:0; border-top:none; padding-top:0;">
+        <span>© 2026 <a href="/">Nagarjuna Reddy Kamireddy</a> · Dubai, UAE · <a href="mailto:gmailtonagarjuna@gmail.com">gmailtonagarjuna@gmail.com</a> · <a href="mailto:sendemailtonagarjuna@gmail.com">sendemailtonagarjuna@gmail.com</a></span>
+        <span><a href="/projects.html">Next: Open-Source Projects (38) →</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

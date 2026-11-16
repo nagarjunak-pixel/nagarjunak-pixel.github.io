@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://nagarjunak-pixel.github.io/#person",
+  "name": "Nagarjuna Reddy Kamireddy",
+  "givenName": "Nagarjuna Reddy",
+  "familyName": "Kamireddy",
+  "alternateName": [
+    "Nagarjuna Kamireddy",
+    "Nagarjuna K",
+    "Nagarjun Reddy Kamireddi",
+    "Nagarjuna R. Kamireddy",
+    "K. Nagarjuna Reddy"
+  ],
+  "jobTitle": [
+    "Lead AI Architect",
+    "AI Solutions Architect",
+    "GenAI Lead — Agentic AI & RAG",
+    "Corporate AI Trainer"
+  ],
+  "description": "Lead AI Architect with 20+ years in enterprise data, SAP BW/BPC/HANA consulting, and production ML & Agentic AI (John Deere, Persistent Systems, Vertiv, GlaxoSmithKline, PETRONAS/Deloitte, DHL/Symantec, Lenovo). Based in Dubai, UAE and available immediately globally.",
+  "url": "https://nagarjunak-pixel.github.io/",
+  "image": "https://nagarjunak-pixel.github.io/assets/img/nagarjuna-reddy-kamireddy.jpg",
+  "email": [
+    "mailto:gmailtonagarjuna@gmail.com",
+    "mailto:sendemailtonagarjuna@gmail.com"
+  ],
+  "telephone": [
+    "+971-50-742-4361",
+    "+91-93913-47406"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dubai",
+    "addressCountry": "AE"
+  },
+  "nationality": {
+    "@type": "Country",
+    "name": "India"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Periyar University"
+  },
+  "knowsLanguage": ["English", "Hindi", "Telugu", "Tamil"],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "AWS Certified Solutions Architect – Professional (SAP-C02)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/nagarjuna-kamireddy",
+    "https://github.com/nagarjunak-pixel",
+    "https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/"
+  ]
+}

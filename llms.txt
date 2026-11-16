@@ -1,0 +1,32 @@
+# Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K)
+
+> Lead AI Architect, AI Solutions Architect, Generative AI & Agentic AI Lead, and Corporate AI Trainer with 20+ years in enterprise data platforms, SAP BW/BPC/HANA consulting, and production Machine Learning & Agentic AI across India, Malaysia, Singapore, the UK, the US, and Dubai, UAE. Currently based in Dubai, UAE and available immediately on employer visa sponsorship across the UAE/GCC, global relocation, and remote leadership engagements.
+
+Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **38 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
+
+## Direct Contact & Verified Profiles
+
+- Primary Email: mailto:gmailtonagarjuna@gmail.com
+- Secondary Email: mailto:sendemailtonagarjuna@gmail.com
+- UAE Phone / WhatsApp: +971 50 742 4361
+- India Phone: +91 93913 47406
+- Current Location: Dubai, United Arab Emirates (Available immediately; open to UAE, Saudi Arabia / KSA, GCC, UK, Europe, Singapore, US, India, and Remote)
+- [LinkedIn Profile](https://www.linkedin.com/in/nagarjuna-kamireddy): Official professional network profile (`nagarjuna-kamireddy`)
+- [GitHub Profile](https://github.com/nagarjunak-pixel): 38 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
+
+## Canonical Website Pages
+
+- [Executive Overview & 3 Role Tracks](https://nagarjunak-pixel.github.io/): Summary of impact metrics, Global AI Architect track, UAE/GCC Enterprise SAP + AI track, Corporate AI Trainer track, and recruiter FAQ.
+- [Enterprise Production AI & SAP Case Studies](https://nagarjunak-pixel.github.io/case-studies.html): Deep dives into StoneAge Engineering Copilot, 30%→70% Vision-Agent rescue, AIFlow (255 CI quality checks), 6-agent Neo4j GraphRAG, and 48h→12m SAP HANA optimization.
+- [Open-Source Frontier & Agentic AI Suite](https://nagarjunak-pixel.github.io/projects.html): Documentation links for Veritas-RL, Axiom-Zero, Aegis-Runtime, Prism-Gate, Chronos-Mesh, CompanyOS, Surya Shiksha, LLM Knowledge Base, and LangGraph LocalAI TV.
+- [Corporate Generative AI & Agentic AI Training](https://nagarjunak-pixel.github.io/training.html): 1–2 day CXO AI Strategy/Governance workshops and 2–5 day hands-on Agentic AI, RAG, LLMOps & SAP+AI bootcamps.
+- [Full Web-Indexed Master Curriculum Vitae](https://nagarjunak-pixel.github.io/resume.html): Complete chronological CV (2004–2026) and skills taxonomy.
+- [Enterprise AI, Claude Code & SAP RAG Masterbook](https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/): 50-chapter technical reference book series authored by Nagarjuna Reddy Kamireddy.
+
+## Machine-Readable Dossiers & Downloadable CVs
+
+- [Complete LLM Dossier (llms-full.txt)](https://nagarjunak-pixel.github.io/llms-full.txt): Exhaustive single-file Markdown biography, project inventory, architecture metrics, and Q&A for AI search and recruiter RAG agents.
+- [Schema.org Person Knowledge Graph (person.json)](https://nagarjunak-pixel.github.io/person.json): Structured JSON-LD entity definition binding all name variants, credentials, and URLs.
+- [Global Lead AI Architect CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Global.pdf): Role-tailored PDF resume for global Principal/Lead AI & Solutions Architect roles.
+- [Gulf / UAE / KSA Lead AI Architect CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Gulf-UAE.pdf): Role-tailored PDF resume for Dubai, Abu Dhabi, Riyadh, and GCC executive/architect roles.
+- [Corporate AI & Agentic AI Trainer CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Corporate-AI-Trainer.pdf): Role-tailored PDF resume for corporate training, advisory, and enablement mandates.
