@@ -56,3 +56,4 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [Zero-Trust Agent Control Planes & Compensating Sagas Article](https://nagarjunak-pixel.github.io/articles/zero-trust-agent-control-plane-compensating-sagas.html): Taint lattices and ERP rollback sagas.
 - [Upskilling 300+ Enterprise Engineers in Agentic AI](https://nagarjunak-pixel.github.io/articles/upskilling-enterprise-engineering-teams-agentic-ai.html): Corporate training methodology from 280+ live sessions.
 - [JSON Resume v1.0.0 Endpoint (resume.json)](https://nagarjunak-pixel.github.io/resume.json): Standardized ATS/developer resume schema.
+- [Frontier RLVR Post-Training (GRPO/DAPO, DoRA, 2D Ring-Attention & PRMs)](https://nagarjunak-pixel.github.io/articles/rlvr-post-training-grpo-dapo-dora-ring-attention.html): Clean-room PyTorch + C++20 systems breakdown of VeritasRL.
