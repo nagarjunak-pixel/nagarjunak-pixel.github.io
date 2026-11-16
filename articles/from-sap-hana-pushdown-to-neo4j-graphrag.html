@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From 48-Hour Loads to 12-Minute SAP HANA Pushdown &amp; 6-Agent Neo4j GraphRAG | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="Twenty years of enterprise data engineering by Nagarjuna Reddy Kamireddy — connecting SAP HANA columnar pushdown (PETRONAS/Deloitte, GlaxoSmithKline UK) with structure-preserving 6-agent Neo4j GraphRAG and SAP MCP integration.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown &amp; 6-Agent Neo4j GraphRAG">
+  <meta property="og:description" content="Why enterprise SAP data foundations are the secret weapon behind reliable production GraphRAG and agentic AI.">
+  <meta property="og:url" content="https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html">
+  <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown & 6-Agent Neo4j GraphRAG",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html",
+    "keywords": ["SAP HANA", "GraphRAG", "Neo4j", "SAP BTP", "Model Context Protocol", "Enterprise Data Architecture", "Nagarjuna Reddy Kamireddy"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (6)</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="container" style="max-width:860px; padding-top:2.6rem; padding-bottom:2.8rem;">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a> / SAP HANA to Neo4j GraphRAG</div>
+      <span class="eyebrow">By Nagarjuna Reddy Kamireddy (Nagarjuna K) · 20-Year Data &amp; AI Perspective</span>
+      <h1 style="font-size:clamp(1.8rem, 3.3vw, 2.45rem); line-height:1.18; margin:0.35rem 0 0.8rem;">From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown &amp; 6-Agent Neo4j GraphRAG</h1>
+      <p style="color:var(--text-dim); font-size:0.9rem;">Published November 16, 2026 · 4× SAP Certified · AWS Solutions Architect Pro · NVIDIA Certified Agentic AI</p>
+
+      <div class="case-kpis">
+        <span class="kpi-chip">PETRONAS Load: 48 Hours → 12 Minutes</span>
+        <span class="kpi-chip">GSK UK: In-DB HANA PAL / APL / R</span>
+        <span class="kpi-chip">John Deere: 6-Agent Neo4j GraphRAG</span>
+      </div>
+
+      <h2>1. Lesson One From SAP HANA: Push Compute to Structure</h2>
+      <p style="color:var(--text-muted);">Long before LLMs entered the enterprise, I spent twelve years embedded at client sites across the UK, Malaysia, Singapore, the US, and India building SAP BW, BPC, BusinessObjects, and SAP HANA architectures. At <strong>PETRONAS Energy Trading &amp; Deloitte</strong> in Kuala Lumpur (2011–2012), moving analytical logic from disk-bound application loops into in-memory columnar HANA models cut a critical data load from <strong>48 hours to 12 minutes</strong>. At <strong>GlaxoSmithKline (GSK)</strong> in Brentford, UK (2014–2016), running regression, random forest, SVM, clustering, and ARIMA/Holt-Winters forecasting directly inside SAP HANA's Predictive Analysis Library (PAL, APL, and embedded R) compressed MRP and financial consolidation batch windows from hours to minutes — and sparked my transition into full-time Machine Learning.</p>
+
+      <h2>2. Why Naive Flat Chunking Breaks Enterprise RAG</h2>
+      <p style="color:var(--text-muted);">Today, many Generative AI teams repeat the exact mistake early BI teams made: they strip rich structural hierarchy out of enterprise documents by slicing PDFs into naive 500-token flat vector chunks. When an assembly manual or SAP financial hierarchy loses parent-child relationships, part dependencies, and applicability scopes, vector similarity retrieves plausible-sounding text from the wrong subsystem.</p>
+
+      <h2>3. Structure-Preserving Ingestion + 6-Agent Neo4j GraphRAG</h2>
+      <p style="color:var(--text-muted);">At John Deere, we solved this by preserving document structure end-to-end during ingestion and backing a <strong>6-agent authoring team with a Neo4j knowledge graph</strong>. Each specialized agent traverses explicit entity and section relationships alongside hybrid search so every generated paragraph cites its authoritative source node. Paired with standardized OAuth 2.0 <strong>Model Context Protocol (MCP)</strong> adapters for enterprise systems, structure-first architecture turns 20 years of ERP/PLM discipline into trustworthy agentic AI.</p>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>About the Author — Nagarjuna Reddy Kamireddy</h3>
+        <p><strong>Nagarjuna Reddy Kamireddy</strong> (Nagarjuna Kamireddy / Nagarjuna K) holds 4 SAP certifications alongside AWS Solutions Architect Professional and NVIDIA Certified Agentic AI. Based in Dubai, UAE and available immediately across UAE, KSA, and globally. See <a href="/roles.html">SAP + GenAI Architecture Fit</a> or <a href="/resume.html">Master CV</a>.</p>
+      </div>
+    </article>
+  </main>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

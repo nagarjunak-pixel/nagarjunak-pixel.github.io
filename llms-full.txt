@@ -44,6 +44,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 
 - **AWS Certified Solutions Architect – Professional (`SAP-C02`)** — Amazon Web Services
 - **NVIDIA-Certified Professional: Agentic AI (`NCP-AAI`)** — NVIDIA
+- **4× SAP Certified Application Associate:** SAP HANA (2015), SAP BW 7.4 (2015), SAP Simple Finance 1503 (2016), SAP BPC 10.0 (2013)
 - **Specialized Vendor Training:**
   - Anthropic — Advanced Prompt Engineering & Model Context Protocol (MCP Advanced)
   - OpenAI — Agents & Workflows
@@ -72,7 +73,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ### Suryagentic Institute — Founder & Lead Instructor (Agentic AI Engineering)
 *Present | Hyderabad, India & Live Online*
 - Designs and teaches hands-on Agentic AI Engineering programmes for working SAP and enterprise IT professionals: LangGraph, CrewAI, tool calling, MCP servers, hybrid RAG, evaluation harnesses, and cloud production deployment.
-- Engineered an automated curriculum pipeline analyzing **3,037 AI technical transcripts** and generating **11,626 runnable student project scaffolds** across 63 batches.
+- Delivered **280+ live AI training sessions in 2026** and **570+ online teaching hours** across 8 structured corporate AI programmes (CXO Strategy, Business Prompting, Agentic AI Bootcamp, RAG & Vector DBs, LLM Evaluation & Guardrails, Cloud AI on Bedrock/Azure/Vertex, Python for ML, and AI Coding Tools).
 
 ### Persistent Systems — Engineering Lead (Machine Learning)
 *01/2021 – 01/2023 | Pune, India*
@@ -114,7 +115,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 8. **`llm-knowledge-base`** (`https://github.com/nagarjunak-pixel/llm-knowledge-base`): Turns raw documents into an LLM-maintained Markdown wiki with SQLite FTS5 full-text search and grounded Q&A (FastAPI, SQLite, Claude).
 9. **`langgraph-localai-tv`** (`https://github.com/nagarjunak-pixel/langgraph-localai-tv`) & **`crewai-telugu-newsroom`** (`https://github.com/nagarjunak-pixel/crewai-telugu-newsroom`): Stateful multi-agent media production pipelines with checkpoint persistence, error recovery, fact-check gates, and mandatory human approval interrupts.
 10. **`nrk-enterprise-ai-masterbook`** (`https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/`): 50-chapter enterprise reference series on Production Agentic AI, Claude Code, MCP, and SAP RAG architectures.
-11. **Enterprise MCP Servers:** Built 5 specialized Model Context Protocol servers bridging AI agents to **SAP ABAP**, **SAP BTP OData** (OAuth 2.0 client-credentials + token caching), **Spring Boot**, **OpenRouter**, and **Enterprise CRM**.
+11. **Enterprise MCP Prototypes:** Prototyped Model Context Protocol (MCP) adapters including FastMCP OAuth 2.0 client-credentials integration for SAP BTP/ABAP OData, Spring Boot, OpenRouter, and CRM.
 
 ---
 

@@ -15,7 +15,7 @@
   "jobTitle": [
     "Lead AI Architect",
     "AI Solutions Architect",
-    "GenAI Lead — Agentic AI & RAG",
+    "GenAI Lead \u2014 Agentic AI & RAG",
     "Corporate AI Trainer"
   ],
   "description": "Lead AI Architect with 20+ years in enterprise data, SAP BW/BPC/HANA consulting, and production ML & Agentic AI (John Deere, Persistent Systems, Vertiv, GlaxoSmithKline, PETRONAS/Deloitte, DHL/Symantec, Lenovo). Based in Dubai, UAE and available immediately globally.",
@@ -42,20 +42,44 @@
     "@type": "CollegeOrUniversity",
     "name": "Periyar University"
   },
-  "knowsLanguage": ["English", "Hindi", "Telugu", "Tamil"],
+  "knowsLanguage": [
+    "English",
+    "Hindi",
+    "Telugu",
+    "Tamil"
+  ],
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "AWS Certified Solutions Architect – Professional (SAP-C02)"
+      "name": "AWS Certified Solutions Architect \u2013 Professional (SAP-C02)"
     },
     {
       "@type": "EducationalOccupationalCredential",
       "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "SAP Certified Application Associate \u2013 SAP HANA"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "SAP Certified Application Associate \u2013 SAP BW 7.4"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "SAP Certified Application Associate \u2013 SAP Simple Finance 1503"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "SAP Certified Application Associate \u2013 SAP BPC 10.0"
     }
   ],
   "sameAs": [
     "https://www.linkedin.com/in/nagarjuna-kamireddy",
+    "https://www.linkedin.com/in/nagarjuna-reddy-kamireddy-8b0b17193",
     "https://github.com/nagarjunak-pixel",
+    "https://gist.github.com/nagarjunak-pixel",
+    "https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a",
     "https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/"
   ]
 }

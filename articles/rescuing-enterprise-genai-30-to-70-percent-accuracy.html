@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rescuing a 30%-Accurate Enterprise GenAI Product to 70% with Vision Agents | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="Architectural post-mortem by Nagarjuna Reddy Kamireddy on re-architecting a failing ~30%-accurate single-model GenAI tool into a ~70%-accurate step-by-step GPT-4o Vision agent workflow with product-family routing and deterministic rule verification.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How We Rescued a ~30%-Accurate Enterprise GenAI Product to ~70% Using Multimodal Vision Agents">
+  <meta property="og:description" content="Why monolithic single-LLM prompts fail on industrial schematics — and how decomposed vision agents, domain routing, and programmatic rule checks turned a stalled pilot into a daily production tool.">
+  <meta property="og:url" content="https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html">
+  <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "How We Rescued a ~30%-Accurate Enterprise GenAI Product to ~70% Using Multimodal Vision Agents & Rule Gates",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html",
+    "keywords": ["Agentic AI", "GPT-4o Vision", "Enterprise GenAI", "LangGraph", "Rule Verification", "Nagarjuna Reddy Kamireddy"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (6)</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="container" style="max-width:860px; padding-top:2.6rem; padding-bottom:2.8rem;">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a> / GenAI Vision-Agent Turnaround</div>
+      <span class="eyebrow">By Nagarjuna Reddy Kamireddy (Nagarjuna K) · Production Field Note</span>
+      <h1 style="font-size:clamp(1.8rem, 3.3vw, 2.45rem); line-height:1.18; margin:0.35rem 0 0.8rem;">How We Rescued a ~30%-Accurate Enterprise GenAI Product to ~70% Using Multimodal Vision Agents &amp; Deterministic Rule Gates</h1>
+      <p style="color:var(--text-dim); font-size:0.9rem;">Published November 16, 2026 · Lead AI Architect (Ex-John Deere, Persistent Systems, GSK)</p>
+
+      <div class="case-kpis">
+        <span class="kpi-chip">~30% → ~70% Production Accuracy</span>
+        <span class="kpi-chip">46 Daily Production Specialists</span>
+        <span class="kpi-chip">GPT-4o Vision + Product-Family Routing</span>
+      </div>
+
+      <h2>1. Why Monolithic Single-Prompt GenAI Fails in Industrial Engineering</h2>
+      <p style="color:var(--text-muted);">Most failed enterprise Generative AI pilots fail for the exact same architectural reason: teams ask a single foundation model call to simultaneously parse dense visual/structural inputs, infer implicit product-family context, apply dozens of engineering business rules, and emit formatted technical prose. When we inherited an underperforming GenAI workflow at John Deere, end-to-end output accuracy sat near <strong>~30%</strong>. Specialists spent more time rewriting hallucinated callouts and cross-model terminology leaks than drafting from scratch.</p>
+
+      <h2>2. Decomposing Reasoning into a Step-by-Step Agentic Pipeline</h2>
+      <p style="color:var(--text-muted);">Instead of endlessly tweaking one mega-prompt or attempting expensive weight fine-tuning on rapidly changing equipment manuals, we re-architected the application as a stateful, multi-stage agent workflow:</p>
+      <ul style="color:var(--text-muted);">
+        <li><strong>Stage 1 — Dedicated Multimodal Diagram Perception (GPT-4o Vision):</strong> Isolated diagram comprehension into its own bounded vision agent tasked solely with extracting numbered callouts, component labels, and spatial topology into a strict Pydantic schema — zero prose generation allowed at perception time.</li>
+        <li><strong>Stage 2 — Deterministic Product-Family Router:</strong> Heavy machinery product families carry distinct nomenclature, safety thresholds, and assembly conventions. Routing requests explicitly by product family ensured each downstream drafting step saw <em>only</em> approved retrieval chunks and terminology dictionaries for that exact equipment line.</li>
+        <li><strong>Stage 3 — Programmatic Rule Verification Gate:</strong> Every candidate output passed through deterministic rule checks validating callout completeness, forbidden/unapproved phrasing, and structural standards before surfacing to the human specialist. Failed checks triggered targeted self-correction or explicit human review flags.</li>
+      </ul>
+
+      <h2>3. Measurable Production Impact &amp; Architectural Takeaways</h2>
+      <p style="color:var(--text-muted);">Separating visual perception, domain routing, synthesis, and rule verification lifted verified production accuracy from <strong>~30% to ~70%</strong> and turned a stalled experiment into a trusted daily production tool actively used by <strong>46 specialists</strong>. Three lessons generalize to every enterprise AI architect:</p>
+      <ol style="color:var(--text-muted);">
+        <li><strong>Never mix perception, retrieval routing, and compliance verification in one LLM call.</strong> Bounded stages make failures observable and debuggable.</li>
+        <li><strong>Context isolation beats larger context windows.</strong> Filtering retrieval strictly by product family eliminated cross-product hallucinations immediately.</li>
+        <li><strong>Deterministic rule gates earn user trust.</strong> Engineers adopt AI assistants when the system knows what it knows — and explicitly flags edge cases rather than guessing.</li>
+      </ol>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>About the Author — Nagarjuna Reddy Kamireddy</h3>
+        <p><strong>Nagarjuna Reddy Kamireddy</strong> (Nagarjuna Kamireddy / Nagarjuna K) is a Lead AI Architect, GenAI &amp; Agentic AI Lead, and Corporate AI Trainer based in Dubai, UAE with 20+ years in enterprise data, SAP HANA, and production AI (John Deere, Persistent Systems, Vertiv, GSK UK, PETRONAS/Deloitte). Explore <a href="/case-studies.html">all enterprise case studies</a>, <a href="/roles.html">role-fit mandates</a>, or reach out at <a href="mailto:gmailtonagarjuna@gmail.com">gmailtonagarjuna@gmail.com</a>.</p>
+      </div>
+    </article>
+  </main>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

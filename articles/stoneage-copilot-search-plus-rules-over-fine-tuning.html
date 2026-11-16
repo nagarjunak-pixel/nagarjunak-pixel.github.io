@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoneAge Architecture: Multi-Model Routing &amp; Search-Plus-Rules Over Fine-Tuning | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="Why Lead AI Architect Nagarjuna Reddy Kamireddy chose hybrid OpenSearch RAG, multi-model routing (GPT-5, GPT-4o, Gemini), and deterministic rules over model fine-tuning when building the StoneAge engineering copilot.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="StoneAge Architecture: Multi-Model Routing &amp; Why Search-Plus-Rules Beats Fine-Tuning">
+  <meta property="og:description" content="Embedding LangGraph agents inside an enterprise engineering system of record with GPT-5/GPT-4o/Gemini routing, safety-critical wording detection, and fresh human approval gates.">
+  <meta property="og:url" content="https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html">
+  <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Designing StoneAge: Multi-Model Routing (GPT-5, GPT-4o, Gemini) & Why Search-Plus-Rules Beats Fine-Tuning in Systems of Record",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html",
+    "keywords": ["Enterprise Copilot", "LangGraph", "Multi-Model Routing", "Hybrid RAG", "OpenSearch", "Fine-Tuning vs RAG", "Nagarjuna Reddy Kamireddy"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (6)</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="container" style="max-width:860px; padding-top:2.6rem; padding-bottom:2.8rem;">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a> / StoneAge System-of-Record Copilot</div>
+      <span class="eyebrow">By Nagarjuna Reddy Kamireddy (Nagarjuna K) · Agentic System Design</span>
+      <h1 style="font-size:clamp(1.8rem, 3.3vw, 2.45rem); line-height:1.18; margin:0.35rem 0 0.8rem;">Designing StoneAge: Multi-Model Routing (GPT-5, GPT-4o, Gemini) &amp; Why Search-Plus-Rules Beats Fine-Tuning in Systems of Record</h1>
+      <p style="color:var(--text-dim); font-size:0.9rem;">Published November 16, 2026 · Lead AI Architect (Dubai, UAE)</p>
+
+      <div class="case-kpis">
+        <span class="kpi-chip">LangGraph + OpenSearch Hybrid RAG</span>
+        <span class="kpi-chip">GPT-5 · GPT-4o · Gemini Task Routing</span>
+        <span class="kpi-chip">Mandatory Fresh Human Approval on Record Writes</span>
+      </div>
+
+      <h2>1. Meet Users Inside the System of Record</h2>
+      <p style="color:var(--text-muted);">Standalone internal chat portals suffer steep adoption drop-off because engineers must copy-paste data out of their authoring tools, lose document hierarchy, and manually re-verify compliance rules. When designing <strong>StoneAge</strong> at John Deere, we embedded the AI writing copilot directly inside the company's engineering system of record using a React frontend, FastAPI backend, Okta OAuth 2.0 authentication, and stateful <strong>LangGraph</strong> agents.</p>
+
+      <h2>2. Why We Chose Search-Plus-Rules Over Weight Fine-Tuning</h2>
+      <p style="color:var(--text-muted);">Stakeholders frequently ask whether to fine-tune an LLM on internal service manuals. In regulated manufacturing, pharma, and enterprise ERP environments, encoding factual product knowledge into model weights creates an auditability liability:</p>
+      <ul style="color:var(--text-muted);">
+        <li><strong>Instant Knowledge Revocation:</strong> When an engineering bulletin updates a torque specification or safety procedure, updating an <strong>OpenSearch hybrid index</strong> and deterministic rule table takes minutes — whereas weight fine-tuning leaves stale facts baked into parameters.</li>
+        <li><strong>Line-Item Attribution:</strong> Hybrid lexical + semantic retrieval paired with rule checks guarantees every drafted section traces back to approved source content and flags safety-critical wording automatically.</li>
+        <li><strong>Model Agility via Task-Level Routing:</strong> Because domain knowledge lives cleanly in retrieval and rule layers rather than locked inside one fine-tuned checkpoint, StoneAge dynamically selects the best foundation model per subtask across <strong>GPT-5, GPT-4o, and Gemini</strong> — optimizing accuracy, multimodal reasoning, latency, and FinOps cost simultaneously.</li>
+      </ul>
+
+      <h2>3. Zero-Trust Write Boundaries</h2>
+      <p style="color:var(--text-muted);">Reading enterprise context and mutating official records require fundamentally different security postures. In StoneAge, agents can propose drafts, highlight safety-critical phrasing, and validate standards autonomously — but <strong>can only modify official engineering records after a fresh, explicit user approval</strong>, with every attempt written to an immutable audit log. For open-source implementations of transactional agent boundaries and compensating ERP rollbacks, see <a href="https://github.com/nagarjunak-pixel/aegis-runtime">aegis-runtime</a>.</p>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>About the Author — Nagarjuna Reddy Kamireddy</h3>
+        <p><strong>Nagarjuna Reddy Kamireddy</strong> (Nagarjuna Kamireddy / Nagarjuna K) is a Lead AI Architect, AI Solutions Architect, and Corporate AI Trainer in Dubai, UAE. Connect on <a href="https://www.linkedin.com/in/nagarjuna-kamireddy">LinkedIn</a> or email <a href="mailto:gmailtonagarjuna@gmail.com">gmailtonagarjuna@gmail.com</a>.</p>
+      </div>
+    </article>
+  </main>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

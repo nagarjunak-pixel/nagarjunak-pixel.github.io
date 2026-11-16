@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nagarjuna Reddy Kamireddy — Enterprise AI &amp; Data Architecture Field Notes</title>
+  <subtitle>Lead AI Architect · AI Solutions Architect · GenAI &amp; Agentic AI Lead · Corporate AI Trainer (Dubai, UAE)</subtitle>
+  <link href="https://nagarjunak-pixel.github.io/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://nagarjunak-pixel.github.io/articles.html" rel="alternate" type="text/html"/>
+  <id>https://nagarjunak-pixel.github.io/</id>
+  <updated>2026-11-16T04:45:00Z</updated>
+  <author>
+    <name>Nagarjuna Reddy Kamireddy</name>
+    <email>gmailtonagarjuna@gmail.com</email>
+    <uri>https://nagarjunak-pixel.github.io/</uri>
+  </author>
+
+  <entry>
+    <title>How We Rescued a ~30%-Accurate Enterprise GenAI Product to ~70% Using Multimodal Vision Agents &amp; Rule Gates</title>
+    <link href="https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html"/>
+    <id>https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html</id>
+    <updated>2026-11-16T04:45:00Z</updated>
+    <summary>Decomposing monolithic LLM prompts into GPT-4o Vision diagram extraction, product-family routing, and deterministic rule verification.</summary>
+  </entry>
+
+  <entry>
+    <title>AIFlow: Why Production Enterprise AI Needs 255 CI Quality Gates &amp; Zero-Latency Drift Telemetry</title>
+    <link href="https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html"/>
+    <id>https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html</id>
+    <updated>2026-11-16T04:45:00Z</updated>
+    <summary>Engineering release-blocking LLM evaluation suites and asynchronous accuracy, drift, cost, and latency observability.</summary>
+  </entry>
+
+  <entry>
+    <title>Designing StoneAge: Multi-Model Routing (GPT-5, GPT-4o, Gemini) &amp; Why Search-Plus-Rules Beats Fine-Tuning</title>
+    <link href="https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html"/>
+    <id>https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html</id>
+    <updated>2026-11-16T04:45:00Z</updated>
+    <summary>Embedding LangGraph copilots inside engineering systems of record with OpenSearch hybrid search, safety guardrails, and fresh human approval gates.</summary>
+  </entry>
+
+  <entry>
+    <title>From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown &amp; 6-Agent Neo4j GraphRAG</title>
+    <link href="https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html"/>
+    <id>https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html</id>
+    <updated>2026-11-16T04:45:00Z</updated>
+    <summary>Connecting 12 years of global SAP HANA/BW architecture at PETRONAS and GSK UK with structure-preserving Neo4j GraphRAG and MCP servers.</summary>
+  </entry>
+
+  <entry>
+    <title>Inside an Enterprise AI Governance Council: Practical Scale, Fix, or Retire Decisions Under NIST AI RMF &amp; the EU AI Act</title>
+    <link href="https://nagarjunak-pixel.github.io/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html"/>
+    <id>https://nagarjunak-pixel.github.io/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html</id>
+    <updated>2026-11-16T04:45:00Z</updated>
+    <summary>Translating NIST AI RMF and EU AI Act risk frameworks into executable CI gates, human approval invariants, and portfolio ROI triage.</summary>
+  </entry>
+
+  <entry>
+    <title>Comparative Architectural Analysis: Enterprise BI, In-Memory SAP HANA, Cloud MLOps &amp; Agentic AI (2006–2026)</title>
+    <link href="https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html"/>
+    <id>https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html</id>
+    <updated>2026-11-16T04:45:00Z</updated>
+    <summary>20-year longitudinal synthesis across four eras of enterprise data, infrastructure, team archetypes, and verification engineering.</summary>
+  </entry>
+</feed>

@@ -16,6 +16,9 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 
 ## Canonical Website Pages
 
+- [Executive & Architect Role-Match Matrix (10 Mandates)](https://nagarjunak-pixel.github.io/roles.html): Direct mapping across Principal/Lead AI Architect, Head of AI, SAP + GenAI Architect, Cloud Architect, AI Governance Officer, Pharma AI Director, Forward Deployed Architect, and Corporate Trainer.
+- [Technical Architecture Articles & Monographs (6 Essays)](https://nagarjunak-pixel.github.io/articles.html): Deep dives on Vision-Agent GenAI turnarounds, AIFlow 255 CI gates, StoneAge multi-model routing, SAP HANA to Neo4j GraphRAG, NIST/EU AI Act governance, and 2006–2026 Enterprise Transformation.
+
 - [Executive Overview & 3 Role Tracks](https://nagarjunak-pixel.github.io/): Summary of impact metrics, Global AI Architect track, UAE/GCC Enterprise SAP + AI track, Corporate AI Trainer track, and recruiter FAQ.
 - [Enterprise Production AI & SAP Case Studies](https://nagarjunak-pixel.github.io/case-studies.html): Deep dives into StoneAge Engineering Copilot, 30%→70% Vision-Agent rescue, AIFlow (255 CI quality checks), 6-agent Neo4j GraphRAG, and 48h→12m SAP HANA optimization.
 - [Open-Source Frontier & Agentic AI Suite](https://nagarjunak-pixel.github.io/projects.html): Documentation links for Veritas-RL, Axiom-Zero, Aegis-Runtime, Prism-Gate, Chronos-Mesh, CompanyOS, Surya Shiksha, LLM Knowledge Base, and LangGraph LocalAI TV.
@@ -30,3 +33,14 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [Global Lead AI Architect CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Global.pdf): Role-tailored PDF resume for global Principal/Lead AI & Solutions Architect roles.
 - [Gulf / UAE / KSA Lead AI Architect CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Gulf-UAE.pdf): Role-tailored PDF resume for Dubai, Abu Dhabi, Riyadh, and GCC executive/architect roles.
 - [Corporate AI & Agentic AI Trainer CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Corporate-AI-Trainer.pdf): Role-tailored PDF resume for corporate training, advisory, and enablement mandates.
+
+## Technical Articles & Public Reference Gists
+
+- [Rescuing a ~30%-Accurate Enterprise GenAI Product to ~70% with Vision Agents](https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html): Multimodal GPT-4o Vision extraction, product-family routing, and deterministic rule verification.
+- [AIFlow: 255 CI Quality Gates & Zero-Latency Drift Telemetry](https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html): Release-blocking LLM evaluation and out-of-band observability.
+- [StoneAge Architecture: Multi-Model Routing & Search-Plus-Rules Over Fine-Tuning](https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html): Embedding LangGraph copilots inside engineering systems of record.
+- [From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown & 6-Agent Neo4j GraphRAG](https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html): Two decades of enterprise data architecture across GSK UK, PETRONAS/Deloitte, and John Deere.
+- [Enterprise AI Governance Council: NIST AI RMF & EU AI Act in Practice](https://nagarjunak-pixel.github.io/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html): Executable governance controls and Scale/Fix/Retire portfolio triage.
+- [20-Year Comparative Architectural Analysis (2006–2026)](https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html): Longitudinal synthesis of SAP BI, In-Memory HANA, Cloud MLOps, and Agentic AI.
+- [GitHub Gist — Enterprise AI & SAP Architecture Profile](https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a): Public reference summary on gist.github.com.
+- [Corporate AI Training Brochure (8 Courses PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-AI-Training-Brochure.pdf): 1-page corporate training syllabus and booking sheet.

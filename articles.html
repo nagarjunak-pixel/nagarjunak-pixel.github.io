@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Agentic AI, LLM Evaluation &amp; SAP Architecture Articles | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="In-depth technical architecture articles and field notes by Nagarjuna Reddy Kamireddy on rescuing failing GenAI workflows, 255-metric LLM evaluation gates, multi-model copilot routing, Neo4j GraphRAG, SAP HANA pushdown, and NIST/EU AI Act governance.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Nagarjuna Reddy Kamireddy — Architecture Feed">
+  <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Full Profile">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Production AI Architecture Articles &amp; Field Notes — Nagarjuna Reddy Kamireddy">
+  <meta property="og:description" content="Practitioner essays on Agentic AI, Vision-Agent workflows, 255-check CI evaluation gates, Search-Plus-Rules vs Fine-Tuning, SAP HANA to GraphRAG, and Enterprise AI Governance.">
+  <meta property="og:url" content="https://nagarjunak-pixel.github.io/articles.html">
+  <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Enterprise AI & Data Architecture Field Notes — Nagarjuna Reddy Kamireddy",
+    "url": "https://nagarjunak-pixel.github.io/articles.html",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "blogPost": [
+      { "@type": "BlogPosting", "headline": "How We Rescued a ~30%-Accurate Enterprise GenAI Product to ~70% Using Multimodal Vision Agents & Rule Gates", "url": "https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html", "datePublished": "2026-11-16" },
+      { "@type": "BlogPosting", "headline": "AIFlow: Why Production Enterprise AI Needs 255 CI Quality Gates & Zero-Latency Drift Telemetry", "url": "https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html", "datePublished": "2026-11-16" },
+      { "@type": "BlogPosting", "headline": "Designing StoneAge: Multi-Model Routing & Why Search-Plus-Rules Beats Fine-Tuning in Systems of Record", "url": "https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html", "datePublished": "2026-11-16" },
+      { "@type": "BlogPosting", "headline": "From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown & 6-Agent Neo4j GraphRAG", "url": "https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html", "datePublished": "2026-11-16" },
+      { "@type": "BlogPosting", "headline": "Inside an Enterprise AI Governance Council: Scale, Fix, or Retire Decisions Under NIST AI RMF & the EU AI Act", "url": "https://nagarjunak-pixel.github.io/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html", "datePublished": "2026-11-16" },
+      { "@type": "BlogPosting", "headline": "20-Year Comparative Architectural Analysis: Legacy SAP BI, In-Memory HANA, Cloud MLOps & Agentic AI (2006–2026)", "url": "https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html", "datePublished": "2026-11-16" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (6)</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+        <li><a class="nav-cta" href="/#contact">Hire / Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="/">Home</a> / Architecture Articles &amp; Monographs</div>
+        <span class="eyebrow">Practitioner Essays · Production Post-Mortems · <a href="/feed.xml">Atom / RSS Feed</a></span>
+        <h1>Production AI &amp; Enterprise Data Architecture Articles</h1>
+        <p>First-hand engineering write-ups by <strong>Nagarjuna Reddy Kamireddy</strong> distilling lessons from shipping 23+ production AI systems, 12 years of global SAP HANA/BW consulting, and enterprise AI governance.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="grid-2">
+
+          <article class="card">
+            <span class="eyebrow">Agentic Workflows · Multimodal Vision</span>
+            <h3><a href="/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html">How We Rescued a ~30%-Accurate Enterprise GenAI Product to ~70% Using Multimodal Vision Agents &amp; Rule Gates</a></h3>
+            <p>Why single-prompt LLM architectures collapse on complex engineering diagrams — and how decomposing reasoning into GPT-4o Vision extraction, product-family routing, and deterministic rule checks lifted accuracy by +40 percentage points.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="eyebrow">LLM Evaluation · LLMOps &amp; Drift</span>
+            <h3><a href="/articles/aiflow-255-llm-evaluation-ci-regression-gates.html">AIFlow: Why Production Enterprise AI Needs 255 CI Quality Gates &amp; Zero-Latency Drift Telemetry</a></h3>
+            <p>Moving enterprise GenAI from anecdotal prompt tweaks to rigorous release engineering: designing golden datasets, 255 automated regression checks, and asynchronous drift/cost/latency observability.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="/articles/aiflow-255-llm-evaluation-ci-regression-gates.html">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="eyebrow">Systems of Record · RAG vs. Fine-Tuning</span>
+            <h3><a href="/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html">Designing StoneAge: Multi-Model Routing (GPT-5, GPT-4o, Gemini) &amp; Why Search-Plus-Rules Beats Fine-Tuning</a></h3>
+            <p>Architectural lessons from embedding an AI writing copilot inside an engineering PLM system of record: hybrid OpenSearch retrieval, dynamic model selection, safety-wording detection, and fresh human approval gates.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="eyebrow">SAP HANA · Neo4j GraphRAG · MCP</span>
+            <h3><a href="/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html">From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown &amp; 6-Agent Neo4j GraphRAG</a></h3>
+            <p>Tracing the architectural thread from in-memory columnar calculation views and PAL/APL machine learning at PETRONAS and GSK UK to structure-preserving Neo4j GraphRAG and OAuth 2.0 MCP adapters.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="eyebrow">AI Governance · NIST AI RMF &amp; EU AI Act</span>
+            <h3><a href="/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html">Inside an Enterprise AI Governance Council: Practical Scale, Fix, or Retire Decisions Under NIST AI RMF &amp; the EU AI Act</a></h3>
+            <p>How enterprise governance councils evaluate risk tiers, human-in-the-loop boundaries, audit trails, and business ROI without slowing down engineering delivery.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html">Read Article →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="eyebrow">20-Year Industry Research Monograph</span>
+            <h3><a href="/articles/enterprise-transformation-casebook-2006-2026.html">Comparative Architectural Analysis: Legacy SAP BI, In-Memory HANA, Cloud MLOps &amp; Agentic AI (2006–2026)</a></h3>
+            <p>Fact-checked longitudinal analysis across two decades of enterprise systems evolution — comparing ingestion paradigms, infrastructure bottlenecks, team topologies, and verification methods from SAP R/3 to multi-agent orchestrators.</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="/articles/enterprise-transformation-casebook-2006-2026.html">Read Monograph →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="margin-top:0; border-top:none; padding-top:0;">
+        <span>© 2026 <a href="/">Nagarjuna Reddy Kamireddy</a> · Subscribe via <a href="/feed.xml">Atom XML</a></span>
+        <span><a href="/projects.html">Explore 38 Public GitHub Repositories →</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

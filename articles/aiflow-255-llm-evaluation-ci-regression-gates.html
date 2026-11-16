@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIFlow: 255 CI Quality Gates &amp; Zero-Latency Drift Telemetry for Enterprise LLMs | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="How Lead AI Architect Nagarjuna Reddy Kamireddy designed AIFlow — an in-house 255-check LLM evaluation and CI regression-gate library with zero-overhead live accuracy, drift, cost, and latency monitoring.">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="AIFlow: Why Production Enterprise AI Needs 255 CI Quality Gates, Not Vibes">
+  <meta property="og:description" content="Designing release-blocking LLM evaluation pipelines and asynchronous production observability across 23+ enterprise AI initiatives.">
+  <meta property="og:url" content="https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html">
+  <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "AIFlow: Why Production Enterprise AI Needs 255 CI Quality Gates & Zero-Latency Drift Telemetry",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html",
+    "keywords": ["LLM Evaluation", "LLMOps", "RAGAS", "LLM-as-Judge", "CI/CD Gates", "Drift Monitoring", "Nagarjuna Reddy Kamireddy"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (6)</a></li>
+        <li><a href="/projects.html">Open Source (38)</a></li>
+        <li><a href="/training.html">AI Training</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="container" style="max-width:860px; padding-top:2.6rem; padding-bottom:2.8rem;">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a> / AIFlow 255-Check Evaluation Suite</div>
+      <span class="eyebrow">By Nagarjuna Reddy Kamireddy (Nagarjuna K) · LLMOps &amp; Quality Architecture</span>
+      <h1 style="font-size:clamp(1.8rem, 3.3vw, 2.45rem); line-height:1.18; margin:0.35rem 0 0.8rem;">AIFlow: Why Production Enterprise AI Needs 255 CI Quality Gates &amp; Zero-Latency Drift Telemetry</h1>
+      <p style="color:var(--text-dim); font-size:0.9rem;">Published November 16, 2026 · Lead AI Architect · AWS SA Pro &amp; NVIDIA Certified Agentic AI</p>
+
+      <div class="case-kpis">
+        <span class="kpi-chip">255 Automated Quality Checks</span>
+        <span class="kpi-chip">Hard CI/CD Release Blocking</span>
+        <span class="kpi-chip">Zero User-Facing Latency Overhead</span>
+      </div>
+
+      <h2>1. The Hidden Danger of "Eyeball Evaluation" at Scale</h2>
+      <p style="color:var(--text-muted);">When a team operates a single chatbot prototype, engineers can inspect 15 sample prompts manually before deploying. When you own architecture and AWS delivery across <strong>23+ enterprise AI initiatives processing 750,000+ automated requests per year</strong>, a subtle prompt edit, chunking change, or upstream model version bump can silently degrade grounding faithfulness or break safety-critical formatting in production.</p>
+
+      <h2>2. Four Layers Inside a 255-Check Evaluation Library</h2>
+      <p style="color:var(--text-muted);">To make AI quality measurable rather than anecdotal, I designed and built <strong>AIFlow</strong> — an internal evaluation library of <strong>255 automated checks</strong> wired directly into GitHub Actions CI/CD release gates:</p>
+      <ul style="color:var(--text-muted);">
+        <li><strong>Retrieval &amp; Citation Integrity Checks:</strong> Precision/recall over curated golden datasets, citation node existence against OpenSearch and Neo4j sources, and mandatory refusal verification when retrieval similarity falls below threshold.</li>
+        <li><strong>Semantic Faithfulness &amp; Groundedness (RAGAS / LLM-as-Judge):</strong> Atomic claim-to-context entailment scoring ensuring zero unsupported numerical specs or invented procedures.</li>
+        <li><strong>Deterministic Domain &amp; Safety Rules:</strong> Schema validation, terminology compliance, safety-warning preservation, and PII/policy guardrails.</li>
+        <li><strong>Operational &amp; FinOps Budgets:</strong> Token consumption ceilings, multi-step agent loop bounds, and p95 latency regression thresholds.</li>
+      </ul>
+
+      <h2>3. Asynchronous Live Telemetry With Zero User Slowdown</h2>
+      <p style="color:var(--text-muted);">Pre-release CI gates catch code and prompt regressions, while post-deployment telemetry catches real-world distribution shift. By decoupling evaluation from the synchronous request path (emitting structured interaction traces asynchronously to an out-of-band evaluation plane), we monitored live <strong>accuracy, input/output drift, token cost, and response latency</strong> across production workloads without adding a single millisecond of latency to end users. I also open-sourced key gateway and drift primitives in <a href="https://github.com/nagarjunak-pixel/prism-gate">prism-gate</a> on GitHub.</p>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>About the Author — Nagarjuna Reddy Kamireddy</h3>
+        <p><strong>Nagarjuna Reddy Kamireddy</strong> (Nagarjuna Kamireddy / Nagarjuna K) is a Lead AI Architect and Corporate AI Trainer in Dubai, UAE. View <a href="/projects.html">38 public open-source AI repositories</a>, <a href="/training.html">LLM Evaluation &amp; Agentic AI bootcamps</a>, or download his <a href="/resume.html">Master CV</a>.</p>
+      </div>
+    </article>
+  </main>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
