@@ -26,6 +26,7 @@
     "url": "https://nagarjunak-pixel.github.io/projects.html",
     "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
     "hasPart": [
+      { "@type": "SoftwareSourceCode", "name": "helios-consensus", "codeRepository": "https://github.com/nagarjunak-pixel/helios-consensus", "programmingLanguage": ["Python", "C++"] },
       { "@type": "SoftwareSourceCode", "name": "privora-graph", "codeRepository": "https://github.com/nagarjunak-pixel/privora-graph", "programmingLanguage": ["Python", "C++"] },
       { "@type": "SoftwareSourceCode", "name": "veritas-rl", "codeRepository": "https://github.com/nagarjunak-pixel/veritas-rl", "programmingLanguage": ["Python", "C++"] },
       { "@type": "SoftwareSourceCode", "name": "axiom-zero", "codeRepository": "https://github.com/nagarjunak-pixel/axiom-zero", "programmingLanguage": ["Python", "C++"] },
@@ -86,6 +87,15 @@
         </div>
 
         <div class="grid-2">
+          <article id="helios-consensus" class="card" data-proj-cat="frontier">
+            <span class="eyebrow">Deterministic Raft DST, TLA+ Prover &amp; HotStuff BFT</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/helios-consensus" target="_blank" rel="noopener">helios-consensus</a></h3>
+            <p>FoundationDB-style logical-tick Deterministic Simulation Testing (DST) Raft consensus engine, explicit-state TLA+ BFS model checker (985 reachable states + 4-step mutant counterexample trace), Chained HotStuff 3-Chain BFT finality, and native C++20 Jump Consistent Hash &amp; Castagnoli CRC32C WAL kernels.</p>
+            <div class="tag-list">
+              <span class="tag">Raft DST</span><span class="tag">TLA+ Model Checker</span><span class="tag">HotStuff BFT</span><span class="tag">C++20 CRC32C</span>
+            </div>
+          </article>
+
           <article id="privora-graph" class="card" data-proj-cat="frontier agents">
             <span class="eyebrow">Sovereign Privacy, Bi-Temporal GraphRAG &amp; Byzantine FL</span>
             <h3><a href="https://github.com/nagarjunak-pixel/privora-graph" target="_blank" rel="noopener">privora-graph</a></h3>

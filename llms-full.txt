@@ -105,6 +105,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 
 ## 5. Selected Public Open-Source Repositories (`github.com/nagarjunak-pixel`)
 
+0. **`helios-consensus`** (`https://github.com/nagarjunak-pixel/helios-consensus`): FoundationDB-Style Deterministic Simulation Raft Engine, TLA+-Style Explicit-State BFS Model Checker (`985` states + minimal `4`-step mutant trace), Chained HotStuff `3`-Chain BFT Finality (`N=3f+1`), and native `C++20` Lamping–Veach Jump Consistent Hash & Castagnoli `CRC32C` WAL Kernels.
 1. **`privora-graph`** (`https://github.com/nagarjunak-pixel/privora-graph`): Sovereign Differential Privacy (`DP-SGD` Binomial Rényi Accountant, `ε=4.14, δ=1e-5`, `-90.3%` MIA leakage), `SQL:2011` Bi-Temporal Knowledge Graph with native `C++20` CSR Personalized PageRank (`0/6` retroactive compliance leaks), and `Multi-Krum` / Weiszfeld Byzantine federated aggregation.
 2. **`veritas-rl`** (`https://github.com/nagarjunak-pixel/veritas-rl`): Frontier RLVR Post-Training & 2D Parallelism Engine — critic-free GRPO/DAPO verifiable-reward RL, ICML '24 Oral DoRA weight decomposition, causal Online-Softmax Ring-Attention + Megatron 2D TP, native C++20 advantage kernels, and Step-Level PRM test-time compute.
 2. **`axiom-zero`** (`https://github.com/nagarjunak-pixel/axiom-zero`): Verified Frontier Transformer Runtime — RoPE + GQA + SwiGLU Transformer with CoW Paged-KV, native C++20 lossless speculative decoding kernel, Anthropic-style Top-K Sparse Autoencoder (SAE) circuit steering, and 1-UIP CDCL RUP proof checker.

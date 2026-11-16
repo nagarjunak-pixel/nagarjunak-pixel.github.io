@@ -21,7 +21,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 
 - [Executive Overview & 3 Role Tracks](https://nagarjunak-pixel.github.io/): Summary of impact metrics, Global AI Architect track, UAE/GCC Enterprise SAP + AI track, Corporate AI Trainer track, and recruiter FAQ.
 - [Enterprise Production AI & SAP Case Studies](https://nagarjunak-pixel.github.io/case-studies.html): Deep dives into StoneAge Engineering Copilot, 30%→70% Vision-Agent rescue, AIFlow (255 CI quality checks), 6-agent Neo4j GraphRAG, and 48h→12m SAP HANA optimization.
-- [Open-Source Frontier & Agentic AI Suite](https://nagarjunak-pixel.github.io/projects.html): Documentation links for Veritas-RL, Axiom-Zero, Quant-Forge, Aegis-Runtime, Prism-Gate, Chronos-Mesh, CompanyOS, Surya Shiksha, LLM Knowledge Base, and LangGraph LocalAI TV.
+- [Open-Source Frontier & Agentic AI Suite](https://nagarjunak-pixel.github.io/projects.html): Documentation links for Helios-Consensus, Privora-Graph, Veritas-RL, Axiom-Zero, Quant-Forge, Aegis-Runtime, Prism-Gate, Chronos-Mesh, CompanyOS, Surya Shiksha, LLM Knowledge Base, and LangGraph LocalAI TV.
 - [Corporate Generative AI & Agentic AI Training](https://nagarjunak-pixel.github.io/training.html): 1–2 day CXO AI Strategy/Governance workshops and 2–5 day hands-on Agentic AI, RAG, LLMOps & SAP+AI bootcamps.
 - [Full Web-Indexed Master Curriculum Vitae](https://nagarjunak-pixel.github.io/resume.html): Complete chronological CV (2004–2026) and skills taxonomy.
 - [Enterprise AI, Claude Code & SAP RAG Masterbook](https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/): 50-chapter technical reference book series authored by Nagarjuna Reddy Kamireddy.
