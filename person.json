@@ -15,7 +15,7 @@
   "jobTitle": [
     "Lead AI Architect",
     "AI Solutions Architect",
-    "GenAI Lead \u2014 Agentic AI & RAG",
+    "GenAI Lead — Agentic AI & RAG",
     "Corporate AI Trainer"
   ],
   "description": "Lead AI Architect with 20+ years in enterprise data, SAP BW/BPC/HANA consulting, and production ML & Agentic AI (John Deere, Persistent Systems, Vertiv, GlaxoSmithKline, PETRONAS/Deloitte, DHL/Symantec, Lenovo). Based in Dubai, UAE and available immediately globally.",
@@ -52,7 +52,7 @@
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "AWS Certified Solutions Architect \u2013 Professional (SAP-C02)"
+      "name": "AWS Certified Solutions Architect – Professional (SAP-C02)"
     },
     {
       "@type": "EducationalOccupationalCredential",
@@ -60,19 +60,19 @@
     },
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP HANA"
+      "name": "SAP Certified Application Associate – SAP HANA"
     },
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP BW 7.4"
+      "name": "SAP Certified Application Associate – SAP BW 7.4"
     },
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP Simple Finance 1503"
+      "name": "SAP Certified Application Associate – SAP Simple Finance 1503"
     },
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP BPC 10.0"
+      "name": "SAP Certified Application Associate – SAP BPC 10.0"
     }
   ],
   "sameAs": [
@@ -86,6 +86,12 @@
     "https://www.linkedin.com/newsletters/autonomous-sap-enterprise-ai-7528104436112441348/",
     "https://www.linkedin.com/pulse/4-sap-mcp-layers-every-btp-enterprise-ai-architect-must-kamireddy-llh1f",
     "https://www.linkedin.com/pulse/meet-sap-rpt-1-why-sap-built-table-native-foundation-model-kamireddy-tdulf",
-    "https://www.linkedin.com/pulse/nagarjun-reddy-kamireddi-masterbook-chapter-01-50-claude-kamireddy-skfpe"
+    "https://www.linkedin.com/pulse/nagarjun-reddy-kamireddi-masterbook-chapter-01-50-claude-kamireddy-skfpe",
+    "https://www.linkedin.com/in/nagarjuna-kamireddy/",
+    "https://www.linkedin.com/pulse/4-sap-mcp-layers-every-btp-enterprise-ai-architect-must-kamireddy-llh1f/",
+    "https://www.linkedin.com/pulse/meet-sap-rpt-1-why-sap-built-table-native-foundation-model-kamireddy-tdulf/",
+    "https://www.linkedin.com/pulse/nagarjun-reddy-kamireddi-masterbook-chapter-01-50-claude-kamireddy-skfpe/",
+    "https://www.linkedin.com/pulse/2027-2028-enterprise-ai-autonomous-sap-playbook-why-swarms-kamireddy-gznze/",
+    "https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset"
   ]
 }

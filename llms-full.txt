@@ -211,3 +211,16 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **`prism-gate`** (https://github.com/nagarjunak-pixel/prism-gate): High-Throughput OpenAI-Compatible Multi-Tenant LLM Inference Gateway, TCP-Vegas Concurrency Limiter, Speculative Cascade Router, & PSI/JSD Statistical Drift Plane
 - **`aegis-runtime`** (https://github.com/nagarjunak-pixel/aegis-runtime): Deterministic Zero-Trust Control Plane, Formal AST Policy Gatekeeper, RFC-6962 Merkle Audit Ledger & Transactional Saga Engine for Enterprise AI Agents
 - **`02-autogpt-autonomous-agent`** (https://github.com/nagarjunak-pixel/02-autogpt-autonomous-agent): Forward-Deployed Engineering (FDE) Autonomous Agent Lab — Zero-dependency ReAct think-act-observe execution loop & enterprise FDE curriculum.
+
+
+## Latest LinkedIn Pulse Monographs, Live Feed & Formal Whitepapers (Updated 2026-11-18)
+- Official LinkedIn Profile: https://www.linkedin.com/in/nagarjuna-kamireddy/ (Open-Web Mirror: https://nagarjunak-pixel.github.io/linkedin-profile.html)
+- Daily LinkedIn Newsletter — Autonomous SAP & Enterprise AI: https://www.linkedin.com/newsletters/autonomous-sap-enterprise-ai-7528104436112441348/
+- LinkedIn Pulse #1 (SAP-RPT-1 Table Foundation Model): https://www.linkedin.com/pulse/meet-sap-rpt-1-why-sap-built-table-native-foundation-model-kamireddy-tdulf/
+- LinkedIn Pulse #2 (The 4 SAP MCP Layers for BTP & Clean Core): https://www.linkedin.com/pulse/4-sap-mcp-layers-every-btp-enterprise-ai-architect-must-kamireddy-llh1f/
+- LinkedIn Pulse #3 (7,200-Page Masterbook Ch. 01 — Claude Code & 5-Land Enterprise AI): https://www.linkedin.com/pulse/nagarjun-reddy-kamireddi-masterbook-chapter-01-50-claude-kamireddy-skfpe/
+- LinkedIn Pulse #4 (The 2027–2028 Enterprise AI & Autonomous SAP Playbook — Governed Swarms & Cost-per-Completed-Workflow): https://www.linkedin.com/pulse/2027-2028-enterprise-ai-autonomous-sap-playbook-why-swarms-kamireddy-gznze/
+- Article #15 (Unified Autonomous SAP, 4-Layer MCP & Governed Swarms Monograph): https://nagarjunak-pixel.github.io/articles/autonomous-sap-mcp-sap-rpt-1-governed-swarms-playbook.html
+- Whitepaper #1 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/governed-autonomous-sap-mcp-and-compound-ai-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Autonomous-SAP-MCP-2026.pdf)
+- Whitepaper #2 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/deterministic-agentic-systems-cpp20-pytorch-atlas-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Deterministic-AI-Systems-2026.pdf)
+- Open 68-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
