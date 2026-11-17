@@ -17,7 +17,7 @@
 - **Phone / WhatsApp:** `+971 50 742 4361` (UAE) | `+91 93913 47406` (India)
 - **Canonical Website:** https://nagarjunak-pixel.github.io/
 - **LinkedIn:** https://www.linkedin.com/in/nagarjuna-kamireddy
-- **GitHub:** https://github.com/nagarjunak-pixel (38 public repositories · 2,249+ annual contributions)
+- **GitHub:** https://github.com/nagarjunak-pixel (43 public repositories · 2,249+ annual contributions)
 - **Author Publication:** https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/ (50-Chapter Enterprise AI, Claude Code & SAP RAG Masterbook)
 
 ---
@@ -133,3 +133,6 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **Corporate Training, Workshops & Executive Advisory:**
   - 1–2 Day Executive CXO Workshops (AI Strategy, ROI, EU AI Act / NIST AI RMF Governance, 90-Day AI Roadmap)
   - 2–5 Day Hands-On Engineering Bootcamps (LangGraph, CrewAI, MCP, Hybrid GraphRAG, LLM Evaluation & Guardrails, AWS/Azure/Vertex AI, SAP + AI)
+
+- [`aether-compiler`](https://github.com/nagarjunak-pixel/aether-compiler): MLIR / Tensor Graph Compiler & H100 Autotuner — MLIR/TorchInductor-style typed SSA tensor graph compiler featuring algebraic/CSE/DCE & epilogue fusion pipelines, a native C++20 linear-scan static arena memory planner (3.60× compression), polyhedral H100 tile & CuTe 32→1 bank-conflict autotuner, and live Qwen-3.5-4B CEGIS synthesis.
+- [`nexus-verity`](https://github.com/nagarjunak-pixel/nexus-verity): Causal Discovery, Double/Debiased ML & Conformal Engine — Pearl Causal DAG & PC-Stable structure discovery (SHD = 0), Chernozhukov cross-fitted Double/Debiased ML (919× Simpson's bias reduction), finite-sample split conformal prediction, native C++20 doubly-robust policy evaluator, and live Qwen-3.5-4B causal CEGIS.

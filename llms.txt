@@ -2,7 +2,7 @@
 
 > Lead AI Architect, AI Solutions Architect, Generative AI & Agentic AI Lead, and Corporate AI Trainer with 20+ years in enterprise data platforms, SAP BW/BPC/HANA consulting, and production Machine Learning & Agentic AI across India, Malaysia, Singapore, the UK, the US, and Dubai, UAE. Currently based in Dubai, UAE and available immediately on employer visa sponsorship across the UAE/GCC, global relocation, and remote leadership engagements.
 
-Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **38 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
+Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **43 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
 
 ## Direct Contact & Verified Profiles
 
@@ -12,7 +12,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - India Phone: +91 93913 47406
 - Current Location: Dubai, United Arab Emirates (Available immediately; open to UAE, Saudi Arabia / KSA, GCC, UK, Europe, Singapore, US, India, and Remote)
 - [LinkedIn Profile](https://www.linkedin.com/in/nagarjuna-kamireddy): Official professional network profile (`nagarjuna-kamireddy`)
-- [GitHub Profile](https://github.com/nagarjunak-pixel): 38 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
+- [GitHub Profile](https://github.com/nagarjunak-pixel): 43 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
 
 ## Canonical Website Pages
 
@@ -57,3 +57,6 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [Upskilling 300+ Enterprise Engineers in Agentic AI](https://nagarjunak-pixel.github.io/articles/upskilling-enterprise-engineering-teams-agentic-ai.html): Corporate training methodology from 280+ live sessions.
 - [JSON Resume v1.0.0 Endpoint (resume.json)](https://nagarjunak-pixel.github.io/resume.json): Standardized ATS/developer resume schema.
 - [Frontier RLVR Post-Training (GRPO/DAPO, DoRA, 2D Ring-Attention & PRMs)](https://nagarjunak-pixel.github.io/articles/rlvr-post-training-grpo-dapo-dora-ring-attention.html): Clean-room PyTorch + C++20 systems breakdown of VeritasRL.
+
+- [`aether-compiler`](https://github.com/nagarjunak-pixel/aether-compiler): MLIR / Tensor Graph Compiler & H100 Autotuner — MLIR/TorchInductor-style typed SSA tensor graph compiler featuring algebraic/CSE/DCE & epilogue fusion pipelines, a native C++20 linear-scan static arena memory planner (3.60× compression), polyhedral H100 tile & CuTe 32→1 bank-conflict autotuner, and live Qwen-3.5-4B CEGIS synthesis.
+- [`nexus-verity`](https://github.com/nagarjunak-pixel/nexus-verity): Causal Discovery, Double/Debiased ML & Conformal Engine — Pearl Causal DAG & PC-Stable structure discovery (SHD = 0), Chernozhukov cross-fitted Double/Debiased ML (919× Simpson's bias reduction), finite-sample split conformal prediction, native C++20 doubly-robust policy evaluator, and live Qwen-3.5-4B causal CEGIS.
