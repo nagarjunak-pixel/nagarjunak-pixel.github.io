@@ -17,7 +17,7 @@
 - **Phone / WhatsApp:** `+971 50 742 4361` (UAE) | `+91 93913 47406` (India)
 - **Canonical Website:** https://nagarjunak-pixel.github.io/
 - **LinkedIn:** https://www.linkedin.com/in/nagarjuna-kamireddy
-- **GitHub:** https://github.com/nagarjunak-pixel (45 public repositories · 2,249+ annual contributions)
+- **GitHub:** https://github.com/nagarjunak-pixel (46 public repositories · 2,249+ annual contributions)
 - **Author Publication:** https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/ (50-Chapter Enterprise AI, Claude Code & SAP RAG Masterbook)
 
 ---
@@ -107,6 +107,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 
 - **`tracegit`** (`https://github.com/nagarjunak-pixel/tracegit`): Local-First Git for AI Agent Execution Traces — native `C++20` Wagner–Fischer trajectory step alignment (`diff` + `bisect`), period `p=1..3` loop-thrash detector, SQLite SHA-256 Merkle DAG store, CI regression gate, and drop-in Claude Code / Cursor `MCP` server (`97.55%` test coverage).
 - **`syntara`** (`https://github.com/nagarjunak-pixel/syntara`, release `v1.0.0`): Grammar-constrained structured decoding: JSON Schema/regex → minimal byte DFA → native C++20 prefix-sharing token index (112–142×, bit-exact), byte-level Earley CFG constraints, and exact closed-set choice scoring. 20/20 schema-valid outputs vs 1/20 unconstrained; 157 tests at 99.7% coverage.
+- **`tokendiet`** (`https://github.com/nagarjunak-pixel/tokendiet`, release `v1.0.0`): Drop-in AI agent context compressor: native C++20 order-preserving salience knapsack, Python AST skeletonizer, cross-turn read dedup, cascade FinOps router, and Claude Code MCP server. Live qwen3.5:4b audit: 6/6 accuracy preserved with 70.25% prompt-token reduction; 14 tests at 97.72% coverage.
 - **`nexus-verity`** (`https://github.com/nagarjunak-pixel/nexus-verity`): Pearl Causal DAG & `PC-Stable` Discovery (`SHD=0`), Chernozhukov 5-Fold Cross-Fitted Neyman-Orthogonal Double/Debiased ML (`919x` Simpson's-Paradox bias reduction), Vovk Finite-Sample Split Conformal Prediction, and native `C++20` Doubly-Robust Off-Policy Evaluator.
 - **`aether-compiler`** (`https://github.com/nagarjunak-pixel/aether-compiler`): MLIR/TorchInductor-Style Typed SSA Tensor Graph Compiler, Algebraic/CSE/DCE & Epilogue Fusion (`2.18x` HBM cut), native `C++20` Linear-Scan Static Activation Arena (`432 MiB -> 120 MiB`, `3.60x`), and Polyhedral H100 `CuTe` `32->1` Bank-Conflict Autotuner.
 0. **`helios-consensus`** (`https://github.com/nagarjunak-pixel/helios-consensus`): FoundationDB-Style Deterministic Simulation Raft Engine, TLA+-Style Explicit-State BFS Model Checker (`985` states + minimal `4`-step mutant trace), Chained HotStuff `3`-Chain BFT Finality (`N=3f+1`), and native `C++20` Lamping–Veach Jump Consistent Hash & Castagnoli `CRC32C` WAL Kernels.
