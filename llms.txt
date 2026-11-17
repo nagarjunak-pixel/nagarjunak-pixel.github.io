@@ -2,7 +2,7 @@
 
 > Lead AI Architect, AI Solutions Architect, Generative AI & Agentic AI Lead, and Corporate AI Trainer with 20+ years in enterprise data platforms, SAP BW/BPC/HANA consulting, and production Machine Learning & Agentic AI across India, Malaysia, Singapore, the UK, the US, and Dubai, UAE. Currently based in Dubai, UAE and available immediately on employer visa sponsorship across the UAE/GCC, global relocation, and remote leadership engagements.
 
-Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **48 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
+Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **49 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
 
 ## Direct Contact & Verified Profiles
 
@@ -12,7 +12,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - India Phone: +91 93913 47406
 - Current Location: Dubai, United Arab Emirates (Available immediately; open to UAE, Saudi Arabia / KSA, GCC, UK, Europe, Singapore, US, India, and Remote)
 - [LinkedIn Profile](https://www.linkedin.com/in/nagarjuna-kamireddy): Official professional network profile (`nagarjuna-kamireddy`)
-- [GitHub Profile](https://github.com/nagarjunak-pixel): 48 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
+- [GitHub Profile](https://github.com/nagarjunak-pixel): 49 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
 
 ## Canonical Website Pages
 
@@ -65,6 +65,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [`tokendiet`](https://github.com/nagarjunak-pixel/tokendiet): Drop-in AI agent context compressor: native C++20 order-preserving salience knapsack, Python AST skeletonizer, cross-turn read dedup, cascade FinOps router, and Claude Code MCP server. Live qwen3.5:4b audit: 6/6 accuracy preserved with 70.25% prompt-token reduction; 14 tests at 97.72% coverage.
 - [`slopguard`](https://github.com/nagarjunak-pixel/slopguard): Sub-second AI code & UI anti-slop verifier: C++20 byte prescreener, Python AST & TypeScript/JSX slop gate, Claude Code PostToolUse hook, and MCP server. Live qwen3.5:4b repair audit: 0/6 → 6/6 passing, 9 blockers eliminated; 12 tests at 97.12% coverage.
 - [`vecta`](https://github.com/nagarjunak-pixel/vecta): From-scratch vector search: HNSW (0.999 recall@10 touching 1.4% of vectors), IVF-PQ ADC + rerank (24× compression), RaBitQ-style 1-bit codes, BM25+RRF hybrid, and bit-exact native C++20 kernels (L2 7.8×, ADC 11.2×, Hamming 20.8×). mypy --strict, 99%+ branch coverage.
+- [`weavegraph`](https://github.com/nagarjunak-pixel/weavegraph): Semantic code-graph worktree scheduler, min-cut multi-agent task partitioner, and 3-way AST semantic merge verifier (C++20 + Python + MCP + React). CI enforces ruff, mypy and a ≥95% coverage gate.
 - [`helios-consensus`](https://github.com/nagarjunak-pixel/helios-consensus): FoundationDB-style deterministic-simulation Raft engine, TLA+-style explicit-state BFS model checker, Chained HotStuff 3-chain BFT finality, and C++20 jump-consistent-hash & CRC32C kernels.
 - [`privora-graph`](https://github.com/nagarjunak-pixel/privora-graph): Sovereign differential privacy (DP-SGD Rényi accountant), SQL:2011 bi-temporal Personalized-PageRank GraphRAG, Byzantine geometric-median aggregation, and a native C++20 CSR engine.
 
