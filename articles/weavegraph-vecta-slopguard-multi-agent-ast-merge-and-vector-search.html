@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallel Agent Worktrees, HNSW/RaBitQ Vector Search &amp; Anti-Slop Gates: WeaveGraph, Vecta &amp; SlopGuard | Nagarjuna Reddy Kamireddy</title>
+  <meta name="description" content="Systems engineering deep-dive by Nagarjuna Reddy Kamireddy into WeaveGraph (C++20 Tarjan SCC, Min-Cut multi-agent worktree scheduler &amp; 3-way AST merge verifier), Vecta (C++20 HNSW, IVF-PQ, 1-bit RaBitQ &amp; BM25+RRF hybrid vector engine), and SlopGuard (sub-millisecond C++20/AST anti-slop gate &amp; Claude Code hook).">
+  <meta name="author" content="Nagarjuna Reddy Kamireddy">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/weavegraph-vecta-slopguard-multi-agent-ast-merge-and-vector-search.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Architecture Articles Atom Feed">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Parallel Multi-Agent AST Merge Verification, C++20 HNSW/RaBitQ Vector Search & Sub-Millisecond Anti-Slop Gates: WeaveGraph, Vecta & SlopGuard",
+    "author": { "@id": "https://nagarjunak-pixel.github.io/#person", "@type": "Person", "name": "Nagarjuna Reddy Kamireddy" },
+    "datePublished": "2026-11-18",
+    "dateModified": "2026-11-18",
+    "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/weavegraph-vecta-slopguard-multi-agent-ast-merge-and-vector-search.html",
+    "about": [
+      { "@type": "SoftwareSourceCode", "name": "weavegraph", "codeRepository": "https://github.com/nagarjunak-pixel/weavegraph" },
+      { "@type": "SoftwareSourceCode", "name": "vecta", "codeRepository": "https://github.com/nagarjunak-pixel/vecta" },
+      { "@type": "SoftwareSourceCode", "name": "slopguard", "codeRepository": "https://github.com/nagarjunak-pixel/slopguard" }
+    ],
+    "keywords": ["WeaveGraph", "Vecta", "SlopGuard", "HNSW", "IVF-PQ", "RaBitQ", "Hybrid RAG", "Multi-Agent Coding", "C++20", "Nagarjuna Reddy Kamireddy"]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI &amp; SAP · Dubai, UAE</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/linkedin-profile.html">LinkedIn Hub</a></li>
+        <li><a href="/github-projects-atlas.html">All GitHub (50)</a></li>
+        <li><a href="/roles.html">Role Fit (10)</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html" aria-current="page">Articles (14)</a></li>
+        <li><a href="/ai-architect-faq.html">LLM Q&amp;A</a></li>
+        <li><a href="/resume.html">Master CV</a></li>
+        <li><a class="nav-cta" href="/#contact">Hire / Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="container" style="max-width:880px; padding-top:2.6rem; padding-bottom:2.8rem;">
+      <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a> / WeaveGraph, Vecta &amp; SlopGuard</div>
+      <span class="eyebrow">By Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy) · C++20 Retrieval &amp; Multi-Agent Engineering</span>
+      <h1 style="font-size:clamp(1.75rem, 3.2vw, 2.4rem); line-height:1.18; margin:0.35rem 0 0.8rem;">Parallel Multi-Agent AST Merge Verification, C++20 HNSW/RaBitQ Vector Search &amp; Sub-Millisecond Anti-Slop Gates: <code>WeaveGraph</code>, <code>Vecta</code> &amp; <code>SlopGuard</code></h1>
+      <p style="color:var(--text-dim); font-size:0.9rem;">Published November 18, 2026 · Codebases: <a href="https://github.com/nagarjunak-pixel/weavegraph">weavegraph</a> · <a href="https://github.com/nagarjunak-pixel/vecta">vecta</a> · <a href="https://github.com/nagarjunak-pixel/slopguard">slopguard</a></p>
+
+      <h2>1. WeaveGraph: Min-Cut Worktree Scheduling &amp; 3-Way AST Semantic Merge Verification</h2>
+      <p style="color:var(--text-muted);">Parallel coding agents running across isolated <code>git worktree</code> branches routinely pass line-based <code>git merge</code> cleanly while silently breaking cross-file arity, removed keyword parameters, or schema fields. <strong><a href="https://github.com/nagarjunak-pixel/weavegraph">WeaveGraph</a></strong> combines a native <code>C++20</code> Compressed Sparse Row (CSR) graph engine (iterative Tarjan SCCs, reverse-dependency blast-radius BFS, and Fiduccia–Mattheyses / Kernighan–Lin min-cut partitioning) with a 3-way semantic AST merge verifier and stdio MCP server that catches silent contract breaks before merge.</p>
+
+      <h2>2. Vecta: From-Scratch HNSW, IVF-PQ, 1-Bit RaBitQ &amp; Hybrid BM25+RRF in Bit-Exact C++20</h2>
+      <p style="color:var(--text-muted);">Production enterprise RAG requires explicit trade-offs across recall, RAM footprint, metadata filtering, and lexical exactness. <strong><a href="https://github.com/nagarjunak-pixel/vecta">Vecta</a></strong> implements all three primary Approximate Nearest Neighbor families plus hybrid retrieval from scratch with bit-exact <code>float64</code> <code>C++20</code> hot loops: (1) <strong>HNSW</strong> graph search with heuristic neighbor selection, filtered predicates, and tombstone deletes at <code>0.999</code> recall, (2) <strong>IVF-PQ</strong> residual product quantization with asymmetric distance tables, (3) <strong>1-bit RaBitQ-style</strong> orthogonal rotations with hardware-popcount Hamming shortlists, and (4) <strong>Okapi BM25 + Reciprocal Rank Fusion (RRF)</strong>.</p>
+
+      <h2>3. SlopGuard: Sub-Millisecond C++20 &amp; AST Anti-Slop Gate for Coding Agents</h2>
+      <p style="color:var(--text-muted);"><strong><a href="https://github.com/nagarjunak-pixel/slopguard">SlopGuard</a></strong> eliminates hallucinated imports, placeholder <code>pass</code>/<code>NotImplementedError</code> stubs, swallowed exceptions, tautological zero-assertion tests, and dead JSX <code>onClick={() =&gt; {}}</code> handlers in under a millisecond per file using a <code>clang++ -O3</code> byte prescreener, Python/TypeScript AST analyzers, and a drop-in Claude Code <code>PostToolUse</code> exit-2 auto-repair hook.</p>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>Explore All 48 Original Open-Source Systems</h3>
+        <p>View the complete categorized catalog on the <a href="/github-projects-atlas.html">Complete GitHub Engineering Atlas</a>, connect on <a href="https://www.linkedin.com/in/nagarjuna-kamireddy/">LinkedIn</a>, or email <a href="mailto:gmailtonagarjuna@gmail.com">gmailtonagarjuna@gmail.com</a>.</p>
+      </div>
+    </article>
+  </main>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
