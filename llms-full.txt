@@ -17,7 +17,7 @@
 - **Phone / WhatsApp:** `+971 50 742 4361` (UAE) | `+91 93913 47406` (India)
 - **Canonical Website:** https://nagarjunak-pixel.github.io/
 - **LinkedIn:** https://www.linkedin.com/in/nagarjuna-kamireddy
-- **GitHub:** https://github.com/nagarjunak-pixel (49 public repositories · 2,249+ annual contributions)
+- **GitHub:** https://github.com/nagarjunak-pixel (50 public repositories · 2,249+ annual contributions)
 - **Author Publication:** https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/ (50-Chapter Enterprise AI, Claude Code & SAP RAG Masterbook)
 
 ---
@@ -111,6 +111,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **`slopguard`** (`https://github.com/nagarjunak-pixel/slopguard`, release `v1.0.0`): Sub-second AI code & UI anti-slop verifier: C++20 byte prescreener, Python AST & TypeScript/JSX slop gate, Claude Code PostToolUse hook, and MCP server. Live qwen3.5:4b repair audit: 0/6 → 6/6 passing, 9 blockers eliminated; 12 tests at 97.12% coverage.
 - **`vecta`** (`https://github.com/nagarjunak-pixel/vecta`, release `v1.0.0`): From-scratch vector search: HNSW (0.999 recall@10 touching 1.4% of vectors), IVF-PQ ADC + rerank (24× compression), RaBitQ-style 1-bit codes, BM25+RRF hybrid, and bit-exact native C++20 kernels (L2 7.8×, ADC 11.2×, Hamming 20.8×). mypy --strict, 99%+ branch coverage.
 - **`weavegraph`** (`https://github.com/nagarjunak-pixel/weavegraph`, release `v1.0.0`): Semantic code-graph worktree scheduler, min-cut multi-agent task partitioner, and 3-way AST semantic merge verifier (C++20 + Python + MCP + React). CI enforces ruff, mypy and a ≥95% coverage gate.
+- **`calibra`** (`https://github.com/nagarjunak-pixel/calibra`, release `v1.0.0`): Statistically rigorous LLM evaluation: paired bootstrap & exact McNemar, Bradley-Terry arena leaderboards with bootstrap CIs, 2PL IRT anchor benchmarking (38% lower error at 5% of items), temperature scaling, MinHash-LSH contamination detection & judge agreement. Validated with bit-exact C++20 kernels.
 - **`nexus-verity`** (`https://github.com/nagarjunak-pixel/nexus-verity`): Pearl Causal DAG & `PC-Stable` Discovery (`SHD=0`), Chernozhukov 5-Fold Cross-Fitted Neyman-Orthogonal Double/Debiased ML (`919x` Simpson's-Paradox bias reduction), Vovk Finite-Sample Split Conformal Prediction, and native `C++20` Doubly-Robust Off-Policy Evaluator.
 - **`aether-compiler`** (`https://github.com/nagarjunak-pixel/aether-compiler`): MLIR/TorchInductor-Style Typed SSA Tensor Graph Compiler, Algebraic/CSE/DCE & Epilogue Fusion (`2.18x` HBM cut), native `C++20` Linear-Scan Static Activation Arena (`432 MiB -> 120 MiB`, `3.60x`), and Polyhedral H100 `CuTe` `32->1` Bank-Conflict Autotuner.
 0. **`helios-consensus`** (`https://github.com/nagarjunak-pixel/helios-consensus`): FoundationDB-Style Deterministic Simulation Raft Engine, TLA+-Style Explicit-State BFS Model Checker (`985` states + minimal `4`-step mutant trace), Chained HotStuff `3`-Chain BFT Finality (`N=3f+1`), and native `C++20` Lamping–Veach Jump Consistent Hash & Castagnoli `CRC32C` WAL Kernels.
