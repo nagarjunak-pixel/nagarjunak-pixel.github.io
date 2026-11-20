@@ -24,7 +24,7 @@
 
 ## 2. Executive Summary & Quantified Headline Metrics
 
-Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering leader with **20+ years in enterprise data and AI (2004–2026)**:
+Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering leader with **22 years in enterprise data and AI (2004–2026)**:
 - **10 years (2016–2026) in production Machine Learning, Deep Learning, Generative AI, and Multi-Agent Systems** across John Deere, Persistent Systems, Vertiv, Soham Global, and Suryagentic Institute.
 - **12 years (2004–2016) embedded at global enterprise client sites as an SAP BW / BPC / HANA Lead Consultant** across the United Kingdom (GlaxoSmithKline Brentford & HCL Axon), Malaysia (PETRONAS Energy Trading & Deloitte Kuala Lumpur, DHL, Symantec), Singapore (DHL & Symantec), the United States (High Industries), and India (GSK, Lenovo).
 

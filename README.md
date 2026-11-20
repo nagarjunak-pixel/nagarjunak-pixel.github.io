@@ -6,7 +6,7 @@ Official personal portfolio, architectural casebook, open-source index, and mach
 
 ## Quick Summary
 - **Roles:** Lead AI Architect · AI Solutions Architect · GenAI & Agentic AI Lead · Corporate AI Trainer
-- **Experience:** 20+ years in Enterprise Data, SAP BW/BPC/HANA Consulting (UK, Malaysia, Singapore, US, India) & Production Machine Learning / Agentic AI (John Deere, Persistent Systems, Vertiv, Soham Global)
+- **Experience:** 22 years in Enterprise Data, SAP BW/BPC/HANA Consulting (UK, Malaysia, Singapore, US, India) & Production Machine Learning / Agentic AI (John Deere, Persistent Systems, Vertiv, Soham Global)
 - **Most Recent Impact:** Owned architecture, AWS Terraform platform & delivery for **23+ AI initiatives** across a **12+ member team at John Deere** — **750K+ automated requests & 42K+ hours saved in FY26**
 - **Certifications:** AWS Certified Solutions Architect – Professional (`SAP-C02`) · NVIDIA-Certified Professional: Agentic AI (`NCP-AAI`)
 - **Location & Availability:** Currently in **Dubai, UAE** · Available immediately (UAE/GCC employer sponsorship, global relocation, or remote)
