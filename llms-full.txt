@@ -17,7 +17,7 @@
 - **Phone / WhatsApp:** `+971 50 742 4361` (UAE) | `+91 93913 47406` (India)
 - **Canonical Website:** https://nagarjunak-pixel.github.io/
 - **LinkedIn:** https://www.linkedin.com/in/nagarjuna-kamireddy
-- **GitHub:** https://github.com/nagarjunak-pixel (54 public repositories · 2,249+ annual contributions)
+- **GitHub:** https://github.com/nagarjunak-pixel (55 public repositories · 2,249+ annual contributions)
 - **Author Publication:** https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/ (50-Chapter Enterprise AI, Claude Code & SAP RAG Masterbook)
 
 ---
@@ -110,6 +110,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **`tokendiet`** (`https://github.com/nagarjunak-pixel/tokendiet`, release `v1.0.0`): Drop-in AI agent context compressor: native C++20 order-preserving salience knapsack, Python AST skeletonizer, cross-turn read dedup, cascade FinOps router, and Claude Code MCP server. Live qwen3.5:4b audit: 6/6 accuracy preserved with 70.25% prompt-token reduction; 14 tests at 97.72% coverage.
 - **`slopguard`** (`https://github.com/nagarjunak-pixel/slopguard`, release `v1.0.0`): Sub-second AI code & UI anti-slop verifier: C++20 byte prescreener, Python AST & TypeScript/JSX slop gate, Claude Code PostToolUse hook, and MCP server. Live qwen3.5:4b repair audit: 0/6 → 6/6 passing, 9 blockers eliminated; 12 tests at 97.12% coverage.
 - **`vecta`** (`https://github.com/nagarjunak-pixel/vecta`, release `v1.0.0`): From-scratch vector search: HNSW (0.999 recall@10 touching 1.4% of vectors), IVF-PQ ADC + rerank (24× compression), RaBitQ-style 1-bit codes, BM25+RRF hybrid, and bit-exact native C++20 kernels (L2 7.8×, ADC 11.2×, Hamming 20.8×). mypy --strict, 99%+ branch coverage.
+- **`enterprise-erp-odata-mcp-server`** (`https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server`, release `v1.0.0`, `Apache-2.0`): Official Page-2 CV flagship — SAP S/4HANA & Enterprise ERP Clean-Core OData v4 MCP Server with EDM schema validation (`MM/SD/FI/MM-IM`), C++20 `$filter` security scanner + vectorized `BUKRS` row-level RBAC + SplitMix64 audit chain (`67.03x` C++20 speedup: `0.101 ms` vs `6.783 ms` Python across `20K` rows & `25K` audit links), automatic IBAN/Tax-ID PII masking, human-approved 3-way-matched PO release gate, FastAPI (`:8270`), stdio MCP server, and React 18 UI (`98.05%` branch coverage).
 - **`verispec-sdd`** (`https://github.com/nagarjunak-pixel/verispec-sdd`, release `v1.0.0`): Executable `SPEC.md` state-machine compiler, C++20 CSR forward-BFS reachability + transposed-CSR reverse-BFS co-reachability + Tarjan SCC livelock prover (`41.58x` C++20 speedup: `0.063 ms` vs `2.608 ms` Python across `2,000` states & `25,000` trace events), zero-`eval()` AST guard/invariant engine, and Hypothesis/TypeScript contract test synthesizer (`mypy --strict`, `98.01%` branch coverage, CLI + FastAPI `:8200` + MCP + React 18 UI).
 - **`weavegraph`** (`https://github.com/nagarjunak-pixel/weavegraph`, release `v1.0.0`): Semantic code-graph worktree scheduler, min-cut multi-agent task partitioner, and 3-way AST semantic merge verifier (C++20 + Python + MCP + React). CI enforces ruff, mypy and a ≥95% coverage gate.
 - **`governed-member-services-agent`** (`https://github.com/nagarjunak-pixel/governed-member-services-agent`): Governed multi-tenant healthcare member-services AI agent with tool gateway, eval harness, and production design
@@ -153,7 +154,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 
 ---
 
-## 7. Official LinkedIn Hub, Daily Newsletter & Complete 54-Repository GitHub Directory
+## 7. Official LinkedIn Hub, Daily Newsletter & Complete 55-Repository GitHub Directory
 
 - **Official LinkedIn Profile:** https://www.linkedin.com/in/nagarjuna-kamireddy/ (UAE: https://ae.linkedin.com/in/nagarjuna-kamireddy)
 - **Open-Web LinkedIn Mirror:** https://nagarjunak-pixel.github.io/linkedin-profile.html
@@ -169,10 +170,10 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
   - London & United Kingdom Lead AI Architect & FDE (Ex-GSK UK): https://nagarjunak-pixel.github.io/uk-london-ai-architect.html
   - Singapore & Hong Kong AI Solutions Architect & FDE (Ex-DHL Singapore & PETRONAS): https://nagarjunak-pixel.github.io/singapore-apac-ai-architect.html
   - Corporate Generative AI, Agentic AI & Microsoft 365 Copilot Trainer (Dubai & GCC): https://nagarjunak-pixel.github.io/corporate-ai-copilot-trainer-dubai-gcc.html
-- **Feeds & Machine Discovery:** https://nagarjunak-pixel.github.io/llms.txt | https://nagarjunak-pixel.github.io/.well-known/llms.txt | https://nagarjunak-pixel.github.io/rss.xml | https://nagarjunak-pixel.github.io/feed.xml | https://nagarjunak-pixel.github.io/ai-architect-faq.html (119 Q&As)
+- **Feeds & Machine Discovery:** https://nagarjunak-pixel.github.io/llms.txt | https://nagarjunak-pixel.github.io/.well-known/llms.txt | https://nagarjunak-pixel.github.io/rss.xml | https://nagarjunak-pixel.github.io/feed.xml | https://nagarjunak-pixel.github.io/ai-architect-faq.html (120 Q&As)
 - **LLM Q&A Encyclopedia & SFT Dataset:** https://nagarjunak-pixel.github.io/ai-architect-faq.html | https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
 
-### Complete Public GitHub Repositories (`github.com/nagarjunak-pixel` — All 54 Public Repositories)
+### Complete Public GitHub Repositories (`github.com/nagarjunak-pixel` — All 55 Public Repositories)
 - **`nagarjunak-pixel.github.io`** (https://github.com/nagarjunak-pixel/nagarjunak-pixel.github.io): Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K) — Official Lead AI Architect, Agentic AI & SAP Portfolio, Case Studies & llms.txt Hub
 - **`surya-shiksha`** (https://github.com/nagarjunak-pixel/surya-shiksha): Surya Shiksha — Multi-Agent Adaptive Learning Operating System (12 Specialized AI Agents, Next.js, TypeScript, PostgreSQL & Prisma).
 - **`governed-member-services-agent`** (https://github.com/nagarjunak-pixel/governed-member-services-agent): Governed multi-tenant healthcare member-services AI agent with tool gateway, eval harness, and production design
@@ -193,6 +194,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **`chronos-mesh`** (https://github.com/nagarjunak-pixel/chronos-mesh): Supply-chain disruption rerouting engine — pure-Python revised simplex & branch-and-bound MILP solver, multi-echelon BOM safety stock, and Monte Carlo CVaR95
 - **`prism-gate`** (https://github.com/nagarjunak-pixel/prism-gate): OpenAI-compatible LLM routing gateway — TCP-Vegas adaptive concurrency control, latency/cost cascade routing, and PSI/JSD distribution drift detection
 - **`vecta`** (https://github.com/nagarjunak-pixel/vecta): Vector Search Engine: HNSW (heuristic neighbour selection, filtered & tombstone search) at 0.999 recall@10 touching 1.4% of vectors, IVF-PQ ADC + rerank (24x compression), RaBitQ-style 1-bit codes, BM25+RRF hybrid & bit-exact native C++20 kernels
+- **`enterprise-erp-odata-mcp-server`** (https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server): Enterprise ERP & SAP S/4HANA Clean-Core OData v4 MCP Server with EDM Schema Validation, C++20 $filter/BUKRS Guardrails, PII Masking & Hash-Chained Audit Log
 - **`verispec-sdd`** (https://github.com/nagarjunak-pixel/verispec-sdd): Executable SPEC.md State-Machine Compiler, C++20 Finite-State Reachability/Deadlock/Livelock Prover & Hypothesis/TypeScript Property-Test Synthesizer (CLI + FastAPI + MCP + React)
 - **`weavegraph`** (https://github.com/nagarjunak-pixel/weavegraph): Semantic Code-Graph Worktree Scheduler, Min-Cut Multi-Agent Task Partitioner & 3-Way AST Semantic Merge Verifier (C++20 + Python + MCP + React)
 - **`syntara`** (https://github.com/nagarjunak-pixel/syntara): Grammar-Constrained Structured Decoding Engine: JSON Schema/Regex -> Minimal Byte DFA (Thompson/Rabin-Scott/Moore), Native C++20 Prefix-Sharing Token Index (112-142x, bit-exact), Byte-Level Earley CFG Constraints & Exact Closed-Set Choice Scoring
@@ -240,10 +242,11 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - Article #15 (Unified Autonomous SAP, 4-Layer MCP & Governed Swarms Monograph): https://nagarjunak-pixel.github.io/articles/autonomous-sap-mcp-sap-rpt-1-governed-swarms-playbook.html
 - Whitepaper #1 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/governed-autonomous-sap-mcp-and-compound-ai-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Autonomous-SAP-MCP-2026.pdf)
 - Whitepaper #2 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/deterministic-agentic-systems-cpp20-pytorch-atlas-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Deterministic-AI-Systems-2026.pdf)
-- Open 119-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
+- Open 120-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
 
 ### Weekly Technical Posts — LinkedIn & X (Nov 17–21, 2026)
 - [2026-11-21 · LinkedIn — The Multi-Agent Operating System: Shared Coordination State, Neo4j Citations & Syntara Token Masks](https://www.linkedin.com/feed/update/urn:li:activity:7529862559496278016/)
+- [2026-11-21 · X — VeriSpec-SDD v1.0.0: Compiling SPEC.md into a C++20 CSR + Tarjan SCC Deadlock/Livelock Prover (41.58x Speedup)](https://x.com/Nagarjunaghp6/status/2124127121027305637)
 - [2026-11-21 · X — Step-Level FinOps Routers Matched to Step Risk & Gated by 255 CI Checks (StoneAge & PrismGate)](https://x.com/Nagarjunaghp6/status/2124068144805535870)
 - [2026-11-20 · LinkedIn — Treating Agent Logic as Versioned, CI-Gated Software (AlphaEvolve Benchmarks, AIFlow & AegisRuntime)](https://www.linkedin.com/feed/update/urn:li:activity:7529609800884645888/)
 - [2026-11-20 · X — 2027–2028 Enterprise AI Belongs to Multi-Agent Operating Systems (CompanyOS & Syntara 20/20 Valid)](https://x.com/Nagarjunaghp6/status/2123828400729321501)
