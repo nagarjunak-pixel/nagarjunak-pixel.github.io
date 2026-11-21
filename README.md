@@ -21,7 +21,7 @@ Official personal portfolio, architectural casebook, open-source index, and mach
 - [`person.json`](https://nagarjunak-pixel.github.io/person.json) — Schema.org/Person JSON-LD Knowledge Graph
 
 ## Contact
-- **Email:** `gmailtonagarjuna@gmail.com` · `sendemailtonagarjuna@gmail.com`
+- **Email:** `gmailtonagarjuna@gmail.com` · `writetonagarjuna@gmail.com`
 - **Phone / WhatsApp:** `+971 50 742 4361` (UAE) · `+91 93913 47406` (India)
 - **LinkedIn:** [linkedin.com/in/nagarjuna-kamireddy](https://www.linkedin.com/in/nagarjuna-kamireddy)
 - **GitHub:** [github.com/nagarjunak-pixel](https://github.com/nagarjunak-pixel)
