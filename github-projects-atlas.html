@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Complete 50-Repository GitHub AI &amp; C++20 Engineering Atlas | Nagarjuna Reddy Kamireddy (nagarjunak-pixel)</title>
+  <title>Complete 53-Repository GitHub AI &amp; C++20 Engineering Atlas | Nagarjuna Reddy Kamireddy (nagarjunak-pixel)</title>
   <meta name="description" content="Complete indexed directory of all open-source GitHub projects by Lead AI Architect Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / nagarjunak-pixel): 16 C++20 &amp; PyTorch frontier engines (VeritasRL, AxiomZero, WeaveGraph, Vecta, SlopGuard, TokenDiet, Syntara, TraceGit, AetherCompiler, NexusVerity, HeliosConsensus, PrivoraGraph, QuantForge, PrismGate, AegisRuntime, ChronosMesh), MCP servers, GraphRAG, and multi-agent platforms.">
   <meta name="author" content="Nagarjuna Reddy Kamireddy">
   <link rel="canonical" href="https://nagarjunak-pixel.github.io/github-projects-atlas.html">
@@ -19,9 +19,9 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Complete GitHub Open-Source AI & Systems Engineering Atlas \u2014 Nagarjuna Reddy Kamireddy (nagarjunak-pixel)",
+  "name": "Complete GitHub Open-Source AI & Systems Engineering Atlas — Nagarjuna Reddy Kamireddy (nagarjunak-pixel)",
   "url": "https://nagarjunak-pixel.github.io/github-projects-atlas.html",
-  "numberOfItems": 48,
+  "numberOfItems": 53,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -29,7 +29,7 @@
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "aether-compiler",
-        "description": "MLIR/TorchInductor-Style Typed SSA Tensor Graph Compiler, Algebraic/CSE/DCE & Epilogue Fusion Pipeline, C++20 Linear-Scan Static Arena Planner (3.60x), Polyhedral H100 Tile & CuTe 32->1 Bank-Conflict Autotuner, and Live Qwen-3.5-4B CEGIS",
+        "description": "Small tensor-graph compiler: SSA IR with CSE/fusion/DCE passes, C++20 static arena planner, analytic H100 tile cost model. Educational reference implementation",
         "codeRepository": "https://github.com/nagarjunak-pixel/aether-compiler",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -55,7 +55,7 @@
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "axiom-zero",
-        "description": "Verified Frontier Transformer Runtime: Native C++20 Lossless Speculative/Paged-KV Kernel, Anthropic-Style Top-K Sparse Autoencoder Circuit Steering, 1-UIP CDCL RUP Proof Verifier & Live Qwen-3.5-4B CEGIS Engine",
+        "description": "Small GQA transformer with speculative decoding (C++ helper), Top-K SAE steering, and a CDCL SAT solver with RUP checks — educational reference implementation",
         "codeRepository": "https://github.com/nagarjunak-pixel/axiom-zero",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -67,9 +67,9 @@
       "position": 4,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "pytorch-interactive-demo",
-        "description": "Interactive PyTorch Deep-Learning Visualizer \u2014 Vector Embeddings, Cosine RAG Retrieval & Autograd Training Loop Dynamics.",
-        "codeRepository": "https://github.com/nagarjunak-pixel/pytorch-interactive-demo",
+        "name": "calibra",
+        "description": "Statistically rigorous LLM evaluation: paired bootstrap & exact McNemar, Bradley-Terry arena leaderboards with bootstrap CIs, 2PL IRT anchor benchmarking (38% lower error at 5% of items), temperature scaling, MinHash-LSH contamination detection & judge agreement — validated on known-truth data, bit-exact C++20 kernels",
+        "codeRepository": "https://github.com/nagarjunak-pixel/calibra",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -80,9 +80,9 @@
       "position": 5,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "quant-forge",
-        "description": "Frontier Sub-Byte LLM Compression & Roofline Engine: Cholesky Second-Order GPTQ, Salient-Channel AWQ, QuaRot/SpinQuant Walsh-Hadamard Incoherence, OCP FP8 E4M3/E5M2 & Native C++20 Bit-Packed INT4 Fused GEMM",
-        "codeRepository": "https://github.com/nagarjunak-pixel/quant-forge",
+        "name": "kvserve",
+        "description": "Paged-KV LLM serving engine simulator: PagedAttention block manager with refcounted automatic prefix caching (93% prefill saved), Orca continuous batching (2.4x throughput, 246x lower p99 TTFT vs static), Sarathi chunked prefill (3.8x lower p99 TPOT), recompute preemption, GQA roofline cost model & bit-exact C++20 block-hash kernel",
+        "codeRepository": "https://github.com/nagarjunak-pixel/kvserve",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -91,6 +91,32 @@
     {
       "@type": "ListItem",
       "position": 6,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "pytorch-interactive-demo",
+        "description": "Interactive PyTorch Deep-Learning Visualizer — Vector Embeddings, Cosine RAG Retrieval & Autograd Training Loop Dynamics.",
+        "codeRepository": "https://github.com/nagarjunak-pixel/pytorch-interactive-demo",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "quant-forge",
+        "description": "LLM weight-quantization reference implementation — GPTQ, AWQ, Walsh-Hadamard rotation, simulated FP8, and a small C++20 packed-INT4 GEMM. Educational.",
+        "codeRepository": "https://github.com/nagarjunak-pixel/quant-forge",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "syntara",
@@ -103,7 +129,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 9,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "vecta",
@@ -116,38 +142,12 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
-      "item": {
-        "@type": "SoftwareSourceCode",
-        "name": "venkatesh-llm",
-        "description": "Micro-LLM From Scratch (1.03M Parameters) \u2014 End-to-end BPE tokenizer, causal Transformer pretraining, checkpointing & Ollama Q&A engineering lab.",
-        "codeRepository": "https://github.com/nagarjunak-pixel/venkatesh-llm",
-        "author": {
-          "@id": "https://nagarjunak-pixel.github.io/#person"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "item": {
-        "@type": "SoftwareSourceCode",
-        "name": "veritas-rl",
-        "description": "Frontier RLVR Post-Training & 2D Parallelism Engine: Critic-Free GRPO/DAPO Verifiable-Reward RL, DoRA Weight Decomposition (ICML '24 Oral), Causal Online-Softmax Ring-Attention + Megatron 2D TP, Native C++20 Kernels & Live PRM Test-Time Compute",
-        "codeRepository": "https://github.com/nagarjunak-pixel/veritas-rl",
-        "author": {
-          "@id": "https://nagarjunak-pixel.github.io/#person"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
       "position": 10,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "aegis-runtime",
-        "description": "Deterministic Zero-Trust Control Plane, Formal AST Policy Gatekeeper, RFC-6962 Merkle Audit Ledger & Transactional Saga Engine for Enterprise AI Agents",
-        "codeRepository": "https://github.com/nagarjunak-pixel/aegis-runtime",
+        "name": "venkatesh-llm",
+        "description": "Micro-LLM From Scratch (1.03M Parameters) — End-to-end BPE tokenizer, causal Transformer pretraining, checkpointing & Ollama Q&A engineering lab.",
+        "codeRepository": "https://github.com/nagarjunak-pixel/venkatesh-llm",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -158,9 +158,9 @@
       "position": 11,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "chronos-mesh",
-        "description": "Neuro-Symbolic Multi-Echelon Supply-Chain Digital Twin, Exact Branch-and-Bound MILP Rerouting Solver, & CVaR95 Tail-Risk Engine",
-        "codeRepository": "https://github.com/nagarjunak-pixel/chronos-mesh",
+        "name": "veritas-rl",
+        "description": "RL post-training sandbox — GRPO/DAPO on toy math tasks, DoRA, single-process ring-attention/TP simulation, step-level PRM reranking. Reference implementation",
+        "codeRepository": "https://github.com/nagarjunak-pixel/veritas-rl",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -171,9 +171,9 @@
       "position": 12,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "helios-consensus",
-        "description": "FoundationDB-Style Deterministic Simulation Raft Engine, TLA+-Style Explicit-State BFS Model Checker (985 States + 4-Step Mutant Synthesis), Chained HotStuff 3-Chain BFT Finality, C++20 Jump Consistent Hash & Castagnoli CRC32C Kernels, and Live Quorum CEGIS",
-        "codeRepository": "https://github.com/nagarjunak-pixel/helios-consensus",
+        "name": "aegis-runtime",
+        "description": "Policy and audit layer for AI-agent tool calls — custom policy DSL, saga compensation, hash-chained Merkle/Ed25519 audit log. Reference implementation",
+        "codeRepository": "https://github.com/nagarjunak-pixel/aegis-runtime",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -184,9 +184,9 @@
       "position": 13,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "nexus-verity",
-        "description": "Pearl Causal DAG & PC-Stable Discovery (SHD=0), Chernozhukov Cross-Fitted Double/Debiased ML (919x Simpson's Bias Reduction), Finite-Sample Split Conformal Prediction, Native C++20 Doubly-Robust Policy Evaluator, and Live Qwen-3.5-4B Causal CEGIS",
-        "codeRepository": "https://github.com/nagarjunak-pixel/nexus-verity",
+        "name": "chronos-mesh",
+        "description": "Supply-chain rerouting toy model — pure-Python simplex + branch-and-bound MILP, BOM safety stock, Monte Carlo CVaR95. Educational reference implementation",
+        "codeRepository": "https://github.com/nagarjunak-pixel/chronos-mesh",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -197,9 +197,9 @@
       "position": 14,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "prism-gate",
-        "description": "High-Throughput OpenAI-Compatible Multi-Tenant LLM Inference Gateway, TCP-Vegas Concurrency Limiter, Speculative Cascade Router, & PSI/JSD Statistical Drift Plane",
-        "codeRepository": "https://github.com/nagarjunak-pixel/prism-gate",
+        "name": "governed-member-services-agent",
+        "description": "Governed multi-tenant healthcare member-services AI agent with tool gateway, eval harness, and production design",
+        "codeRepository": "https://github.com/nagarjunak-pixel/governed-member-services-agent",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -210,9 +210,9 @@
       "position": 15,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "privora-graph",
-        "description": "Sovereign Differential Privacy (DP-SGD R\u00e9nyi Accountant), SQL:2011 Bi-Temporal Personalized-PageRank GraphRAG, Byzantine Geometric-Median Aggregation & Native C++20 CSR Engine",
-        "codeRepository": "https://github.com/nagarjunak-pixel/privora-graph",
+        "name": "helios-consensus",
+        "description": "Library-style Raft in Python with segmented binary WAL, asyncio TCP, Multi-Raft sharding, Jepsen-style fault injection, WGL linearizability & C++20 kernels",
+        "codeRepository": "https://github.com/nagarjunak-pixel/helios-consensus",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -221,6 +221,45 @@
     {
       "@type": "ListItem",
       "position": 16,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "nexus-verity",
+        "description": "Causal inference in Python — PC discovery, d-separation, cross-fitted double ML, split conformal, C++ doubly-robust OPE. Educational reference implementation",
+        "codeRepository": "https://github.com/nagarjunak-pixel/nexus-verity",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "prism-gate",
+        "description": "OpenAI-compatible LLM gateway prototype — TCP-Vegas adaptive concurrency, heuristic cascade routing, PSI/JSD drift checks. Reference implementation",
+        "codeRepository": "https://github.com/nagarjunak-pixel/prism-gate",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "privora-graph",
+        "description": "Privacy & robustness toolkit — DP-SGD with RDP accounting, bi-temporal PageRank retrieval, Multi-Krum/geometric-median aggregation. Reference implementation",
+        "codeRepository": "https://github.com/nagarjunak-pixel/privora-graph",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "antigravity-sdk",
@@ -233,11 +272,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 20,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "codexforge-tdd-mvp-v2",
-        "description": "Self-correcting TDD sandbox: RED\u2192GREEN loop with Docker isolation, VS Code extension, and LLM-powered code repair",
+        "description": "Self-correcting TDD sandbox: RED→GREEN loop with Docker isolation, VS Code extension, and LLM-powered code repair",
         "codeRepository": "https://github.com/nagarjunak-pixel/codexforge-tdd-mvp-v2",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -246,11 +285,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 21,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "slopguard",
-        "description": "Sub-second AI code & UI anti-slop verifier: C++20 byte prescreener, Python AST & TypeScript slop gate, Claude Code hooks & MCP server",
+        "description": "Heuristic checker for AI-generated code — Python AST + regex TS/JSX rules for stubs, unresolved imports, empty tests; C++20 prescreen, Claude Code hook, MCP",
         "codeRepository": "https://github.com/nagarjunak-pixel/slopguard",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -259,11 +298,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 22,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "tokendiet",
-        "description": "Drop-in AI agent context compressor: C++20 order-preserving salience knapsack, AST skeletonizer, cross-turn read dedup, cascade FinOps router & MCP server",
+        "description": "Context compressor for AI coding agents — knapsack log pruning (C++20 kernel, Python fallback), AST skeletons, cross-turn read dedup. CLI + MCP server",
         "codeRepository": "https://github.com/nagarjunak-pixel/tokendiet",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -272,11 +311,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 23,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "tracegit",
-        "description": "Local-First Git for AI Agent Execution Traces: Native C++20 Trajectory Alignment & Loop-Thrash Detector, Content-Addressable SHA-256 Merkle DAG Store, CI Regression Gate & Drop-In Claude Code / Cursor MCP Server",
+        "description": "Git-like local history for AI agent traces — SQLite/SHA-256 Merkle store, C++20 edit-distance diff/bisect, loop detection, CI gate, MCP server. Prototype",
         "codeRepository": "https://github.com/nagarjunak-pixel/tracegit",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -285,7 +324,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 24,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "weavegraph",
@@ -298,11 +337,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 25,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "02-autogpt-autonomous-agent",
-        "description": "Forward-Deployed Engineering (FDE) Autonomous Agent Lab \u2014 Zero-dependency ReAct think-act-observe execution loop & enterprise FDE curriculum.",
+        "description": "Forward-Deployed Engineering (FDE) Autonomous Agent Lab — Zero-dependency ReAct think-act-observe execution loop & enterprise FDE curriculum.",
         "codeRepository": "https://github.com/nagarjunak-pixel/02-autogpt-autonomous-agent",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -311,11 +350,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 26,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "agentic-systems-v3.1",
-        "description": "Enterprise Agentic Systems v3.1 \u2014 consolidated monorepo (Phases 0-7)",
+        "description": "Enterprise Agentic Systems v3.1 — consolidated monorepo (Phases 0-7)",
         "codeRepository": "https://github.com/nagarjunak-pixel/agentic-systems-v3.1",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -324,11 +363,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 27,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "ai-workforce",
-        "description": "Local multi-agent workforce with a FastAPI dashboard: CEO \u2192 research \u2192 architect \u2192 coding \u2192 QA \u2192 docs \u2192 deploy \u2192 marketing, on Ollama.",
+        "description": "Local multi-agent workforce with a FastAPI dashboard: CEO → research → architect → coding → QA → docs → deploy → marketing, on Ollama.",
         "codeRepository": "https://github.com/nagarjunak-pixel/ai-workforce",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -337,7 +376,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 28,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "apsrtc-statistics-dashboard",
@@ -350,11 +389,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 29,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "company-os",
-        "description": "CompanyOS \u2014 run ANY company with a team of AI agents. Config-driven (company.json), 7 role-agents, SIM + LIVE modes, kanban dashboard, KPI engine.",
+        "description": "CompanyOS — run ANY company with a team of AI agents. Config-driven (company.json), 7 role-agents, SIM + LIVE modes, kanban dashboard, KPI engine.",
         "codeRepository": "https://github.com/nagarjunak-pixel/company-os",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -363,7 +402,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 30,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "localaitv-mcp-server",
@@ -376,7 +415,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 31,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "loop-engineering-trading",
@@ -389,11 +428,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 32,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "operdai-dashboard",
-        "description": "Enterprise Multi-Tenant White-Label AI Lead-Agent Analytics Console \u2014 React + TypeScript telemetry, conversion funnels & partner branding portal.",
+        "description": "Enterprise Multi-Tenant White-Label AI Lead-Agent Analytics Console — React + TypeScript telemetry, conversion funnels & partner branding portal.",
         "codeRepository": "https://github.com/nagarjunak-pixel/operdai-dashboard",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -402,7 +441,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 33,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "smart-marketing-assistant",
@@ -415,7 +454,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 34,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "spring-boot-mcp",
@@ -428,11 +467,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 35,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "ai-calc",
-        "description": "Qwen AI Calculator \u2014 plain-English math in the browser, solved locally with Ollama.",
+        "description": "Qwen AI Calculator — plain-English math in the browser, solved locally with Ollama.",
         "codeRepository": "https://github.com/nagarjunak-pixel/ai-calc",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -441,11 +480,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 36,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "crewai-telugu-newsroom",
-        "description": "CrewAI multi-agent Telugu newsroom: Researcher \u2192 Script Writer \u2192 Fact-Checker. Sequential pipeline for automated news production.",
+        "description": "CrewAI multi-agent Telugu newsroom: Researcher → Script Writer → Fact-Checker. Sequential pipeline for automated news production.",
         "codeRepository": "https://github.com/nagarjunak-pixel/crewai-telugu-newsroom",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -454,7 +493,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 37,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "deerflow-research-agent",
@@ -467,7 +506,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 38,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "firecrawl-nexus-rss",
@@ -480,11 +519,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 39,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "langgraph-localai-tv",
-        "description": "LangGraph 3-stage news pipeline: headlines \u2192 video \u2192 bulletin. Human approval gates, checkpoint persistence, error recovery.",
+        "description": "LangGraph 3-stage news pipeline: headlines → video → bulletin. Human approval gates, checkpoint persistence, error recovery.",
         "codeRepository": "https://github.com/nagarjunak-pixel/langgraph-localai-tv",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -493,7 +532,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 40,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "llm-knowledge-base",
@@ -506,11 +545,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 41,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "rag-chat-docs",
-        "description": "RAG Chat with Documents \u2014 7-Module From-Scratch Retrieval-Augmented Generation System (Chunking, Hybrid Search, CLI & FastAPI Web UI).",
+        "description": "RAG Chat with Documents — 7-Module From-Scratch Retrieval-Augmented Generation System (Chunking, Hybrid Search, CLI & FastAPI Web UI).",
         "codeRepository": "https://github.com/nagarjunak-pixel/rag-chat-docs",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -519,11 +558,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 42,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "agent-framework-lab",
-        "description": "Hands-on Microsoft Agent Framework 1.0 lab \u2014 multi-agent workflows on local Ollama (no API keys)",
+        "description": "Hands-on Microsoft Agent Framework 1.0 lab — multi-agent workflows on local Ollama (no API keys)",
         "codeRepository": "https://github.com/nagarjunak-pixel/agent-framework-lab",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -532,11 +571,11 @@
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 43,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "agentforge",
-        "description": "AgentForge \u2014 Interactive React Workbench for Designing, Simulating & Debugging Multi-Agent Graphs, Eval Sandboxes & Swarm Telemetry.",
+        "description": "AgentForge — Interactive React Workbench for Designing, Simulating & Debugging Multi-Agent Graphs, Eval Sandboxes & Swarm Telemetry.",
         "codeRepository": "https://github.com/nagarjunak-pixel/agentforge",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -545,7 +584,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 44,
       "item": {
         "@type": "SoftwareSourceCode",
         "name": "agentic-academy",
@@ -558,51 +597,12 @@
     },
     {
       "@type": "ListItem",
-      "position": 42,
-      "item": {
-        "@type": "SoftwareSourceCode",
-        "name": "agentic-ai-dashboard",
-        "description": "Interactive Visual Guide to Agentic AI Architecture \u2014 Tokenizer Inspector, RAG Playground, ReAct Loop, Reflexion & LLM Evaluation Suite.",
-        "codeRepository": "https://github.com/nagarjunak-pixel/agentic-ai-dashboard",
-        "author": {
-          "@id": "https://nagarjunak-pixel.github.io/#person"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 43,
-      "item": {
-        "@type": "SoftwareSourceCode",
-        "name": "nagarjunak-pixel",
-        "description": "Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K) \u2014 Lead AI Architect, Agentic AI, GraphRAG, LLM Evaluation & SAP HANA",
-        "codeRepository": "https://github.com/nagarjunak-pixel/nagarjunak-pixel",
-        "author": {
-          "@id": "https://nagarjunak-pixel.github.io/#person"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 44,
-      "item": {
-        "@type": "SoftwareSourceCode",
-        "name": "nagarjunak-pixel.github.io",
-        "description": "Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K) \u2014 Official Lead AI Architect, Agentic AI & SAP Portfolio, Case Studies & llms.txt Hub",
-        "codeRepository": "https://github.com/nagarjunak-pixel/nagarjunak-pixel.github.io",
-        "author": {
-          "@id": "https://nagarjunak-pixel.github.io/#person"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
       "position": 45,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "nrk-enterprise-ai-masterbook",
-        "description": "Nagarjuna Reddy Kamireddy\u2122 \u2014 The 7,200-Page Enterprise AI, Claude Code & SAP RAG Masterbook Series (50 Daily Chapters)",
-        "codeRepository": "https://github.com/nagarjunak-pixel/nrk-enterprise-ai-masterbook",
+        "name": "agentic-ai-dashboard",
+        "description": "Interactive Visual Guide to Agentic AI Architecture — Tokenizer Inspector, RAG Playground, ReAct Loop, Reflexion & LLM Evaluation Suite.",
+        "codeRepository": "https://github.com/nagarjunak-pixel/agentic-ai-dashboard",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -613,9 +613,9 @@
       "position": 46,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "self-improving-agents",
-        "description": "\ud83e\udde0 Self-Improving Multi-Agent System \u2014 A teaching framework for advanced agentic AI: ReAct loop, Reflexion, multi-agent orchestration, adversarial reasoning, and agent-as-a-judge. With web UI + Netlify deployment.",
-        "codeRepository": "https://github.com/nagarjunak-pixel/self-improving-agents",
+        "name": "clicky",
+        "description": "Fork of Clicky — an on-screen AI teacher buddy for macOS (Swift).",
+        "codeRepository": "https://github.com/nagarjunak-pixel/clicky",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -626,9 +626,9 @@
       "position": 47,
       "item": {
         "@type": "SoftwareSourceCode",
-        "name": "surya-agentic-academy-digest",
-        "description": "Automated Agentic AI Research & Engineering Digest \u2014 Daily LLM paper & technical talk synthesis into 5 runnable project blueprints per edition.",
-        "codeRepository": "https://github.com/nagarjunak-pixel/surya-agentic-academy-digest",
+        "name": "nagarjuna-kamireddy-ai-architect-dataset",
+        "description": "Open ChatML/SFT Fine-Tuning & RAG Dataset covering Lead AI Architect Nagarjuna Reddy Kamireddy's LinkedIn, SAP+GenAI Architecture & 50 GitHub Repos",
+        "codeRepository": "https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
         }
@@ -639,8 +639,73 @@
       "position": 48,
       "item": {
         "@type": "SoftwareSourceCode",
+        "name": "nagarjunak-pixel",
+        "description": "Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K) — Lead AI Architect, Agentic AI, GraphRAG, LLM Evaluation & SAP HANA",
+        "codeRepository": "https://github.com/nagarjunak-pixel/nagarjunak-pixel",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "nagarjunak-pixel.github.io",
+        "description": "Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K) — Official Lead AI Architect, Agentic AI & SAP Portfolio, Case Studies & llms.txt Hub",
+        "codeRepository": "https://github.com/nagarjunak-pixel/nagarjunak-pixel.github.io",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "nrk-enterprise-ai-masterbook",
+        "description": "Nagarjuna Reddy Kamireddy™ — The 7,200-Page Enterprise AI, Claude Code & SAP RAG Masterbook Series (50 Daily Chapters)",
+        "codeRepository": "https://github.com/nagarjunak-pixel/nrk-enterprise-ai-masterbook",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "self-improving-agents",
+        "description": "🧠 Self-Improving Multi-Agent System — A teaching framework for advanced agentic AI: ReAct loop, Reflexion, multi-agent orchestration, adversarial reasoning, and agent-as-a-judge. With web UI + Netlify deployment.",
+        "codeRepository": "https://github.com/nagarjunak-pixel/self-improving-agents",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "name": "surya-agentic-academy-digest",
+        "description": "Automated Agentic AI Research & Engineering Digest — Daily LLM paper & technical talk synthesis into 5 runnable project blueprints per edition.",
+        "codeRepository": "https://github.com/nagarjunak-pixel/surya-agentic-academy-digest",
+        "author": {
+          "@id": "https://nagarjunak-pixel.github.io/#person"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "item": {
+        "@type": "SoftwareSourceCode",
         "name": "surya-shiksha",
-        "description": "Surya Shiksha \u2014 Multi-Agent Adaptive Learning Operating System (12 Specialized AI Agents, Next.js, TypeScript, PostgreSQL & Prisma).",
+        "description": "Surya Shiksha — Multi-Agent Adaptive Learning Operating System (12 Specialized AI Agents, Next.js, TypeScript, PostgreSQL & Prisma).",
         "codeRepository": "https://github.com/nagarjunak-pixel/surya-shiksha",
         "author": {
           "@id": "https://nagarjunak-pixel.github.io/#person"
@@ -662,7 +727,7 @@
       <ul id="primary-nav" class="nav-links">
         <li><a href="/">Overview</a></li>
         <li><a href="/linkedin-profile.html">LinkedIn Hub</a></li>
-        <li><a href="/github-projects-atlas.html" aria-current="page">All GitHub (50)</a></li>
+        <li><a href="/github-projects-atlas.html" aria-current="page">All GitHub (53)</a></li>
         <li><a href="/roles.html">Role Fit (10)</a></li>
         <li><a href="/case-studies.html">Case Studies</a></li>
         <li><a href="/articles.html">Articles (14)</a></li>
@@ -676,7 +741,7 @@
     <div class="page-hero">
       <div class="container">
         <div class="breadcrumb"><a href="/">Home</a> / Complete GitHub Engineering Atlas</div>
-        <span class="eyebrow">github.com/nagarjunak-pixel · 48 Original Non-Fork Public Repositories · 2,249+ Annual Commits</span>
+        <span class="eyebrow">github.com/nagarjunak-pixel · 53 Public Repositories · 2,249+ Annual Commits</span>
         <h1>Complete GitHub AI, C++20 Systems &amp; Agentic Architecture Atlas</h1>
         <p>Exhaustive, crawler-indexed catalog of every open-source system engineered by <strong>Nagarjuna Reddy Kamireddy</strong> (<strong>Nagarjuna Kamireddy</strong> / <strong>Nagarjuna K</strong>) — spanning native <code>C++20</code> &amp; <code>PyTorch</code> frontier runtimes, compilers, HNSW/RaBitQ vector search, distributed consensus, causal ML, trajectory version control, MCP gateways, and enterprise multi-agent platforms.</p>
         <div class="cta-row" style="margin-top:1.2rem;">
@@ -686,17 +751,18 @@
         </div>
       </div>
     </div>
+    
     <section>
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Principal AI Architect Portfolio</span>
-          <h2>Tier 1 · Frontier Post-Training, Compilers, Speculative Kernels &amp; Vector Search (C++20 + PyTorch)</h2>
+          <span class="eyebrow">Open-Source AI &amp; Systems Portfolio</span>
+          <h2>Tier 1 · Frontier Post-Training, Serving, Compilers, Speculative Kernels &amp; Vector Search (C++20 + PyTorch)</h2>
         </div>
         <div class="grid-2">
           <article class="card" id="aether-compiler">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/aether-compiler</span>
             <h3><a href="https://github.com/nagarjunak-pixel/aether-compiler" target="_blank" rel="noopener">aether-compiler</a></h3>
-            <p>MLIR/TorchInductor-Style Typed SSA Tensor Graph Compiler, Algebraic/CSE/DCE &amp; Epilogue Fusion Pipeline, C++20 Linear-Scan Static Arena Planner (3.60x), Polyhedral H100 Tile &amp; CuTe 32-&gt;1 Bank-Conflict Autotuner, and Live Qwen-3.5-4B CEGIS</p>
+            <p>Small tensor-graph compiler: SSA IR with CSE/fusion/DCE passes, C++20 static arena planner, analytic H100 tile cost model. Educational reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/aether-compiler" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -712,9 +778,25 @@
           <article class="card" id="axiom-zero">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/axiom-zero</span>
             <h3><a href="https://github.com/nagarjunak-pixel/axiom-zero" target="_blank" rel="noopener">axiom-zero</a></h3>
-            <p>Verified Frontier Transformer Runtime: Native C++20 Lossless Speculative/Paged-KV Kernel, Anthropic-Style Top-K Sparse Autoencoder Circuit Steering, 1-UIP CDCL RUP Proof Verifier &amp; Live Qwen-3.5-4B CEGIS Engine</p>
+            <p>Small GQA transformer with speculative decoding (C++ helper), Top-K SAE steering, and a CDCL SAT solver with RUP checks — educational reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/axiom-zero" target="_blank" rel="noopener">GitHub Repo →</a>
+            </div>
+          </article>
+          <article class="card" id="calibra">
+            <span class="eyebrow">Python · github.com/nagarjunak-pixel/calibra</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/calibra" target="_blank" rel="noopener">calibra</a></h3>
+            <p>Statistically rigorous LLM evaluation: paired bootstrap &amp; exact McNemar, Bradley-Terry arena leaderboards with bootstrap CIs, 2PL IRT anchor benchmarking (38% lower error at 5% of items), temperature scaling, MinHash-LSH contamination detection &amp; judge agreement — validated on known-truth data, bit-exact C++20 kernels</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/calibra" target="_blank" rel="noopener">GitHub Repo →</a>
+            </div>
+          </article>
+          <article class="card" id="kvserve">
+            <span class="eyebrow">Python · github.com/nagarjunak-pixel/kvserve</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/kvserve" target="_blank" rel="noopener">kvserve</a></h3>
+            <p>Paged-KV LLM serving engine simulator: PagedAttention block manager with refcounted automatic prefix caching (93% prefill saved), Orca continuous batching (2.4x throughput, 246x lower p99 TTFT vs static), Sarathi chunked prefill (3.8x lower p99 TPOT), recompute preemption, GQA roofline cost model &amp; bit-exact C++20 block-hash kernel</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/kvserve" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
           </article>
           <article class="card" id="pytorch-interactive-demo">
@@ -728,7 +810,7 @@
           <article class="card" id="quant-forge">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/quant-forge</span>
             <h3><a href="https://github.com/nagarjunak-pixel/quant-forge" target="_blank" rel="noopener">quant-forge</a></h3>
-            <p>Frontier Sub-Byte LLM Compression &amp; Roofline Engine: Cholesky Second-Order GPTQ, Salient-Channel AWQ, QuaRot/SpinQuant Walsh-Hadamard Incoherence, OCP FP8 E4M3/E5M2 &amp; Native C++20 Bit-Packed INT4 Fused GEMM</p>
+            <p>LLM weight-quantization reference implementation — GPTQ, AWQ, Walsh-Hadamard rotation, simulated FP8, and a small C++20 packed-INT4 GEMM. Educational.</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/quant-forge" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -760,7 +842,7 @@
           <article class="card" id="veritas-rl">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/veritas-rl</span>
             <h3><a href="https://github.com/nagarjunak-pixel/veritas-rl" target="_blank" rel="noopener">veritas-rl</a></h3>
-            <p>Frontier RLVR Post-Training &amp; 2D Parallelism Engine: Critic-Free GRPO/DAPO Verifiable-Reward RL, DoRA Weight Decomposition (ICML &#x27;24 Oral), Causal Online-Softmax Ring-Attention + Megatron 2D TP, Native C++20 Kernels &amp; Live PRM Test-Time Compute</p>
+            <p>RL post-training sandbox — GRPO/DAPO on toy math tasks, DoRA, single-process ring-attention/TP simulation, step-level PRM reranking. Reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/veritas-rl" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -771,14 +853,14 @@
     <section>
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Principal AI Architect Portfolio</span>
-          <h2>Tier 2 · Zero-Trust Control Planes, Distributed Consensus, Causal ML &amp; Sovereign GraphRAG</h2>
+          <span class="eyebrow">Open-Source AI &amp; Systems Portfolio</span>
+          <h2>Tier 2 · Zero-Trust Control Planes, Governed Agents, Distributed Consensus, Causal ML &amp; Sovereign GraphRAG</h2>
         </div>
         <div class="grid-2">
           <article class="card" id="aegis-runtime">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/aegis-runtime</span>
             <h3><a href="https://github.com/nagarjunak-pixel/aegis-runtime" target="_blank" rel="noopener">aegis-runtime</a></h3>
-            <p>Deterministic Zero-Trust Control Plane, Formal AST Policy Gatekeeper, RFC-6962 Merkle Audit Ledger &amp; Transactional Saga Engine for Enterprise AI Agents</p>
+            <p>Policy and audit layer for AI-agent tool calls — custom policy DSL, saga compensation, hash-chained Merkle/Ed25519 audit log. Reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/aegis-runtime" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -786,15 +868,23 @@
           <article class="card" id="chronos-mesh">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/chronos-mesh</span>
             <h3><a href="https://github.com/nagarjunak-pixel/chronos-mesh" target="_blank" rel="noopener">chronos-mesh</a></h3>
-            <p>Neuro-Symbolic Multi-Echelon Supply-Chain Digital Twin, Exact Branch-and-Bound MILP Rerouting Solver, &amp; CVaR95 Tail-Risk Engine</p>
+            <p>Supply-chain rerouting toy model — pure-Python simplex + branch-and-bound MILP, BOM safety stock, Monte Carlo CVaR95. Educational reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/chronos-mesh" target="_blank" rel="noopener">GitHub Repo →</a>
+            </div>
+          </article>
+          <article class="card" id="governed-member-services-agent">
+            <span class="eyebrow">Python · github.com/nagarjunak-pixel/governed-member-services-agent</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/governed-member-services-agent" target="_blank" rel="noopener">governed-member-services-agent</a></h3>
+            <p>Governed multi-tenant healthcare member-services AI agent with tool gateway, eval harness, and production design</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/governed-member-services-agent" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
           </article>
           <article class="card" id="helios-consensus">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/helios-consensus</span>
             <h3><a href="https://github.com/nagarjunak-pixel/helios-consensus" target="_blank" rel="noopener">helios-consensus</a></h3>
-            <p>FoundationDB-Style Deterministic Simulation Raft Engine, TLA+-Style Explicit-State BFS Model Checker (985 States + 4-Step Mutant Synthesis), Chained HotStuff 3-Chain BFT Finality, C++20 Jump Consistent Hash &amp; Castagnoli CRC32C Kernels, and Live Quorum CEGIS</p>
+            <p>Library-style Raft in Python with segmented binary WAL, asyncio TCP, Multi-Raft sharding, Jepsen-style fault injection, WGL linearizability &amp; C++20 kernels</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/helios-consensus" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -802,7 +892,7 @@
           <article class="card" id="nexus-verity">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/nexus-verity</span>
             <h3><a href="https://github.com/nagarjunak-pixel/nexus-verity" target="_blank" rel="noopener">nexus-verity</a></h3>
-            <p>Pearl Causal DAG &amp; PC-Stable Discovery (SHD=0), Chernozhukov Cross-Fitted Double/Debiased ML (919x Simpson&#x27;s Bias Reduction), Finite-Sample Split Conformal Prediction, Native C++20 Doubly-Robust Policy Evaluator, and Live Qwen-3.5-4B Causal CEGIS</p>
+            <p>Causal inference in Python — PC discovery, d-separation, cross-fitted double ML, split conformal, C++ doubly-robust OPE. Educational reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/nexus-verity" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -810,7 +900,7 @@
           <article class="card" id="prism-gate">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/prism-gate</span>
             <h3><a href="https://github.com/nagarjunak-pixel/prism-gate" target="_blank" rel="noopener">prism-gate</a></h3>
-            <p>High-Throughput OpenAI-Compatible Multi-Tenant LLM Inference Gateway, TCP-Vegas Concurrency Limiter, Speculative Cascade Router, &amp; PSI/JSD Statistical Drift Plane</p>
+            <p>OpenAI-compatible LLM gateway prototype — TCP-Vegas adaptive concurrency, heuristic cascade routing, PSI/JSD drift checks. Reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/prism-gate" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -818,7 +908,7 @@
           <article class="card" id="privora-graph">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/privora-graph</span>
             <h3><a href="https://github.com/nagarjunak-pixel/privora-graph" target="_blank" rel="noopener">privora-graph</a></h3>
-            <p>Sovereign Differential Privacy (DP-SGD Rényi Accountant), SQL:2011 Bi-Temporal Personalized-PageRank GraphRAG, Byzantine Geometric-Median Aggregation &amp; Native C++20 CSR Engine</p>
+            <p>Privacy &amp; robustness toolkit — DP-SGD with RDP accounting, bi-temporal PageRank retrieval, Multi-Krum/geometric-median aggregation. Reference implementation</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/privora-graph" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -829,7 +919,7 @@
     <section>
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Principal AI Architect Portfolio</span>
+          <span class="eyebrow">Open-Source AI &amp; Systems Portfolio</span>
           <h2>Tier 3 · Multi-Agent Code-Graph Schedulers, Trajectory Git, Context Compression &amp; Anti-Slop Gates (MCP)</h2>
         </div>
         <div class="grid-2">
@@ -852,7 +942,7 @@
           <article class="card" id="slopguard">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/slopguard</span>
             <h3><a href="https://github.com/nagarjunak-pixel/slopguard" target="_blank" rel="noopener">slopguard</a></h3>
-            <p>Sub-second AI code &amp; UI anti-slop verifier: C++20 byte prescreener, Python AST &amp; TypeScript slop gate, Claude Code hooks &amp; MCP server</p>
+            <p>Heuristic checker for AI-generated code — Python AST + regex TS/JSX rules for stubs, unresolved imports, empty tests; C++20 prescreen, Claude Code hook, MCP</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/slopguard" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -860,7 +950,7 @@
           <article class="card" id="tokendiet">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/tokendiet</span>
             <h3><a href="https://github.com/nagarjunak-pixel/tokendiet" target="_blank" rel="noopener">tokendiet</a></h3>
-            <p>Drop-in AI agent context compressor: C++20 order-preserving salience knapsack, AST skeletonizer, cross-turn read dedup, cascade FinOps router &amp; MCP server</p>
+            <p>Context compressor for AI coding agents — knapsack log pruning (C++20 kernel, Python fallback), AST skeletons, cross-turn read dedup. CLI + MCP server</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/tokendiet" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -868,7 +958,7 @@
           <article class="card" id="tracegit">
             <span class="eyebrow">Python · github.com/nagarjunak-pixel/tracegit</span>
             <h3><a href="https://github.com/nagarjunak-pixel/tracegit" target="_blank" rel="noopener">tracegit</a></h3>
-            <p>Local-First Git for AI Agent Execution Traces: Native C++20 Trajectory Alignment &amp; Loop-Thrash Detector, Content-Addressable SHA-256 Merkle DAG Store, CI Regression Gate &amp; Drop-In Claude Code / Cursor MCP Server</p>
+            <p>Git-like local history for AI agent traces — SQLite/SHA-256 Merkle store, C++20 edit-distance diff/bisect, loop detection, CI gate, MCP server. Prototype</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/tracegit" target="_blank" rel="noopener">GitHub Repo →</a>
             </div>
@@ -887,7 +977,7 @@
     <section>
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Principal AI Architect Portfolio</span>
+          <span class="eyebrow">Open-Source AI &amp; Systems Portfolio</span>
           <h2>Tier 4 · Autonomous Enterprise Operating Systems, ERP/Cloud MCP Servers &amp; Analytics Consoles</h2>
         </div>
         <div class="grid-2">
@@ -977,7 +1067,7 @@
     <section>
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Principal AI Architect Portfolio</span>
+          <span class="eyebrow">Open-Source AI &amp; Systems Portfolio</span>
           <h2>Tier 5 · Hybrid RAG Engines, Deep Research Agents &amp; Stateful LangGraph / CrewAI Pipelines</h2>
         </div>
         <div class="grid-2">
@@ -1043,8 +1133,8 @@
     <section>
       <div class="container">
         <div class="section-head">
-          <span class="eyebrow">Principal AI Architect Portfolio</span>
-          <h2>Tier 6 · 7,200-Page Enterprise AI &amp; SAP Masterbook, Agentic Academies &amp; Canonical Hubs</h2>
+          <span class="eyebrow">Open-Source AI &amp; Systems Portfolio</span>
+          <h2>Tier 6 · Enterprise AI &amp; SAP Masterbook, Agentic Academies &amp; Canonical Hubs</h2>
         </div>
         <div class="grid-2">
           <article class="card" id="agent-framework-lab">
@@ -1077,6 +1167,23 @@
             <p>Interactive Visual Guide to Agentic AI Architecture — Tokenizer Inspector, RAG Playground, ReAct Loop, Reflexion &amp; LLM Evaluation Suite.</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/agentic-ai-dashboard" target="_blank" rel="noopener">GitHub Repo →</a> · <a href="https://nagarjunak-pixel.github.io/agentic-ai-dashboard/" target="_blank" rel="noopener">Live Docs</a>
+            </div>
+          </article>
+          <article class="card" id="clicky">
+            <span class="eyebrow">Swift · github.com/nagarjunak-pixel/clicky</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/clicky" target="_blank" rel="noopener">clicky</a></h3>
+            <p>Fork of Clicky — an on-screen AI teacher buddy for macOS (Swift).</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/clicky" target="_blank" rel="noopener">GitHub Repo →</a>
+            </div>
+          </article>
+          <article class="card" id="nagarjuna-kamireddy-ai-architect-dataset">
+            <span class="eyebrow">JSONL / ChatML · github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset</span>
+            <h3><a href="https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset" target="_blank" rel="noopener">nagarjuna-kamireddy-ai-architect-dataset</a></h3>
+            <p>Open ChatML/SFT Fine-Tuning &amp; RAG Dataset covering Lead AI Architect Nagarjuna Reddy Kamireddy&#x27;s LinkedIn, SAP+GenAI Architecture &amp; 50 GitHub Repos</p>
+            <div class="card-footer">
+              <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset" target="_blank" rel="noopener">GitHub Repo →</a>
+              <a class="btn" href="/llm-training-dataset.jsonl">Raw JSONL</a>
             </div>
           </article>
           <article class="card" id="nagarjunak-pixel">
@@ -1125,15 +1232,6 @@
             <p>Surya Shiksha — Multi-Agent Adaptive Learning Operating System (12 Specialized AI Agents, Next.js, TypeScript, PostgreSQL &amp; Prisma).</p>
             <div class="card-footer">
               <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/surya-shiksha" target="_blank" rel="noopener">GitHub Repo →</a>
-            </div>
-          </article>
-          <article class="card" id="nagarjuna-kamireddy-ai-architect-dataset">
-            <span class="eyebrow">Open SFT / QLoRA / RAG Dataset · ChatML + Ollama Modelfile</span>
-            <h3><a href="https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset" target="_blank" rel="noopener">nagarjuna-kamireddy-ai-architect-dataset</a></h3>
-            <p>Open 68-pair ChatML &amp; Alpaca instruction-tuning and RAG grounding dataset covering Lead AI Architect Nagarjuna Reddy Kamireddy's LinkedIn Pulse monographs, SAP + GenAI architectures, enterprise delivery metrics, and all 50 public GitHub repositories.</p>
-            <div class="card-footer">
-              <a class="btn btn-primary" href="https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset" target="_blank" rel="noopener">GitHub Repo →</a>
-              <a class="btn" href="/llm-training-dataset.jsonl">Raw JSONL</a>
             </div>
           </article>
         </div>
