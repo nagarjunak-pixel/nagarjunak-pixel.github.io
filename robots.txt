@@ -51,3 +51,5 @@ Sitemap: https://nagarjunak-pixel.github.io/sitemap.xml
 # https://nagarjunak-pixel.github.io/llms.txt
 # https://nagarjunak-pixel.github.io/llms-full.txt
 # https://nagarjunak-pixel.github.io/person.json
+# https://nagarjunak-pixel.github.io/.well-known/llms.txt
+# https://nagarjunak-pixel.github.io/rss.xml

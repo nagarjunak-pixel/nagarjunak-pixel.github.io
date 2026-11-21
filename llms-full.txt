@@ -161,6 +161,14 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **LinkedIn Pulse #2:** [Meet SAP-RPT-1: Why SAP Built a Table-Native Foundation Model](https://www.linkedin.com/pulse/meet-sap-rpt-1-why-sap-built-table-native-foundation-model-kamireddy-tdulf)
 - **LinkedIn Pulse #3:** [Claude Code & The 5-Land Enterprise AI Architecture (Masterbook Ch. 01)](https://www.linkedin.com/pulse/nagarjun-reddy-kamireddi-masterbook-chapter-01-50-claude-kamireddy-skfpe)
 - **Complete GitHub Engineering Atlas:** https://nagarjunak-pixel.github.io/github-projects-atlas.html
+- **Regional & Role-Specific Briefs:**
+  - Dubai & UAE Lead AI Architect: https://nagarjunak-pixel.github.io/uae-dubai-ai-architect.html
+  - Dubai & Abu Dhabi Agentic AI & Forward Deployed Engineer: https://nagarjunak-pixel.github.io/agentic-ai-engineer-dubai-uae.html
+  - Saudi Arabia (Riyadh & Vision 2030) AI & SAP Architect: https://nagarjunak-pixel.github.io/saudi-arabia-ksa-ai-architect.html
+  - London & United Kingdom Lead AI Architect & FDE (Ex-GSK UK): https://nagarjunak-pixel.github.io/uk-london-ai-architect.html
+  - Singapore & Hong Kong AI Solutions Architect & FDE (Ex-DHL Singapore & PETRONAS): https://nagarjunak-pixel.github.io/singapore-apac-ai-architect.html
+  - Corporate Generative AI, Agentic AI & Microsoft 365 Copilot Trainer (Dubai & GCC): https://nagarjunak-pixel.github.io/corporate-ai-copilot-trainer-dubai-gcc.html
+- **Feeds & Machine Discovery:** https://nagarjunak-pixel.github.io/llms.txt | https://nagarjunak-pixel.github.io/.well-known/llms.txt | https://nagarjunak-pixel.github.io/rss.xml | https://nagarjunak-pixel.github.io/feed.xml | https://nagarjunak-pixel.github.io/ai-architect-faq.html (118 Q&As)
 - **LLM Q&A Encyclopedia & SFT Dataset:** https://nagarjunak-pixel.github.io/ai-architect-faq.html | https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
 
 ### Complete Public GitHub Repositories (`github.com/nagarjunak-pixel` — All 53 Public Repositories)
@@ -230,7 +238,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - Article #15 (Unified Autonomous SAP, 4-Layer MCP & Governed Swarms Monograph): https://nagarjunak-pixel.github.io/articles/autonomous-sap-mcp-sap-rpt-1-governed-swarms-playbook.html
 - Whitepaper #1 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/governed-autonomous-sap-mcp-and-compound-ai-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Autonomous-SAP-MCP-2026.pdf)
 - Whitepaper #2 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/deterministic-agentic-systems-cpp20-pytorch-atlas-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Deterministic-AI-Systems-2026.pdf)
-- Open 68-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
+- Open 118-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
 
 ### Weekly Technical Posts — LinkedIn & X (Nov 17–21, 2026)
 - [2026-11-21 · LinkedIn — The Multi-Agent Operating System: Shared Coordination State, Neo4j Citations & Syntara Token Masks](https://www.linkedin.com/feed/update/urn:li:activity:7529862559496278016/)

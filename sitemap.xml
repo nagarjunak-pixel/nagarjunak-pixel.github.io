@@ -26,7 +26,7 @@
   <url><loc>https://nagarjunak-pixel.github.io/llms-full.txt</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nagarjunak-pixel.github.io/person.json</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nagarjunak-pixel.github.io/resume.json</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://nagarjunak-pixel.github.io/feed.xml</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nagarjunak-pixel.github.io/feed.xml</loc><lastmod>2026-11-21</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Global.pdf</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Gulf-UAE.pdf</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
   <url><loc>https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Corporate-AI-Trainer.pdf</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
@@ -108,4 +108,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url><loc>https://nagarjunak-pixel.github.io/agentic-ai-engineer-dubai-uae.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>
+  <url><loc>https://nagarjunak-pixel.github.io/uk-london-ai-architect.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>
+  <url><loc>https://nagarjunak-pixel.github.io/singapore-apac-ai-architect.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>
+  <url><loc>https://nagarjunak-pixel.github.io/corporate-ai-copilot-trainer-dubai-gcc.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>
+  <url><loc>https://nagarjunak-pixel.github.io/.well-known/llms.txt</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
+  <url><loc>https://nagarjunak-pixel.github.io/rss.xml</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.85</priority></url>
 </urlset>
