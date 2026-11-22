@@ -8,6 +8,20 @@
     <language>en</language>
     <lastBuildDate>Sat, 21 Nov 2026 15:30:00 +0400</lastBuildDate>
     <item>
+      <title>Enterprise Help-Desk RAG &amp; Guardrails v1.0.0 — Hybrid C++20 BM25+Cosine+RRF (76.63x Speedup), Code-Enforced Refusal &amp; 25/25 Acceptance Suite</title>
+      <link>https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails</link>
+      <guid isPermaLink="true">https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails/releases/tag/v1.0.0</guid>
+      <pubDate>Sun, 22 Nov 2026 05:00:00 +0400</pubDate>
+      <description>Shipped Enterprise Help-Desk RAG &amp; Guardrails v1.0.0 (Apache-2.0): C++20 hybrid BM25+Cosine+RRF retrieval (0.270 ms vs 20.660 ms Python = 76.63x speedup on 5K chunks), code-enforced low-confidence abstention (0.0% OOS hallucination across 25/25 acceptance tests), PII/injection guardrails, FastAPI (:8280), stdio MCP &amp; React 18 UI (98.10% branch coverage).</description>
+    </item>
+    <item>
+      <title>LinkedIn Pulse Newsletter #3 — The 2027 Enterprise Multi-Agent Operating System: Shared State, Proof-Carrying Messages &amp; Executable Specs</title>
+      <link>https://www.linkedin.com/pulse/2027-enterprise-multi-agent-operating-system-shared-state-kamireddy-zbyqf/</link>
+      <guid isPermaLink="true">https://www.linkedin.com/pulse/2027-enterprise-multi-agent-operating-system-shared-state-kamireddy-zbyqf/</guid>
+      <pubDate>Sat, 21 Nov 2026 21:22:00 +0400</pubDate>
+      <description>Issue #3 of Autonomous SAP &amp; Enterprise AI covering shared coordination state, Proof-Carrying Messages, Clean-Core ERP OData MCP guardrails, VeriSpec-SDD executable specs, and Layer 8/9 agentic gateways.</description>
+    </item>
+    <item>
       <title>Enterprise ERP OData MCP Server v1.0.0 — SAP S/4HANA Clean-Core OData v4 Gateway &amp; C++20 Guardrails (67.03x Speedup)</title>
       <link>https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server</link>
       <guid isPermaLink="true">https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server/releases/tag/v1.0.0</guid>
@@ -33,7 +47,7 @@
       <link>https://nagarjunak-pixel.github.io/agentic-ai-engineer-dubai-uae.html</link>
       <guid isPermaLink="true">https://nagarjunak-pixel.github.io/agentic-ai-engineer-dubai-uae.html</guid>
       <pubDate>Sat, 21 Nov 2026 15:25:00 +0400</pubDate>
-      <description>Immediate-joiner Dubai &amp; Abu Dhabi Agentic AI Engineer, FDE, and Lead AI Architect profile: 22 years IT, 23+ John Deere AI initiatives (750K+ requests, 42K+ hrs saved), LangGraph, Neo4j GraphRAG, MCP, and 55 public GitHub repos.</description>
+      <description>Immediate-joiner Dubai &amp; Abu Dhabi Agentic AI Engineer, FDE, and Lead AI Architect profile: 22 years IT, 23+ John Deere AI initiatives (750K+ requests, 42K+ hrs saved), LangGraph, Neo4j GraphRAG, MCP, and 56 public GitHub repos.</description>
     </item>
     <item>
       <title>Lead AI Architect, Forward Deployed AI Engineer &amp; Agentic AI Lead — London &amp; United Kingdom</title>

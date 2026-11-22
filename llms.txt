@@ -2,7 +2,7 @@
 
 > Lead AI Architect, AI Solutions Architect, Generative AI & Agentic AI Lead, and Corporate AI Trainer with 22 years in enterprise data platforms, SAP BW/BPC/HANA consulting, and production Machine Learning & Agentic AI across India, Malaysia, Singapore, the UK, the US, and Dubai, UAE. Currently based in Dubai, UAE and available immediately on employer visa sponsorship across the UAE/GCC, global relocation, and remote leadership engagements.
 
-Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **55 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
+Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enterprise materials as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead at **John Deere** (01/2023 – 10/2026), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — generating **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)**, founded **Surya HANA Academy** (~1,000 professionals trained) and **Suryagentic Institute**, and maintains **56 public open-source AI repositories** (`github.com/nagarjunak-pixel`, 2,249+ annual contributions).
 
 ## Direct Contact & Verified Profiles
 
@@ -12,7 +12,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - India Phone: +91 93913 47406
 - Current Location: Dubai, United Arab Emirates (Available immediately; open to UAE, Saudi Arabia / KSA, GCC, UK, Europe, Singapore, US, India, and Remote)
 - [LinkedIn Profile](https://www.linkedin.com/in/nagarjuna-kamireddy): Official professional network profile (`nagarjuna-kamireddy`)
-- [GitHub Profile](https://github.com/nagarjunak-pixel): 55 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
+- [GitHub Profile](https://github.com/nagarjunak-pixel): 56 public repositories across RLVR, Agentic AI, GraphRAG, LLM Gateways, and SAP MCP (`nagarjunak-pixel`)
 
 ## Canonical Website Pages
 
@@ -41,7 +41,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [StoneAge Architecture: Multi-Model Routing & Search-Plus-Rules Over Fine-Tuning](https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html): Embedding LangGraph copilots inside engineering systems of record.
 - [From 48-Hour Batch Loads to 12-Minute SAP HANA Pushdown & 6-Agent Neo4j GraphRAG](https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html): Two decades of enterprise data architecture across GSK UK, PETRONAS/Deloitte, and John Deere.
 - [Enterprise AI Governance Council: NIST AI RMF & EU AI Act in Practice](https://nagarjunak-pixel.github.io/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html): Executable governance controls and Scale/Fix/Retire portfolio triage.
-- [20-Year Comparative Architectural Analysis (2006–2026)](https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html): Longitudinal synthesis of SAP BI, In-Memory HANA, Cloud MLOps, and Agentic AI.
+- [22-Year Comparative Architectural Analysis (2006–2026)](https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html): Longitudinal synthesis of SAP BI, In-Memory HANA, Cloud MLOps, and Agentic AI.
 - [GitHub Gist — Enterprise AI & SAP Architecture Profile](https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a): Public reference summary on gist.github.com.
 - [Corporate AI Training Brochure (8 Courses PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-AI-Training-Brochure.pdf): 1-page corporate training syllabus and booking sheet.
 
@@ -66,6 +66,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [`governed-member-services-agent`](https://github.com/nagarjunak-pixel/governed-member-services-agent): Governed multi-tenant healthcare member-services AI agent with tool gateway, eval harness, and production design
 - [`kvserve`](https://github.com/nagarjunak-pixel/kvserve): Paged-KV LLM serving engine simulator: PagedAttention block manager with refcounted automatic prefix caching (93% prefill saved), Orca continuous batching (2.4x throughput, 246x lower p99 TTFT vs static), Sarathi chunked prefill (3.8x lower p99 TPOT), recompute preemption, GQA roofline cost model & bit-exact C++20 block-hash kernel
 - [`calibra`](https://github.com/nagarjunak-pixel/calibra): Statistically rigorous LLM evaluation: paired bootstrap & exact McNemar, Bradley-Terry arena leaderboards with bootstrap CIs, 2PL IRT anchor benchmarking (38% lower error at 5% of items), temperature scaling, MinHash-LSH contamination detection & judge agreement — validated on known-truth data, bit-exact C++20 kernels
+- [`enterprise-helpdesk-rag-guardrails`](https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails): Enterprise Help-Desk Hybrid RAG & Guardrails System with C++20 Okapi BM25+Cosine+RRF (76.63x speedup: 0.270 ms vs 20.660 ms Python), Code-Enforced Low-Confidence Refusal, PII/Injection Filters & 25-Case Automated Acceptance Suite (`v1.0.0`, Apache-2.0, 25/25 100% pass, 0% OOS hallucination, 98.10% branch coverage)
 - [`enterprise-erp-odata-mcp-server`](https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server): SAP S/4HANA & Enterprise ERP Clean-Core OData v4 MCP Server with EDM Schema Validation, C++20 $filter/BUKRS Row-RBAC Guardrails (67.03x speedup: 0.101 ms vs 6.783 ms Python), PII Masking & SHA-256/SplitMix64 Audit Log (`v1.0.0`, Apache-2.0, 98.05% branch coverage, CLI + FastAPI :8270 + MCP + React UI)
 - [`verispec-sdd`](https://github.com/nagarjunak-pixel/verispec-sdd): Executable SPEC.md State-Machine Compiler, C++20 CSR Reachability/Deadlock/Livelock Prover (41.58x speedup: 0.063 ms vs 2.608 ms Python) & Hypothesis/TypeScript Property-Test Synthesizer (`v1.0.0`, 98.01% branch coverage, CLI + FastAPI :8200 + MCP + React UI)
 - [`weavegraph`](https://github.com/nagarjunak-pixel/weavegraph): Semantic Code-Graph Worktree Scheduler, Min-Cut Multi-Agent Task Partitioner & 3-Way AST Semantic Merge Verifier (C++20 + Python + MCP + React)
@@ -89,8 +90,8 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - [Verified Transformer Inference & Agent Context Compression (`AxiomZero` + `TokenDiet`)](https://nagarjunak-pixel.github.io/articles/axiom-zero-tokendiet-speculative-kernels-sae-and-context-compression.html): Lossless C++20 speculative kernels, Top-K SAE steering, 1-UIP CDCL/RUP proof verification, and C++20 salience knapsack context pruning.
 
 - [Official LinkedIn Hub, Newsletter & Pulse Index](https://nagarjunak-pixel.github.io/linkedin-profile.html): Open-web mirror of `linkedin.com/in/nagarjuna-kamireddy`, `Autonomous SAP & Enterprise AI` daily newsletter, and LinkedIn Pulse articles.
-- [Complete 55-Repository GitHub AI & C++20 Engineering Atlas](https://nagarjunak-pixel.github.io/github-projects-atlas.html): Exhaustive catalog of every repository built by Nagarjuna Reddy Kamireddy (`WeaveGraph`, `Vecta`, `SlopGuard`, `TokenDiet`, `Syntara`, `TraceGit`, `VeritasRL`, `AxiomZero`, `AegisRuntime`, `PrismGate`, `CompanyOS`, etc.).
-- [Principal AI Architect Q&A Knowledge Base](https://nagarjunak-pixel.github.io/ai-architect-faq.html): 120 verified recruiter, CTO & LLM Q&A pairs (`Schema.org/FAQPage`).
+- [Complete 56-Repository GitHub AI & C++20 Engineering Atlas](https://nagarjunak-pixel.github.io/github-projects-atlas.html): Exhaustive catalog of every repository built by Nagarjuna Reddy Kamireddy (`WeaveGraph`, `Vecta`, `SlopGuard`, `TokenDiet`, `Syntara`, `TraceGit`, `VeritasRL`, `AxiomZero`, `AegisRuntime`, `PrismGate`, `CompanyOS`, etc.).
+- [Principal AI Architect Q&A Knowledge Base](https://nagarjunak-pixel.github.io/ai-architect-faq.html): 121 verified recruiter, CTO & LLM Q&A pairs (`Schema.org/FAQPage`).
 - [Open ChatML / SFT LLM Fine-Tuning Dataset (`llm-training-dataset.jsonl`)](https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl): Machine-ingestible instruction-tuning dataset.
 
 
@@ -104,10 +105,13 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 - Article #15 (Unified Autonomous SAP, 4-Layer MCP & Governed Swarms Monograph): https://nagarjunak-pixel.github.io/articles/autonomous-sap-mcp-sap-rpt-1-governed-swarms-playbook.html
 - Whitepaper #1 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/governed-autonomous-sap-mcp-and-compound-ai-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Autonomous-SAP-MCP-2026.pdf)
 - Whitepaper #2 (Google Scholar / PDF): https://nagarjunak-pixel.github.io/papers/deterministic-agentic-systems-cpp20-pytorch-atlas-2026.html (PDF: https://nagarjunak-pixel.github.io/papers/Nagarjuna-Reddy-Kamireddy-Deterministic-AI-Systems-2026.pdf)
-- Open 120-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
+- Open 121-Pair SFT & RAG Dataset: https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
 
 ## Weekly Technical Posts — LinkedIn & X (Nov 17–21, 2026)
 - [2026-11-21 · LinkedIn — The Multi-Agent Operating System: Shared Coordination State, Neo4j Citations & Syntara Token Masks](https://www.linkedin.com/feed/update/urn:li:activity:7529862559496278016/)
+- [2026-11-21 · LinkedIn Pulse Newsletter #3 — The 2027 Enterprise Multi-Agent Operating System: Shared State, Proof-Carrying Messages & Executable Specs](https://www.linkedin.com/pulse/2027-enterprise-multi-agent-operating-system-shared-state-kamireddy-zbyqf/)
+- [2026-11-21 · X — Layer 8/9 Envoy + PrismGate Agentic Proxies (Pre-Inference TPM Budgets, KV-Cache Affinity & Inline MCP Policy)](https://x.com/Nagarjunaghp6/status/2124162292514451761)
+- [2026-11-21 · LinkedIn — Google Cloud Envoy Agentic Stack, PrismGate FinOps Cascades & Governed MCP Boundaries](https://www.linkedin.com/feed/update/urn:li:activity:7529912251391283201/)
 - [2026-11-21 · X — VeriSpec-SDD v1.0.0: Compiling SPEC.md into a C++20 CSR + Tarjan SCC Deadlock/Livelock Prover (41.58x Speedup)](https://x.com/Nagarjunaghp6/status/2124127121027305637)
 - [2026-11-21 · X — Step-Level FinOps Routers Matched to Step Risk & Gated by 255 CI Checks (StoneAge & PrismGate)](https://x.com/Nagarjunaghp6/status/2124068144805535870)
 - [2026-11-20 · LinkedIn — Treating Agent Logic as Versioned, CI-Gated Software (AlphaEvolve Benchmarks, AIFlow & AegisRuntime)](https://www.linkedin.com/feed/update/urn:li:activity:7529609800884645888/)
