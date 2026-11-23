@@ -6,7 +6,28 @@
     <atom:link href="https://nagarjunak-pixel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Technical architecture articles, regional engineering briefs, open-source releases, and weekly LinkedIn/X posts by Lead AI Architect Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / nagarjunak-pixel).</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 15:30:00 +0400</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:15:00 +0400</lastBuildDate>
+    <item>
+      <title>SkillBench v1.0.0 — Static Information-Flow Taint Analyzer &amp; C++20 Aho-Corasick Injection Prover for SKILL.md &amp; MCP Servers (29.07x Speedup)</title>
+      <link>https://github.com/nagarjunak-pixel/skillbench</link>
+      <guid isPermaLink="true">https://github.com/nagarjunak-pixel/skillbench/releases/tag/v1.0.0</guid>
+      <pubDate>Mon, 23 Nov 2026 05:15:00 +0400</pubDate>
+      <description>Shipped SkillBench v1.0.0 (Apache-2.0): C++20 Aho-Corasick + bitset BFS taint reachability prover scanning 5,000 SKILL.md and .mcp.json artifacts in 14.454 ms (29.07x faster than Python) with 30/30 accuracy and 0.0% false positives.</description>
+    </item>
+    <item>
+      <title>Published 6 Authored Enterprise AI Technical Handbooks &amp; Monographs (SAP OData MCP, Agent Security, Evaluation, MCP Context, AI Gateways &amp; Industrial RAG)</title>
+      <link>https://nagarjunak-pixel.github.io/#handbooks</link>
+      <guid isPermaLink="true">https://nagarjunak-pixel.github.io/#handbooks-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 05:10:00 +0400</pubDate>
+      <description>Open-access PDF technical monographs authored by Nagarjuna Kamireddy (Lead AI Architect, 22 years) covering Clean-Core SAP S/4HANA OData MCP, Agent Security, Evaluation Gates, MCP Context Engineering, AI Gateways, and Oil &amp; Gas Engineering Documentation RAG.</description>
+    </item>
+    <item>
+      <title>LinkedIn — Why 86% of Real-World AI Agent Outages Had Zero Hacker &amp; Zero Prompt Injection (ROGUE-AI + OWASP ACS)</title>
+      <link>https://www.linkedin.com/feed/update/urn:li:activity:7530289566331793408/</link>
+      <guid isPermaLink="true">https://www.linkedin.com/feed/update/urn:li:activity:7530289566331793408/</guid>
+      <pubDate>Sun, 22 Nov 2026 19:22:00 +0400</pubDate>
+      <description>Analysis of 108 replicated incidents in ROGUE-AI and OWASP 2026 Agent Control Standard (ACS): inline blast-radius banners, out-of-agent policy gates, and human sign-off.</description>
+    </item>
     <item>
       <title>Enterprise Help-Desk RAG &amp; Guardrails v1.0.0 — Hybrid C++20 BM25+Cosine+RRF (76.63x Speedup), Code-Enforced Refusal &amp; 25/25 Acceptance Suite</title>
       <link>https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails</link>

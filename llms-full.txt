@@ -11,13 +11,13 @@
 - **Published Name Variants / Aliases:** Nagarjuna Kamireddy, Nagarjuna K, Nagarjun Reddy Kamireddi, Nagarjuna R. Kamireddy, K. Nagarjuna Reddy
 - **Primary Titles:** Lead AI Architect | AI Solutions Architect | GenAI Lead (Agentic AI & RAG) | Corporate AI Trainer & Instructor
 - **Current Location:** Dubai, United Arab Emirates (UAE)
-- **Availability & Mobility:** Available immediately; can join immediately on UAE / GCC employer visa sponsorship (Dubai, Abu Dhabi, Riyadh / Saudi Arabia, Qatar) and open to global sponsored relocation (UK, Europe, Singapore, US, India) or remote Principal/Head of AI engagements.
+- **Availability & Mobility:** Available immediately; can join immediately on UAE / GCC employer visa sponsorship (Dubai, Abu Dhabi, Riyadh / Saudi Arabia, Qatar) and open to global sponsored relocation (UK, Europe, Singapore, US, India) or remote Lead / Head of AI engagements.
 - **Nationality:** Indian
 - **Emails:** `gmailtonagarjuna@gmail.com` | `writetonagarjuna@gmail.com`
 - **Phone / WhatsApp:** `+971 50 742 4361` (UAE) | `+91 93913 47406` (India)
 - **Canonical Website:** https://nagarjunak-pixel.github.io/
 - **LinkedIn:** https://www.linkedin.com/in/nagarjuna-kamireddy
-- **GitHub:** https://github.com/nagarjunak-pixel (56 public repositories · 2,249+ annual contributions)
+- **GitHub:** https://github.com/nagarjunak-pixel (57 public repositories · 2,249+ annual contributions)
 - **Author Publication:** https://nagarjunak-pixel.github.io/nrk-enterprise-ai-masterbook/ (50-Chapter Enterprise AI, Claude Code & SAP RAG Masterbook)
 
 ---
@@ -25,7 +25,7 @@
 ## 2. Executive Summary & Quantified Headline Metrics
 
 Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering leader with **22 years in enterprise data and AI (2004–2026)**:
-- **10 years (2016–2026) in production Machine Learning, Deep Learning, Generative AI, and Multi-Agent Systems** across John Deere, Persistent Systems, Vertiv, Soham Global, and Suryagentic Institute.
+- **10 years (2016–2026) in production Machine Learning, Deep Learning, Generative AI, and Multi-Agent Systems** across John Deere, Persistent Systems, Vertiv, and Soham Global.
 - **12 years (2004–2016) embedded at global enterprise client sites as an SAP BW / BPC / HANA Lead Consultant** across the United Kingdom (GlaxoSmithKline Brentford & HCL Axon), Malaysia (PETRONAS Energy Trading & Deloitte Kuala Lumpur, DHL, Symantec), Singapore (DHL & Symantec), the United States (High Industries), and India (GSK, Lenovo).
 
 ### Verified Headline Metrics
@@ -36,7 +36,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **255 Automated Quality Gates (`AIFlow`):** Built an in-house LLM evaluation library blocking releases on quality regressions, plus live zero-latency monitoring of accuracy, drift, cost, and response time.
 - **High-Volume Enterprise Automation:** Repaired ~171,000 broken engineering links (~8,600 hours saved); generated ~110,000 standards-compliant documents (100% adoption in Large Tractor unit); automated ~25% of support tickets end-to-end at ~83% accuracy (~4,700 hours saved).
 - **240× SAP HANA Speedup:** Reduced a PETRONAS Energy Trading data load from **48 hours to 12 minutes**.
-- **1,300+ Professionals & Employees Trained:** Founded Surya HANA Academy (~1,000 SAP HANA professionals trained), leads Suryagentic Institute (Agentic AI Engineering), and enabled 300+ corporate employees at John Deere via Vibe Coding and Tech Day programmes.
+- **1,300+ Professionals & Employees Trained:** Founded Surya HANA Academy (~1,000 SAP HANA professionals trained), runs an Agentic AI Engineering programme for working IT professionals, and enabled 300+ corporate employees at John Deere via Vibe Coding and Tech Day programmes.
 
 ---
 
@@ -70,10 +70,10 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **Scale Automation:** Repaired ~171K broken cross-manual links (~8,600 hrs saved); generated ~110K standards-compliant documents (100% adoption in Large Tractor unit); automated ~25% of support tickets end-to-end at ~83% accuracy with human escalation (~4,700 hrs saved).
 - **Cloud Platform & Leadership:** Built a self-service AWS deployment platform (**Terraform, GitHub Actions**) adopted across the department and 3 partner organizations while owning AWS FinOps cost; led a 12+ member team, ran design reviews and hiring panels, mentored 3 engineers, sat on the **AI Governance Council (NIST AI RMF / EU AI Act)**, and co-led 3 years of digital/AI transformation enabling 300+ employees.
 
-### Suryagentic Institute — Founder & Lead Instructor (Agentic AI Engineering)
+### Agentic AI Engineering Programme — Lead Instructor
 *Present | Hyderabad, India & Live Online*
 - Designs and teaches hands-on Agentic AI Engineering programmes for working SAP and enterprise IT professionals: LangGraph, CrewAI, tool calling, MCP servers, hybrid RAG, evaluation harnesses, and cloud production deployment.
-- Delivered **280+ live AI training sessions in 2026** and **570+ online teaching hours** across 8 structured corporate AI programmes (CXO Strategy, Business Prompting, Agentic AI Bootcamp, RAG & Vector DBs, LLM Evaluation & Guardrails, Cloud AI on Bedrock/Azure/Vertex, Python for ML, and AI Coding Tools).
+- Delivers 8 structured corporate AI programmes (CXO Strategy, Business Prompting, Agentic AI Bootcamp, RAG & Vector DBs, LLM Evaluation & Guardrails, Cloud AI on Bedrock/Azure/Vertex, Python for ML, and AI Coding Tools).
 
 ### Persistent Systems — Engineering Lead (Machine Learning)
 *01/2021 – 01/2023 | Pune, India*
@@ -139,7 +139,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ## 6. Target Roles & Engagement Models
 
 - **Full-Time / Executive Leadership (Dubai, Abu Dhabi, Riyadh / KSA, GCC, Global Relocation, Remote):**
-  - Principal AI Architect / Lead AI Architect / Chief AI Architect
+  - Lead AI Architect / Lead AI Architect / Chief AI Architect
   - Head of AI / Director of Enterprise AI & Data Platforms / AVP AI Transformation
   - AI Solutions Architect / Forward Deployed AI Architect
   - Enterprise SAP + Generative AI Integration Architect
@@ -155,7 +155,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 
 ---
 
-## 7. Official LinkedIn Hub, Daily Newsletter & Complete 56-Repository GitHub Directory
+## 7. Official LinkedIn Hub, Daily Newsletter & Complete 57-Repository GitHub Directory
 
 - **Official LinkedIn Profile:** https://www.linkedin.com/in/nagarjuna-kamireddy/ (UAE: https://ae.linkedin.com/in/nagarjuna-kamireddy)
 - **Open-Web LinkedIn Mirror:** https://nagarjunak-pixel.github.io/linkedin-profile.html
@@ -174,7 +174,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **Feeds & Machine Discovery:** https://nagarjunak-pixel.github.io/llms.txt | https://nagarjunak-pixel.github.io/.well-known/llms.txt | https://nagarjunak-pixel.github.io/rss.xml | https://nagarjunak-pixel.github.io/feed.xml | https://nagarjunak-pixel.github.io/ai-architect-faq.html (121 Q&As)
 - **LLM Q&A Encyclopedia & SFT Dataset:** https://nagarjunak-pixel.github.io/ai-architect-faq.html | https://nagarjunak-pixel.github.io/llm-training-dataset.jsonl | https://github.com/nagarjunak-pixel/nagarjuna-kamireddy-ai-architect-dataset
 
-### Complete Public GitHub Repositories (`github.com/nagarjunak-pixel` — All 56 Public Repositories)
+### Complete Public GitHub Repositories (`github.com/nagarjunak-pixel` — All 57 Public Repositories)
 - **`nagarjunak-pixel.github.io`** (https://github.com/nagarjunak-pixel/nagarjunak-pixel.github.io): Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K) — Official Lead AI Architect, Agentic AI & SAP Portfolio, Case Studies & llms.txt Hub
 - **`surya-shiksha`** (https://github.com/nagarjunak-pixel/surya-shiksha): Surya Shiksha — Multi-Agent Adaptive Learning Operating System (12 Specialized AI Agents, Next.js, TypeScript, PostgreSQL & Prisma).
 - **`governed-member-services-agent`** (https://github.com/nagarjunak-pixel/governed-member-services-agent): Governed multi-tenant healthcare member-services AI agent with tool gateway, eval harness, and production design
@@ -224,7 +224,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **`ai-calc`** (https://github.com/nagarjunak-pixel/ai-calc): Qwen AI Calculator — plain-English math in the browser, solved locally with Ollama.
 - **`rag-chat-docs`** (https://github.com/nagarjunak-pixel/rag-chat-docs): RAG Chat with Documents — 7-Module From-Scratch Retrieval-Augmented Generation System (Chunking, Hybrid Search, CLI & FastAPI Web UI).
 - **`spring-boot-mcp`** (https://github.com/nagarjunak-pixel/spring-boot-mcp): MCP server that lets an LLM inspect a Java Spring Boot app via Actuator, REST APIs, and logs.
-- **`localaitv-mcp-server`** (https://github.com/nagarjunak-pixel/localaitv-mcp-server): Python MCP server for LocalAI TV admin access to Postgres, AWS (ECS, S3, SQS, CloudWatch), and the public API.
+- **`localaitv-mcp-server`** (https://github.com/nagarjunak-pixel/localaitv-mcp-server): Python Model Context Protocol (MCP) ops server for read/admin telemetry across PostgreSQL, AWS (ECS, S3, SQS, CloudWatch), and REST APIs.
 - **`antigravity-sdk`** (https://github.com/nagarjunak-pixel/antigravity-sdk): Example agents for Google's Antigravity SDK: chat, custom tools, MCP, streaming, multimodal, and hooks.
 - **`ai-workforce`** (https://github.com/nagarjunak-pixel/ai-workforce): Local multi-agent workforce with a FastAPI dashboard: CEO → research → architect → coding → QA → docs → deploy → marketing, on Ollama.
 - **`smart-marketing-assistant`** (https://github.com/nagarjunak-pixel/smart-marketing-assistant): CrewAI + LangChain marketing crew on local Ollama that drafts a content strategy, plus a daemon that can post AI news to X.
@@ -266,3 +266,12 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - [2026-11-17 · X — Mapping the 4 MCP Server Layers for Clean-Core SAP S/4HANA Agents](https://x.com/Nagarjunaghp6/status/2122791244678242809)
 - [2026-11-17 · X — The 5-Gate Zero-Trust Agent Control Plane (aegis-runtime & helios-consensus)](https://x.com/Nagarjunaghp6/status/2122686793111994645)
 - [2026-11-17 · X — The 6-Layer Production Agentic AI Stack Separating Demos from Real Systems](https://x.com/Nagarjunaghp6/status/2122495126832578919)
+
+## Authored Technical Handbooks & Corporate Training Monographs (PDF)
+- [SAP S/4HANA, Clean-Core OData MCP & Governed Enterprise AI](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_SAP_Enterprise_AI_Handbook.pdf): Order-to-Cash & 3-way PO-GR-IR agentic workflows, server-side BUKRS RBAC, IBAN/Tax-ID masking, and Clean-Core OData v4 MCP patterns.
+- [Securing AI Agents, Prompt-Injection Defence & HITL Guardrails](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_Securing_AI_Agents_Guardrails_Handbook.pdf): Three-layer deterministic input/tool/output containment, OWASP ASI01–ASI05 mitigations, SKILL.md/MCP static taint scanning, and HITL approvals.
+- [Agent Evaluation, Golden Datasets, Retries & Circuit Breakers](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_Agent_Evaluation_Reliability_Handbook.pdf): Outcome vs trajectory evaluation, 255-check CI quality gates, deterministic vs judge scoring, idempotent retries, and circuit breakers.
+- [Model Context Protocol (MCP), Context Engineering & Multi-Agent Systems](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_MCP_Context_Engineering_Handbook.pdf): Host-Client-Server MCP contracts, prefix-cached context engineering, hybrid BM25 + dense + Neo4j GraphRAG citations, and subagent isolation.
+- [Enterprise AI Gateways, Multi-Model Routing, vLLM & LangGraph](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_AI_Gateways_LangGraph_Handbook.pdf): Multi-provider complexity cascades, virtual-key FinOps caps, self-hosted vLLM PagedAttention economics, and durable LangGraph checkpoints.
+- [Generative & Agentic AI for Engineering Documentation (Oil, Gas & Heavy Industry)](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_GenAI_Oil_Gas_Engineering_Docs_Deck.pdf): Citation-grounded hybrid search over P&IDs, OEM datasheets, MOCs & SAP PM work orders with multi-step vision agents (~30% to ~70% accuracy).
+- [SkillBench v1.0.0 — Static Information-Flow Taint Analyzer & C++20 Aho-Corasick Injection Prover for SKILL.md & MCP Servers](https://github.com/nagarjunak-pixel/skillbench): 29.07x C++20 speedup (14.454 ms on 5,000 docs), 30/30 behavioral suite accuracy, 0.0% false positives, 98.20% branch coverage.
