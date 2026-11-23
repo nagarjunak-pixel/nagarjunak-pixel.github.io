@@ -28,6 +28,7 @@ Nagarjuna Reddy Kamireddy (also published on CVs, GitHub repositories, and enter
 
 ## Machine-Readable Dossiers & Downloadable CVs
 
+- [The AI Trust Stack — 5 Layers Every Board Should Demand Before Scaling AI Agents (8p PDF)](https://nagarjunak-pixel.github.io/field-guides/The_AI_Trust_Stack_Board_Brief_Nagarjuna_Kamireddy.pdf): Executive Board & C-Suite AI governance & security brief (01 Identity · 02 Permissions · 03 Evaluation · 04 Monitoring · 05 Verification).
 - [Complete LLM Dossier (llms-full.txt)](https://nagarjunak-pixel.github.io/llms-full.txt): Exhaustive single-file Markdown biography, project inventory, architecture metrics, and Q&A for AI search and recruiter RAG agents.
 - [Schema.org Person Knowledge Graph (person.json)](https://nagarjunak-pixel.github.io/person.json): Structured JSON-LD entity definition binding all name variants, credentials, and URLs.
 - [Global Lead AI Architect CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Global.pdf): Role-tailored PDF resume for global Lead/Lead AI & Solutions Architect roles.
