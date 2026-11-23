@@ -282,3 +282,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - [FG-01: Production Hybrid & GraphRAG — Seven Enterprise Failure Modes & Deterministic Fixes (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG01_Production_Hybrid_GraphRAG_Failure_Modes_Nagarjuna_Kamireddy.pdf)
 - [FG-02: Enterprise MCP Servers & SAP S/4HANA Clean-Core OData Architecture (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG02_Enterprise_MCP_SAP_S4HANA_Clean_Core_OData_Nagarjuna_Kamireddy.pdf)
 - [SkillBench v1.1.0 External Benchmark](https://github.com/nagarjunak-pixel/skillbench/releases/tag/v1.1.0): 4/4 (3 BLOCK + 1 QUARANTINE) on Trail of Bits overtly-malicious-skills, 0/24 (0.0% FPR) across official Anthropic/Trail-of-Bits/OpenAI/Google skills, 30.02x C++20 speedup.
+
+### ArabShield-Eval (`v1.0.0` — `https://github.com/nagarjunak-pixel/arabshield-eval`)
+- Sovereign Arabic, Gulf/Levantine/Egyptian Dialect & Arabizi Prompt-Injection, Unicode BiDi Smuggling & Jailbreak Benchmark.
+- Native C++20 UTF-8 canonical normalizer & 256-way Aho-Corasick scanner (`9.152 ms` vs `327.789 ms` Python across `8,000` docs = `35.81x` speedup, bit-exact Hypothesis parity) + PyTorch residual activation probe (`24/24` 100% recall, `0/24` 0.0% FPR on `ArabShield-Bench v1.0`, `99.27%` branch coverage).
