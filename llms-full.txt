@@ -275,3 +275,10 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - [Enterprise AI Gateways, Multi-Model Routing, vLLM & LangGraph](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_AI_Gateways_LangGraph_Handbook.pdf): Multi-provider complexity cascades, virtual-key FinOps caps, self-hosted vLLM PagedAttention economics, and durable LangGraph checkpoints.
 - [Generative & Agentic AI for Engineering Documentation (Oil, Gas & Heavy Industry)](https://nagarjunak-pixel.github.io/handbooks/Nagarjuna_Kamireddy_GenAI_Oil_Gas_Engineering_Docs_Deck.pdf): Citation-grounded hybrid search over P&IDs, OEM datasheets, MOCs & SAP PM work orders with multi-step vision agents (~30% to ~70% accuracy).
 - [SkillBench v1.0.0 — Static Information-Flow Taint Analyzer & C++20 Aho-Corasick Injection Prover for SKILL.md & MCP Servers](https://github.com/nagarjunak-pixel/skillbench): 29.07x C++20 speedup (14.454 ms on 5,000 docs), 30/30 behavioral suite accuracy, 0.0% false positives, 98.20% branch coverage.
+
+## 12-Page Enterprise AI Reference Field Guides (Zero Email Wall)
+- [Enterprise AI Field Guides Web Hub](https://nagarjunak-pixel.github.io/handbooks.html): Complete 6-track open-access PDF library.
+- [GitHub Repository — enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): Organized 6-track PDF field guides with automated metadata & integrity CI.
+- [FG-01: Production Hybrid & GraphRAG — Seven Enterprise Failure Modes & Deterministic Fixes (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG01_Production_Hybrid_GraphRAG_Failure_Modes_Nagarjuna_Kamireddy.pdf)
+- [FG-02: Enterprise MCP Servers & SAP S/4HANA Clean-Core OData Architecture (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG02_Enterprise_MCP_SAP_S4HANA_Clean_Core_OData_Nagarjuna_Kamireddy.pdf)
+- [SkillBench v1.1.0 External Benchmark](https://github.com/nagarjunak-pixel/skillbench/releases/tag/v1.1.0): 4/4 (3 BLOCK + 1 QUARANTINE) on Trail of Bits overtly-malicious-skills, 0/24 (0.0% FPR) across official Anthropic/Trail-of-Bits/OpenAI/Google skills, 30.02x C++20 speedup.
