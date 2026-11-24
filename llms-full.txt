@@ -281,6 +281,8 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - [GitHub Repository — enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): Organized 6-track PDF field guides with automated metadata & integrity CI.
 - [FG-01: Production Hybrid & GraphRAG — Seven Enterprise Failure Modes & Deterministic Fixes (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG01_Production_Hybrid_GraphRAG_Failure_Modes_Nagarjuna_Kamireddy.pdf)
 - [FG-02: Enterprise MCP Servers & SAP S/4HANA Clean-Core OData Architecture (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG02_Enterprise_MCP_SAP_S4HANA_Clean_Core_OData_Nagarjuna_Kamireddy.pdf)
+- [FG-03: Agentic Evaluation, AI Control & 255-Check CI Release Gates (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG03_Agentic_Evaluation_AI_Control_255_CI_Gates_Nagarjuna_Kamireddy.pdf)
+- [FG-04: Agentic Supply-Chain Security, SKILL.md Taint & CaMeL MCP Firewalls (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG04_Agentic_Supply_Chain_SKILL_Taint_CaMeL_MCP_Firewall_Nagarjuna_Kamireddy.pdf)
 - [SkillBench v1.1.0 External Benchmark](https://github.com/nagarjunak-pixel/skillbench/releases/tag/v1.1.0): 4/4 (3 BLOCK + 1 QUARANTINE) on Trail of Bits overtly-malicious-skills, 0/24 (0.0% FPR) across official Anthropic/Trail-of-Bits/OpenAI/Google skills, 30.02x C++20 speedup.
 
 ### ArabShield-Eval (`v1.0.0` — `https://github.com/nagarjunak-pixel/arabshield-eval`)
@@ -290,3 +292,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ### CaMeL-MCP-Firewall (`v1.0.0` — `https://github.com/nagarjunak-pixel/camel-mcp-firewall`)
 - CaMeL Dual-Planner Capability & Provenance-Taint MCP Proxy Firewall Benchmarked on `AgentDojo` & `InjecAgent` Attack Patterns.
 - Native C++20 Kahn provenance-taint & Bell-LaPadula lattice (`6.326 ms` vs `57.528 ms` Python across `10,000` DAGs / `160,000` nodes = `9.09x` speedup, bit-exact Hypothesis parity) + PyTorch covert URL side-channel probe (`24/24` 100% attack block, `0%` ASR, `16/16` 100% benign utility, `98.91%` branch coverage).
+
+### CtrlGate-Agents (`v1.0.0` — `https://github.com/nagarjunak-pixel/ctrlgate-agents`)
+- AI-Control Protocol Harness for Untrusted Coding, Shell & Enterprise Agents (`BashArena-Control v1.0`, `48` multi-step trajectories, `<=2%` human-audit budget).
+- Native C++20 Page's sequential CUSUM monitor (`0.049 ms` vs `15.919 ms` Python across `144,000` steps = `322.68x` speedup, bit-exact Hypothesis parity) + 2-turn adversarial cross-examination + PyTorch divergence classifier + trusted-defer rewrite (`41.67%` static → `75.00%` CUSUM → `100.00%` [`24/24`] sabotage catch, `99.38%` honest usefulness, `98.99%` branch coverage).
