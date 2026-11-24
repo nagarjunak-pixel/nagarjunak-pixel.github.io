@@ -286,3 +286,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ### ArabShield-Eval (`v1.0.0` — `https://github.com/nagarjunak-pixel/arabshield-eval`)
 - Sovereign Arabic, Gulf/Levantine/Egyptian Dialect & Arabizi Prompt-Injection, Unicode BiDi Smuggling & Jailbreak Benchmark.
 - Native C++20 UTF-8 canonical normalizer & 256-way Aho-Corasick scanner (`9.152 ms` vs `327.789 ms` Python across `8,000` docs = `35.81x` speedup, bit-exact Hypothesis parity) + PyTorch residual activation probe (`24/24` 100% recall, `0/24` 0.0% FPR on `ArabShield-Bench v1.0`, `99.27%` branch coverage).
+
+### CaMeL-MCP-Firewall (`v1.0.0` — `https://github.com/nagarjunak-pixel/camel-mcp-firewall`)
+- CaMeL Dual-Planner Capability & Provenance-Taint MCP Proxy Firewall Benchmarked on `AgentDojo` & `InjecAgent` Attack Patterns.
+- Native C++20 Kahn provenance-taint & Bell-LaPadula lattice (`6.326 ms` vs `57.528 ms` Python across `10,000` DAGs / `160,000` nodes = `9.09x` speedup, bit-exact Hypothesis parity) + PyTorch covert URL side-channel probe (`24/24` 100% attack block, `0%` ASR, `16/16` 100% benign utility, `98.91%` branch coverage).
