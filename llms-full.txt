@@ -283,6 +283,8 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - [FG-02: Enterprise MCP Servers & SAP S/4HANA Clean-Core OData Architecture (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG02_Enterprise_MCP_SAP_S4HANA_Clean_Core_OData_Nagarjuna_Kamireddy.pdf)
 - [FG-03: Agentic Evaluation, AI Control & 255-Check CI Release Gates (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG03_Agentic_Evaluation_AI_Control_255_CI_Gates_Nagarjuna_Kamireddy.pdf)
 - [FG-04: Agentic Supply-Chain Security, SKILL.md Taint & CaMeL MCP Firewalls (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG04_Agentic_Supply_Chain_SKILL_Taint_CaMeL_MCP_Firewall_Nagarjuna_Kamireddy.pdf)
+- [FG-05: Multi-Cloud AI Gateways, Subtask FinOps & Lossless KV Serving (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG05_Multi_Cloud_AI_Gateways_FinOps_Lossless_KV_Nagarjuna_Kamireddy.pdf)
+- [FG-06: Forward Deployed AI: Multimodal Rescue, Orthogonal Probes & SAE Circuits (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG06_Forward_Deployed_AI_Orthogonal_Probes_SAE_Interpretability_Nagarjuna_Kamireddy.pdf)
 - [SkillBench v1.1.0 External Benchmark](https://github.com/nagarjunak-pixel/skillbench/releases/tag/v1.1.0): 4/4 (3 BLOCK + 1 QUARANTINE) on Trail of Bits overtly-malicious-skills, 0/24 (0.0% FPR) across official Anthropic/Trail-of-Bits/OpenAI/Google skills, 30.02x C++20 speedup.
 
 ### ArabShield-Eval (`v1.0.0` — `https://github.com/nagarjunak-pixel/arabshield-eval`)
@@ -300,3 +302,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ### SchemeGuard-Eval (`v1.0.0` — `https://github.com/nagarjunak-pixel/schemeguard-eval`)
 - Deception, Capability Sandbagging, Executive Sycophancy & Eval-Awareness CI Suite (`SchemeBench v1.0`, `48` paired counterfactual & activation scenarios).
 - Orthogonal `Persona ⊥ Knowledge` PyTorch residual-stream probes (`dot = 0.0`, `0.0% → 100.0%` sandbagging recall, `18.75% → 46.88% → 100.00%` [`32/32`] total deceptive recall, `0/16` [`0.00%`] FPR) + native C++20 counterfactual base-2 JSD & Audited AIPW / Ville e-process kernel (`1.0707 ms` vs `41.9841 ms` Python across `20,000` rollouts = `39.21x` speedup, `106.6x` judge bias cut `0.37000 → 0.00347`, `99.49%` branch coverage).
+
+### SAE-Observatory (`v1.0.0` — `https://github.com/nagarjunak-pixel/sae-observatory`)
+- Mechanistic Interpretability Observatory (`SAEBench v1.0`, `40` `4x`-superposed polysemantic residual scenarios + `24`-head Spectral Circuit Analysis).
+- PyTorch 12-step damped-ISTA Top-K Sparse Autoencoder (`4.17%` raw neuron → `100.00%` [`24/24`] recall, `0/16` [`0.00%`] FPR) + Counterfactual-Free Spectral Circuit Analysis (`Precision@6 = 1.00`, `57.42x` SNR) + Live Causal Directional Feature Clamping (`24/24` neutralized, `1.000` benign cosine) + native C++20 `std::partial_sort` Top-K & Attribution DAG kernel (`3.0607 ms` vs `142.2381 ms` Python across `10,000` tokens = `46.47x` speedup, `99.19%` branch coverage).
