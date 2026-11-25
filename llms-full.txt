@@ -32,7 +32,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 - **255 Automated Quality Gates (`AIFlow`):** Built an in-house LLM evaluation library blocking regressions in CI, paired with zero-latency live monitoring of accuracy, drift, cost, and latency.
 - **High-Volume Enterprise Automation:** Repaired ~171,000 broken engineering links (~8,600 hours saved); generated ~110,000 standards-compliant documents (100% adoption in Large Tractor unit); automated ~25% of support tickets end-to-end at ~83% accuracy (~4,700 hours saved).
 - **48 Hours → 12 Minutes SAP HANA Acceleration:** Delivered a 240x data-load speedup at PETRONAS Energy Trading & Deloitte.
-- **1,300+ Professionals & Employees Trained:** Founded Surya HANA Academy (~1,000 SAP HANA professionals trained), runs an Agentic AI Engineering programme for working IT professionals, and enabled 300+ corporate employees at John Deere.
+- **1,300+ Professionals & Employees Trained:** Enabled 1,300+ engineers and corporate staff across SAP HANA and enterprise AI upskilling programmes (including 300+ corporate employees at John Deere).
 
 ---
 
@@ -51,10 +51,9 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ## 4. Chronological Experience (2004 – 2026)
 
 - **John Deere — AI Architect & Technical Lead (Official Title: Senior Data Scientist, `01/2023 – 10/2026`, Pune, India):** Owned architecture, AWS Terraform/GitHub Actions platform, and delivery across 23+ AI initiatives (750K+ automated requests, 42K+ hours saved in FY26); built StoneAge multi-model LangGraph + OpenSearch hybrid-RAG writing copilot, 6-agent Neo4j GraphRAG authoring workflow, ~30%→~70% GPT-4o Vision turnaround, and AIFlow (255 CI checks).
-- **Agentic AI Engineering Programme — Lead Instructor (`Present`, Hyderabad & Live Online):** Teaches hands-on Agentic AI Engineering (LangGraph, CrewAI, MCP, hybrid RAG, evaluation, deployment) for working SAP and IT engineers.
 - **Persistent Systems — Engineering Lead, Machine Learning (`01/2021 – 01/2023`, Pune, India):** Delivered production client ML & MLOps systems across PIAM access recommendation, iDataCleanse deduplication, face recognition, VMS recommendation, VectorFlow POD, and Vertina NLP.
 - **Vertiv — Data Scientist (`03/2020 – 01/2021`, Hyderabad, India):** Built compliance analytics and Customer 360 ML/DL pipelines with AWS Athena SQL pushdown and Tableau executive dashboards.
-- **Soham Global — Software Engineer, Machine Learning (`03/2016 – 02/2020`, India) & Founder, Surya HANA Academy (until 2019):** Leakage-safe forecasting, market-basket analysis, and recommendation systems; trained ~1,000 professionals in SAP HANA.
+- **Soham Global — Software Engineer, Machine Learning (`03/2016 – 02/2020`, India):** Leakage-safe forecasting, market-basket analysis, and recommendation systems.
 - **GlaxoSmithKline (GSK UK, `02/2014 – 02/2016`, Brentford, UK) & Earlier Global SAP Consulting (`2004 – 2014`):** In-database SAP HANA PAL/APL/R ML models at GSK UK; GSK India & HCL Axon UK (`2012–2014`); PETRONAS Energy Trading & Deloitte Kuala Lumpur (`2011–2012`, 48h→12m load cut); DHL & Symantec Malaysia/Singapore (`2008–2011`); Lenovo & High Industries India/US (`2004–2008`).
 
 ---

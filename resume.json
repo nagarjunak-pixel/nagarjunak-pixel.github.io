@@ -37,13 +37,6 @@
       ]
     },
     {
-      "name": "Agentic AI Engineering Programme",
-      "position": "Lead Instructor \u2014 Agentic AI Engineering",
-      "location": "Hyderabad, India & Online",
-      "startDate": "2025-01",
-      "summary": "Delivers hands-on corporate and practitioner Agentic AI Engineering programmes (across 8 structured corporate AI & Copilot programmes)."
-    },
-    {
       "name": "Persistent Systems",
       "position": "Engineering Lead \u2014 Machine Learning",
       "location": "Pune, India",
@@ -65,7 +58,7 @@
       "location": "India",
       "startDate": "2016-03",
       "endDate": "2020-02",
-      "summary": "Built leakage-safe forecasting, market-basket analysis, and recommendation systems; founded Surya HANA Academy (~1,000 professionals trained until 2019)."
+      "summary": "Built account-balance and price-tag forecasting with leakage-safe time-based validation, market-basket analysis, recommendation, and inventory tracking for finance and e-commerce clients."
     },
     {
       "name": "GlaxoSmithKline (GSK), PETRONAS/Deloitte, DHL, Symantec & Lenovo",
