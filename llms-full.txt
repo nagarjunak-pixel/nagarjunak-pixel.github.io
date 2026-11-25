@@ -296,3 +296,7 @@ Nagarjuna Reddy Kamireddy is an enterprise AI architect and hands-on engineering
 ### CtrlGate-Agents (`v1.0.0` — `https://github.com/nagarjunak-pixel/ctrlgate-agents`)
 - AI-Control Protocol Harness for Untrusted Coding, Shell & Enterprise Agents (`BashArena-Control v1.0`, `48` multi-step trajectories, `<=2%` human-audit budget).
 - Native C++20 Page's sequential CUSUM monitor (`0.049 ms` vs `15.919 ms` Python across `144,000` steps = `322.68x` speedup, bit-exact Hypothesis parity) + 2-turn adversarial cross-examination + PyTorch divergence classifier + trusted-defer rewrite (`41.67%` static → `75.00%` CUSUM → `100.00%` [`24/24`] sabotage catch, `99.38%` honest usefulness, `98.99%` branch coverage).
+
+### SchemeGuard-Eval (`v1.0.0` — `https://github.com/nagarjunak-pixel/schemeguard-eval`)
+- Deception, Capability Sandbagging, Executive Sycophancy & Eval-Awareness CI Suite (`SchemeBench v1.0`, `48` paired counterfactual & activation scenarios).
+- Orthogonal `Persona ⊥ Knowledge` PyTorch residual-stream probes (`dot = 0.0`, `0.0% → 100.0%` sandbagging recall, `18.75% → 46.88% → 100.00%` [`32/32`] total deceptive recall, `0/16` [`0.00%`] FPR) + native C++20 counterfactual base-2 JSD & Audited AIPW / Ville e-process kernel (`1.0707 ms` vs `41.9841 ms` Python across `20,000` rollouts = `39.21x` speedup, `106.6x` judge bias cut `0.37000 → 0.00347`, `99.49%` branch coverage).
