@@ -2,21 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nagarjuna Reddy Kamireddy",
-    "label": "Lead AI Architect | AI Solutions Architect | GenAI Lead (Agentic AI & RAG) | Corporate AI Trainer",
+    "label": "Lead AI Architect | AI Solutions Architect | GenAI Lead \u2014 Agentic AI & RAG | Corporate AI Trainer",
     "image": "https://nagarjunak-pixel.github.io/assets/img/nagarjuna-reddy-kamireddy.jpg",
-    "email": "gmailtonagarjuna@gmail.com",
-    "phone": "+971 50 742 4361",
+    "email": "writetonagarjuna@gmail.com",
     "url": "https://nagarjunak-pixel.github.io/",
-    "summary": "Lead AI Architect with 22 years in enterprise data and AI (aliases: Nagarjuna Kamireddy, Nagarjuna K, Nagarjun Reddy Kamireddi): a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global) built on 12 years embedded at client sites as an SAP BW / BPC / HANA Lead Consultant across the UK, Malaysia, Singapore, the US, and India. Most recently owned architecture, AWS Terraform platform, and delivery for a 12+ member team across 23+ AI initiatives at John Deere — 750K+ automated requests and 42K+ hours saved in FY26. Currently in Dubai, UAE and available immediately globally.",
-    "location": {
-      "city": "Dubai",
-      "countryCode": "AE",
-      "region": "Dubai"
-    },
+    "summary": "Lead AI Architect with 22 years in enterprise data and AI (aliases: Nagarjuna Kamireddy, Nagarjuna K, Nagarjun Reddy Kamireddi): a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global) built on 12 years embedded at client sites as an SAP BW / BPC / HANA Lead Consultant across the UK, Malaysia, Singapore, the US, and India. Most recently owned architecture, AWS Terraform platform, and delivery for a 12+ member team across 23+ AI initiatives at John Deere \u2014 750K+ automated requests and 42K+ hours saved in FY26. Available immediately.",
     "profiles": [
-      { "network": "LinkedIn", "username": "nagarjuna-kamireddy", "url": "https://www.linkedin.com/in/nagarjuna-kamireddy" },
-      { "network": "GitHub", "username": "nagarjunak-pixel", "url": "https://github.com/nagarjunak-pixel" },
-      { "network": "GitHub Gist", "username": "nagarjunak-pixel", "url": "https://gist.github.com/nagarjunak-pixel" }
+      {
+        "network": "LinkedIn",
+        "username": "nagarjuna-kamireddy",
+        "url": "https://www.linkedin.com/in/nagarjuna-kamireddy"
+      },
+      {
+        "network": "GitHub",
+        "username": "nagarjunak-pixel",
+        "url": "https://github.com/nagarjunak-pixel"
+      }
     ]
   },
   "work": [
@@ -37,14 +38,14 @@
     },
     {
       "name": "Agentic AI Engineering Programme",
-      "position": "Founder & Lead Instructor — Agentic AI Engineering",
+      "position": "Lead Instructor \u2014 Agentic AI Engineering",
       "location": "Hyderabad, India & Online",
       "startDate": "2025-01",
       "summary": "Delivers hands-on corporate and practitioner Agentic AI Engineering programmes (across 8 structured corporate AI & Copilot programmes)."
     },
     {
       "name": "Persistent Systems",
-      "position": "Engineering Lead — Machine Learning",
+      "position": "Engineering Lead \u2014 Machine Learning",
       "location": "Pune, India",
       "startDate": "2021-01",
       "endDate": "2023-01",
@@ -60,7 +61,7 @@
     },
     {
       "name": "Soham Global",
-      "position": "Software Engineer — Machine Learning",
+      "position": "Software Engineer \u2014 Machine Learning",
       "location": "India",
       "startDate": "2016-03",
       "endDate": "2020-02",
@@ -72,29 +73,59 @@
       "location": "United Kingdom, Malaysia, Singapore, United States, India",
       "startDate": "2004-06",
       "endDate": "2016-02",
-      "summary": "In-database HANA PAL/APL/R ML at GSK Brentford UK (2014–2016); cut PETRONAS/Deloitte data load from 48 hours to 12 minutes (2011–2012); global BPC/BW consulting at DHL, Symantec, Lenovo & High Industries."
+      "summary": "In-database HANA PAL/APL/R ML at GSK Brentford UK (2014\u20132016); cut PETRONAS/Deloitte data load from 48 hours to 12 minutes (2011\u20132012); global BPC/BW consulting at DHL, Symantec, Lenovo & High Industries."
     }
   ],
   "education": [
     {
       "institution": "Periyar University",
       "area": "Applied Science, Information Technology",
-      "studyType": "M.Sc. (Integrated) — First Class",
+      "studyType": "M.Sc. (Integrated) \u2014 First Class",
       "endDate": "2004"
     }
   ],
   "certificates": [
-    { "name": "AWS Certified Solutions Architect – Professional (SAP-C02)", "issuer": "Amazon Web Services" },
-    { "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)", "issuer": "NVIDIA" },
-    { "name": "SAP Certified Application Associate – SAP HANA", "issuer": "SAP" },
-    { "name": "SAP Certified Application Associate – SAP BW 7.4", "issuer": "SAP" },
-    { "name": "SAP Certified Application Associate – SAP Simple Finance 1503", "issuer": "SAP" },
-    { "name": "SAP Certified Application Associate – SAP BPC 10.0", "issuer": "SAP" }
+    {
+      "name": "AWS Certified Solutions Architect \u2013 Professional (SAP-C02)",
+      "issuer": "Amazon Web Services"
+    },
+    {
+      "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)",
+      "issuer": "NVIDIA"
+    },
+    {
+      "name": "SAP Certified Application Associate \u2013 SAP HANA",
+      "issuer": "SAP"
+    },
+    {
+      "name": "SAP Certified Application Associate \u2013 SAP BW 7.4",
+      "issuer": "SAP"
+    },
+    {
+      "name": "SAP Certified Application Associate \u2013 SAP Simple Finance 1503",
+      "issuer": "SAP"
+    },
+    {
+      "name": "SAP Certified Application Associate \u2013 SAP BPC 10.0",
+      "issuer": "SAP"
+    }
   ],
   "languages": [
-    { "language": "English", "fluency": "Full Professional" },
-    { "language": "Telugu", "fluency": "Native" },
-    { "language": "Hindi", "fluency": "Professional Working" },
-    { "language": "Tamil", "fluency": "Professional Working" }
+    {
+      "language": "English",
+      "fluency": "Full Professional"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Professional Working"
+    },
+    {
+      "language": "Tamil",
+      "fluency": "Professional Working"
+    }
   ]
 }
