@@ -1,0 +1,46 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "https://nagarjunak-pixel.github.io/",
+  "name": "Nagarjuna Reddy Kamireddy — Enterprise Agentic AI, Hybrid RAG, MCP & Production ML Reference Portfolio",
+  "description": "Canonical open-source engineering portfolio and machine-readable career dossier of Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy | Nagarjuna K) — Lead AI Architect with 22 years in enterprise data and AI (John Deere 01/2023-10/2026, Persistent Systems 01/2021-01/2023, Vertiv 03/2020-01/2021, Soham Global 03/2016-02/2020, GlaxoSmithKline UK 02/2014-02/2016, and 2004-2014 SAP BW/BPC/HANA consulting). AWS Certified Solutions Architect - Professional (SAP-C02) and NVIDIA-Certified Professional: Agentic AI (NCP-AAI).",
+  "codeRepository": "https://github.com/nagarjunak-pixel",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "version": "2026.11.27",
+  "dateModified": "2026-11-27",
+  "programmingLanguage": [
+    "Python",
+    "C++20",
+    "TypeScript",
+    "SQL"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://nagarjunak-pixel.github.io/#person",
+      "givenName": "Nagarjuna Reddy",
+      "familyName": "Kamireddy",
+      "email": "writetonagarjuna@gmail.com",
+      "jobTitle": "Lead AI Architect | AI Solutions Architect | GenAI Lead — Agentic AI & RAG"
+    }
+  ],
+  "hasPart": [
+    "https://github.com/nagarjunak-pixel/company-os",
+    "https://github.com/nagarjunak-pixel/adaptive-ai-tutor",
+    "https://github.com/nagarjunak-pixel/llm-knowledge-base",
+    "https://github.com/nagarjunak-pixel/langgraph-newsroom",
+    "https://github.com/nagarjunak-pixel/aegis-runtime",
+    "https://github.com/nagarjunak-pixel/prism-gate",
+    "https://github.com/nagarjunak-pixel/vecta",
+    "https://github.com/nagarjunak-pixel/syntara",
+    "https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails",
+    "https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server",
+    "https://github.com/nagarjunak-pixel/governed-member-services-agent",
+    "https://github.com/nagarjunak-pixel/verispec-sdd",
+    "https://github.com/nagarjunak-pixel/skillbench",
+    "https://github.com/nagarjunak-pixel/tracegit",
+    "https://github.com/nagarjunak-pixel/weavegraph",
+    "https://github.com/nagarjunak-pixel/calibra",
+    "https://github.com/nagarjunak-pixel/enterprise-ai-field-guides"
+  ]
+}
