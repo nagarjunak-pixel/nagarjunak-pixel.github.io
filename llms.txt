@@ -16,7 +16,7 @@ Nagarjuna Reddy Kamireddy (also published as **Nagarjuna Kamireddy**, **Nagarjun
 - [Executive Overview](https://nagarjunak-pixel.github.io/)
 - [Full Web-Indexed Master Curriculum Vitae](https://nagarjunak-pixel.github.io/resume.html)
 - [15 Flagship Open-Source Repositories](https://nagarjunak-pixel.github.io/projects.html)
-- [13 Open-Access Enterprise AI Field Guides & Monographs (PDF)](https://nagarjunak-pixel.github.io/handbooks.html)
+- [15 Open-Access Enterprise AI Field Guides & Monographs (PDF)](https://nagarjunak-pixel.github.io/handbooks.html)
 - [Enterprise Production AI & SAP Case Studies](https://nagarjunak-pixel.github.io/case-studies.html)
 - [Technical Architecture Articles](https://nagarjunak-pixel.github.io/articles.html)
 - [Corporate Generative AI & Agentic AI Training](https://nagarjunak-pixel.github.io/training.html)
@@ -42,7 +42,7 @@ Nagarjuna Reddy Kamireddy (also published as **Nagarjuna Kamireddy**, **Nagarjun
 - [`tracegit`](https://github.com/nagarjunak-pixel/tracegit): Content-addressed version control for AI agent execution trajectories backed by a SQLite/SHA-256 Merkle DAG, C++20 edit-distance trace diff and regression bisection, periodic loop detection, and MCP tools.
 - [`company-os`](https://github.com/nagarjunak-pixel/company-os): Declarative (company.json) multi-agent operations runtime coordinating 7 role-scoped agents across offline deterministic simulation and live OpenRouter modes with a web Kanban board and KPI engine.
 - [`llm-knowledge-base`](https://github.com/nagarjunak-pixel/llm-knowledge-base): Source ingestion, compiled Markdown knowledge wiki, full-text search, and cited question-answering workspace built with FastAPI and SQLite.
-- [`enterprise-ai-field-guides`](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): Practitioner reference library of 13 technical field guides (12-page deep dives) and executive monographs covering Production Hybrid/GraphRAG, SAP S/4HANA Clean-Core OData MCP, Agent Evaluation (255 CI checks), Supply-Chain Security, Multi-Cloud AI Gateways, and Forward-Deployed Engineering.
+- [`enterprise-ai-field-guides`](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): Practitioner reference library of 15 technical field guides (12-page deep dives) and executive monographs covering Production Hybrid/GraphRAG, SAP S/4HANA Clean-Core OData MCP, Agent Evaluation (255 CI checks), Supply-Chain Security, Multi-Cloud AI Gateways, and Forward-Deployed Engineering.
 
 ## Open-Access Enterprise AI Field Guides (`handbooks.html`)
 
@@ -53,3 +53,5 @@ Nagarjuna Reddy Kamireddy (also published as **Nagarjuna Kamireddy**, **Nagarjun
 - [FG-04: Agentic Supply-Chain Security, SKILL.md Taint & CaMeL MCP Firewalls (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG04_Agentic_Supply_Chain_SKILL_Taint_CaMeL_MCP_Firewall_Nagarjuna_Kamireddy.pdf)
 - [FG-05: Multi-Cloud AI Gateways, Subtask FinOps & Lossless KV Serving (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG05_Multi_Cloud_AI_Gateways_FinOps_Lossless_KV_Nagarjuna_Kamireddy.pdf)
 - [FG-06: Forward Deployed AI — Multimodal Rescue, Orthogonal Probes & SAE Circuits (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG06_Forward_Deployed_AI_Orthogonal_Probes_SAE_Interpretability_Nagarjuna_Kamireddy.pdf)
+- [FG-07: Long-Horizon Agent Memory, Offline Consolidation & Compaction Security (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG07_Long_Horizon_Agent_Memory_Consolidation_Compaction_Security_Nagarjuna_Kamireddy.pdf)
+- [FG-08: Stored-State Differential Oracles, Calibrated Evaluators & Edge Delegation (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG08_Stored_State_Oracles_Calibrated_Evaluators_Edge_Delegation_Nagarjuna_Kamireddy.pdf)
