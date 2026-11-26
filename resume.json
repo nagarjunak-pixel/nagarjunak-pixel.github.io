@@ -6,7 +6,7 @@
     "image": "https://nagarjunak-pixel.github.io/assets/img/nagarjuna-reddy-kamireddy.jpg",
     "email": "writetonagarjuna@gmail.com",
     "url": "https://nagarjunak-pixel.github.io/",
-    "summary": "Lead AI Architect with 22 years in enterprise data and AI (aliases: Nagarjuna Kamireddy, Nagarjuna K, Nagarjun Reddy Kamireddi): a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global) built on 12 years embedded at client sites as an SAP BW / BPC / HANA Lead Consultant across the UK, Malaysia, Singapore, the US, and India. Most recently owned architecture, AWS Terraform platform, and delivery for a 12+ member team across 23+ AI initiatives at John Deere \u2014 750K+ automated requests and 42K+ hours saved in FY26. Available immediately.",
+    "summary": "Lead AI Architect with 22 years in enterprise data and AI: a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global), built on a decade embedded at client sites as an SAP BW / BPC / HANA consultant across India, Malaysia, Singapore, the UK, and the US. Most recently owned architecture and led a 12+ member team for 23+ AI initiatives at John Deere (01/2023 \u2013 10/2026) \u2014 750K+ automated requests and 42K+ hours saved in FY26. AWS Certified Solutions Architect \u2013 Professional (SAP-C02) \u00b7 NVIDIA-Certified Professional: Agentic AI (NCP-AAI).",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -18,6 +18,11 @@
         "username": "nagarjunak-pixel",
         "url": "https://github.com/nagarjunak-pixel"
       }
+    ],
+    "alternateNames": [
+      "Nagarjuna Kamireddy",
+      "Nagarjuna Reddy Kamireddy",
+      "Nagarjuna K"
     ]
   },
   "work": [
@@ -74,6 +79,7 @@
       "institution": "Periyar University",
       "area": "Applied Science, Information Technology",
       "studyType": "M.Sc. (Integrated) \u2014 First Class",
+      "startDate": "1999",
       "endDate": "2004"
     }
   ],
@@ -85,22 +91,6 @@
     {
       "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)",
       "issuer": "NVIDIA"
-    },
-    {
-      "name": "SAP Certified Application Associate \u2013 SAP HANA",
-      "issuer": "SAP"
-    },
-    {
-      "name": "SAP Certified Application Associate \u2013 SAP BW 7.4",
-      "issuer": "SAP"
-    },
-    {
-      "name": "SAP Certified Application Associate \u2013 SAP Simple Finance 1503",
-      "issuer": "SAP"
-    },
-    {
-      "name": "SAP Certified Application Associate \u2013 SAP BPC 10.0",
-      "issuer": "SAP"
     }
   ],
   "languages": [
@@ -119,6 +109,58 @@
     {
       "language": "Tamil",
       "fluency": "Professional Working"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CompanyOS",
+      "url": "https://github.com/nagarjunak-pixel/company-os",
+      "description": "7 executive AI agents plan, assign and track a company's work from one config file \u2014 Kanban, live logs, KPI engine (Python)."
+    },
+    {
+      "name": "Adaptive AI Tutor",
+      "url": "https://github.com/nagarjunak-pixel/adaptive-ai-tutor",
+      "description": "Agentic learning platform with 12 GPT-4o agents for curriculum, tutoring and assessment (Next.js, PostgreSQL, Prisma)."
+    },
+    {
+      "name": "LLM Knowledge Base",
+      "url": "https://github.com/nagarjunak-pixel/llm-knowledge-base",
+      "description": "Turns raw sources into an LLM-maintained wiki with full-text search and Q&A (FastAPI, SQLite FTS5)."
+    },
+    {
+      "name": "LangGraph Newsroom",
+      "url": "https://github.com/nagarjunak-pixel/langgraph-newsroom",
+      "description": "3-stage news production pipeline with human approval gates, checkpointing and error recovery (LangGraph)."
+    },
+    {
+      "name": "AegisRuntime",
+      "url": "https://github.com/nagarjunak-pixel/aegis-runtime",
+      "description": "Policy and audit layer for AI-agent tool calls \u2014 deny-by-default policy language, saga rollback and a signed, tamper-evident audit log."
+    },
+    {
+      "name": "PrismGate",
+      "url": "https://github.com/nagarjunak-pixel/prism-gate",
+      "description": "OpenAI-compatible LLM gateway \u2014 adaptive concurrency, per-tenant rate limits, cost-aware model cascade and drift detection (FastAPI)."
+    },
+    {
+      "name": "Vecta",
+      "url": "https://github.com/nagarjunak-pixel/vecta",
+      "description": "From-scratch vector search engine \u2014 HNSW, IVF-PQ and hybrid BM25 + dense retrieval with C++20 kernels; 0.999 recall@10 (Python)."
+    },
+    {
+      "name": "Syntara",
+      "url": "https://github.com/nagarjunak-pixel/syntara",
+      "description": "Grammar-constrained decoding \u2014 compiles JSON Schema / regex into token masks so LLM output is valid by construction (20/20 schema-valid)."
+    },
+    {
+      "name": "Enterprise Help-Desk RAG & Guardrails System",
+      "url": "https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails",
+      "description": "RAG help-desk assistant with similarity thresholds, code-enforced refusal when retrieval confidence is low, and automated acceptance tests (Python)."
+    },
+    {
+      "name": "Enterprise ERP OData MCP Server",
+      "url": "https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server",
+      "description": "MCP server enabling AI agents to query ERP systems over OData APIs with schema validation and tool-calling guardrails."
     }
   ]
 }

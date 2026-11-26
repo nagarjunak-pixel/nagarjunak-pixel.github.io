@@ -7,24 +7,24 @@
   "familyName": "Kamireddy",
   "alternateName": [
     "Nagarjuna Kamireddy",
-    "Nagarjuna K",
-    "Nagarjun Reddy Kamireddi",
-    "Nagarjuna R. Kamireddy",
-    "K. Nagarjuna Reddy"
+    "Nagarjuna Reddy Kamireddy",
+    "Nagarjuna K"
   ],
+  "disambiguatingDescription": "Enterprise Lead AI Architect (22 years in enterprise data, SAP BW/BPC/HANA, and production ML & Agentic AI at John Deere, Persistent Systems, Vertiv, Soham Global, and GlaxoSmithKline UK). Distinct from Indian film actor Akkineni Nagarjuna.",
   "jobTitle": [
     "Lead AI Architect",
     "AI Solutions Architect",
     "GenAI Lead \u2014 Agentic AI & RAG",
     "Corporate AI Trainer"
   ],
-  "description": "Lead AI Architect with 22 years in enterprise data, SAP BW/BPC/HANA consulting, and production ML & Agentic AI (John Deere, Persistent Systems, Vertiv, GlaxoSmithKline, PETRONAS/Deloitte, DHL/Symantec, Lenovo); maintains 15 curated flagship open-source AI repositories at github.com/nagarjunak-pixel. Available immediately for global relocation, hybrid, and remote roles.",
+  "description": "Lead AI Architect with 22 years in enterprise data and AI: a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global), built on a decade embedded at client sites as an SAP BW / BPC / HANA consultant across India, Malaysia, Singapore, the UK, and the US. Owned architecture and led a 12+ member team for 23+ AI initiatives at John Deere (01/2023 \u2013 10/2026) \u2014 750K+ automated requests and 42K+ hours saved in FY26. AWS Certified Solutions Architect \u2013 Professional (SAP-C02) \u00b7 NVIDIA-Certified Professional: Agentic AI (NCP-AAI).",
   "url": "https://nagarjunak-pixel.github.io/",
   "image": "https://nagarjunak-pixel.github.io/assets/img/nagarjuna-reddy-kamireddy.jpg",
   "email": "mailto:writetonagarjuna@gmail.com",
   "alumniOf": {
     "@type": "CollegeOrUniversity",
-    "name": "Periyar University"
+    "name": "Periyar University",
+    "description": "M.Sc. (Integrated) Applied Science, Information Technology (1999 \u2013 2004, First Class)"
   },
   "knowsLanguage": [
     "English",
@@ -40,48 +40,35 @@
     {
       "@type": "EducationalOccupationalCredential",
       "name": "NVIDIA-Certified Professional: Agentic AI (NCP-AAI)"
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP HANA"
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP BW 7.4"
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP Simple Finance 1503"
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "name": "SAP Certified Application Associate \u2013 SAP BPC 10.0"
     }
   ],
   "sameAs": [
     "https://www.linkedin.com/in/nagarjuna-kamireddy",
     "https://github.com/nagarjunak-pixel",
+    "https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a",
     "https://nagarjunak-pixel.github.io/",
+    "https://nagarjunak-pixel.github.io/resume.html",
     "https://nagarjunak-pixel.github.io/projects.html",
     "https://nagarjunak-pixel.github.io/handbooks.html",
-    "https://nagarjunak-pixel.github.io/resume.html",
     "https://nagarjunak-pixel.github.io/llms.txt",
     "https://nagarjunak-pixel.github.io/llms-full.txt",
     "https://www.linkedin.com/newsletters/autonomous-sap-enterprise-ai-7528104436112441348/",
-    "https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server",
-    "https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails",
+    "https://github.com/nagarjunak-pixel/company-os",
+    "https://github.com/nagarjunak-pixel/adaptive-ai-tutor",
+    "https://github.com/nagarjunak-pixel/llm-knowledge-base",
+    "https://github.com/nagarjunak-pixel/langgraph-newsroom",
     "https://github.com/nagarjunak-pixel/aegis-runtime",
     "https://github.com/nagarjunak-pixel/prism-gate",
     "https://github.com/nagarjunak-pixel/vecta",
     "https://github.com/nagarjunak-pixel/syntara",
+    "https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails",
+    "https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server",
     "https://github.com/nagarjunak-pixel/governed-member-services-agent",
-    "https://github.com/nagarjunak-pixel/calibra",
     "https://github.com/nagarjunak-pixel/verispec-sdd",
     "https://github.com/nagarjunak-pixel/skillbench",
-    "https://github.com/nagarjunak-pixel/weavegraph",
     "https://github.com/nagarjunak-pixel/tracegit",
-    "https://github.com/nagarjunak-pixel/company-os",
-    "https://github.com/nagarjunak-pixel/llm-knowledge-base",
+    "https://github.com/nagarjunak-pixel/weavegraph",
+    "https://github.com/nagarjunak-pixel/calibra",
     "https://github.com/nagarjunak-pixel/enterprise-ai-field-guides"
   ]
 }

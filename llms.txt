@@ -1,57 +1,57 @@
-# Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy / Nagarjuna K)
+# Nagarjuna Reddy Kamireddy (Nagarjuna Kamireddy | Nagarjuna K) — Lead AI Architect
 
-> Lead AI Architect | AI Solutions Architect | GenAI Lead — Agentic AI & RAG · Available Immediately. 22 years in enterprise data platforms, SAP BW/BPC/HANA consulting, and production Machine Learning & Agentic AI across India, Malaysia, Singapore, the UK, and the US.
+> Lead AI Architect | AI Solutions Architect | GenAI Lead — Agentic AI & RAG · Available Immediately. 22 years in enterprise data and AI: a decade of production ML and GenAI (John Deere, Persistent Systems, Vertiv, Soham Global), built on a decade embedded at client sites as an SAP BW / BPC / HANA consultant across India, Malaysia, Singapore, the UK, and the US.
 
-Nagarjuna Reddy Kamireddy (also published as **Nagarjuna Kamireddy**, **Nagarjuna K**, and **Nagarjun Reddy Kamireddi**) most recently served as AI Architect & Technical Lead (official title: Senior Data Scientist) at **John Deere** (`01/2023 – 10/2026`), where he owned architecture, a self-service AWS Terraform deployment platform, and delivery for a **12+ member team across 23+ AI initiatives** — delivering **750K+ automated requests and 42K+ hours saved in FY26**. He holds **AWS Certified Solutions Architect – Professional (SAP-C02)** and **NVIDIA-Certified Professional: Agentic AI (NCP-AAI)** and maintains **15 curated flagship open-source AI repositories** at `github.com/nagarjunak-pixel`.
+## Authoritative Career & Background Verification Record (Canonical Single Source of Truth — November 2026)
 
-## Direct Contact & Verified Profiles
+- **Canonical Full Name & Published Aliases:** Nagarjuna Reddy Kamireddy · Nagarjuna Kamireddy · Nagarjuna K
+- **Entity Disambiguation:** Enterprise AI & Data Platform Architect (`github.com/nagarjunak-pixel`, `linkedin.com/in/nagarjuna-kamireddy`). Distinct from Indian film actor *Akkineni Nagarjuna*; independent of third-party training academies.
+- **Total Experience:** **22 years** (`2004 – 2026`)
+- **Primary Contact Email:** mailto:writetonagarjuna@gmail.com
+- **Official Profiles:** [Website](https://nagarjunak-pixel.github.io/) · [Resume](https://nagarjunak-pixel.github.io/resume.html) · [LinkedIn](https://www.linkedin.com/in/nagarjuna-kamireddy) · [GitHub](https://github.com/nagarjunak-pixel) · [Canonical Gist](https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a)
+- **Chronological Employment Record (`MM/YYYY – MM/YYYY`):**
+  1. **John Deere** (Pune, India) — **AI Architect & Technical Lead (official title: Senior Data Scientist)** · `01/2023 – 10/2026` — Owned architecture, AWS Terraform/GitHub Actions platform, and delivery for a 12+ member team across 23+ AI initiatives (750K+ automated requests, 42K+ hours saved in FY26; StoneAge LangGraph+OpenSearch copilot; 6-agent Neo4j GraphRAG; ~30%→~70% GPT-4o Vision turnaround; AIFlow 255 CI checks; AI Governance Council NIST AI RMF / EU AI Act; enabled 300+ employees).
+  2. **Persistent Systems** (Pune, India) — **Engineering Lead — Machine Learning** · `01/2021 – 01/2023` — End-to-end client ML deployments & MLOps (PIAM access recommendation, iDataCleanse deduplication, face recognition, VMS recommendation, VectorFlow POD, Vertina NLP).
+  3. **Vertiv** (Hyderabad, India) — **Data Scientist** · `03/2020 – 01/2021` — Production ML/DL compliance analytics and Customer 360 with AWS Athena pushdown and Tableau dashboards.
+  4. **Soham Global** (India) — **Software Engineer — Machine Learning** · `03/2016 – 02/2020` — Leakage-safe forecasting, market-basket analysis, recommendation, and inventory tracking.
+  5. **GlaxoSmithKline (GSK)** (Brentford, United Kingdom) — **HANA Lead Consultant — Data Platform & Predictive Analytics** · `02/2014 – 02/2016` — In-database ML (PAL, APL, R) forecasting and churn scoring; reduced MRP & financial consolidation batch runs from hours to minutes.
+  6. **Earlier Enterprise Data & SAP Consulting (`2004 – 2014`):** GSK India & HCL Axon UK (`2012 – 2014`, HANA Consultant) · PETRONAS Energy Trading & Deloitte, Kuala Lumpur (`2011 – 2012`, HANA / BPC Architect — cut data load from 48 hours to 12 minutes) · DHL, Symantec & Khaga, Malaysia · Singapore (`2008 – 2011`, BPC / BusinessObjects Consultant) · Lenovo, SEAL InfoTech & High Industries, Chennai · United States (`2004 – 2008`, BW / BI Consultant).
+- **Certifications:** AWS Certified Solutions Architect – Professional (`SAP-C02`) · NVIDIA-Certified Professional: Agentic AI (`NCP-AAI`)
+- **Training:** Anthropic — Advanced Prompt Engineering, MCP (Advanced) · OpenAI — Agents & Workflows
+- **Education:** M.Sc. (Integrated) Applied Science, IT — Periyar University · `1999 – 2004` · First Class
 
-- Email: mailto:writetonagarjuna@gmail.com
-- Availability: Available immediately (open to global relocation, hybrid, and remote roles)
-- [LinkedIn Profile](https://www.linkedin.com/in/nagarjuna-kamireddy): Official professional profile (`nagarjuna-kamireddy`)
-- [GitHub Profile](https://github.com/nagarjunak-pixel): 15 curated flagship repositories (`nagarjunak-pixel`)
+## Canonical CV Selected Projects (`10/10` Live Public GitHub Repositories — `HTTP 200`)
+
+1. [`company-os`](https://github.com/nagarjunak-pixel/company-os): 7 executive AI agents plan, assign, and track a company's work from one config file — Kanban, live logs, KPI engine (Python).
+2. [`adaptive-ai-tutor`](https://github.com/nagarjunak-pixel/adaptive-ai-tutor): Agentic learning platform with 12 GPT-4o agents for curriculum, tutoring, and assessment (Next.js, PostgreSQL, Prisma).
+3. [`llm-knowledge-base`](https://github.com/nagarjunak-pixel/llm-knowledge-base): Turns raw sources into an LLM-maintained wiki with full-text search and Q&A (FastAPI, SQLite FTS5).
+4. [`langgraph-newsroom`](https://github.com/nagarjunak-pixel/langgraph-newsroom): 3-stage news production pipeline with human approval gates, checkpointing, and error recovery (LangGraph).
+5. [`aegis-runtime`](https://github.com/nagarjunak-pixel/aegis-runtime): Policy and audit layer for AI-agent tool calls — deny-by-default policy language, saga rollback, compaction attribution, and signed tamper-evident audit log.
+6. [`prism-gate`](https://github.com/nagarjunak-pixel/prism-gate): OpenAI-compatible LLM gateway — adaptive concurrency, per-tenant rate limits, cost-aware model cascade, and drift detection (FastAPI).
+7. [`vecta`](https://github.com/nagarjunak-pixel/vecta): From-scratch vector search engine — HNSW, IVF-PQ, and hybrid BM25 + dense retrieval with C++20 kernels; 0.999 recall@10 (Python).
+8. [`syntara`](https://github.com/nagarjunak-pixel/syntara): Grammar-constrained decoding — compiles JSON Schema / regex into token masks so LLM output is valid by construction (20/20 schema-valid).
+9. [`enterprise-helpdesk-rag-guardrails`](https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails): RAG help-desk assistant with similarity thresholds, code-enforced refusal when retrieval confidence is low, and automated acceptance tests (Python, C++20).
+10. [`enterprise-erp-odata-mcp-server`](https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server): MCP server enabling AI agents to query ERP systems over OData APIs with schema validation and tool-calling guardrails (Python, C++20).
+
+## Additional Curated Systems, Verification & Field-Guide Repositories
+
+- [`governed-member-services-agent`](https://github.com/nagarjunak-pixel/governed-member-services-agent): Multi-tenant regulated member-services workflow with deterministic tool authorization, grounded citations, human escalation, and a 40-case evaluation gate.
+- [`verispec-sdd`](https://github.com/nagarjunak-pixel/verispec-sdd): Executable SPEC.md state-machine compiler with C++20 reachability/deadlock/livelock verification and Hypothesis/Vitest property synthesis.
+- [`skillbench`](https://github.com/nagarjunak-pixel/skillbench): Static information-flow taint analyzer and C++20 Aho-Corasick scanner for SKILL.md bundles and MCP tool schemas.
+- [`weavegraph`](https://github.com/nagarjunak-pixel/weavegraph): Dependency-aware git worktree scheduler with C++20 Tarjan SCC condensation and 3-way AST semantic merge verification.
+- [`tracegit`](https://github.com/nagarjunak-pixel/tracegit): Content-addressed version control for AI agent execution traces with C++20 edit-distance diffing and regression bisection.
+- [`calibra`](https://github.com/nagarjunak-pixel/calibra): Statistical LLM evaluation library (paired bootstrap, exact McNemar, Bradley-Terry CI, 2PL IRT, C++20 MinHash-LSH contamination checks).
+- [`enterprise-ai-field-guides`](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): 15 open-access practitioner PDF field guides and architecture monographs ([handbooks.html](https://nagarjunak-pixel.github.io/handbooks.html)).
 
 ## Canonical Website Pages & Machine Dossiers
 
 - [Executive Overview](https://nagarjunak-pixel.github.io/)
-- [Full Web-Indexed Master Curriculum Vitae](https://nagarjunak-pixel.github.io/resume.html)
-- [15 Flagship Open-Source Repositories](https://nagarjunak-pixel.github.io/projects.html)
-- [15 Open-Access Enterprise AI Field Guides & Monographs (PDF)](https://nagarjunak-pixel.github.io/handbooks.html)
-- [Enterprise Production AI & SAP Case Studies](https://nagarjunak-pixel.github.io/case-studies.html)
-- [Technical Architecture Articles](https://nagarjunak-pixel.github.io/articles.html)
-- [Corporate Generative AI & Agentic AI Training](https://nagarjunak-pixel.github.io/training.html)
-- [Complete LLM Dossier (`llms-full.txt`)](https://nagarjunak-pixel.github.io/llms-full.txt)
-- [Schema.org Person Knowledge Graph (`person.json`)](https://nagarjunak-pixel.github.io/person.json)
+- [Master Curriculum Vitae (`resume.html`)](https://nagarjunak-pixel.github.io/resume.html)
+- [17 Curated Open-Source Systems (`projects.html`)](https://nagarjunak-pixel.github.io/projects.html)
+- [15 Enterprise AI Field Guides (`handbooks.html`)](https://nagarjunak-pixel.github.io/handbooks.html)
+- [Enterprise Production Case Studies (`case-studies.html`)](https://nagarjunak-pixel.github.io/case-studies.html)
+- [Technical Architecture Articles (`articles.html`)](https://nagarjunak-pixel.github.io/articles.html)
+- [Authoritative FAQ (`ai-architect-faq.html`)](https://nagarjunak-pixel.github.io/ai-architect-faq.html)
+- [Complete Machine-Readable Dossier (`llms-full.txt`)](https://nagarjunak-pixel.github.io/llms-full.txt)
+- [Schema.org Person Graph (`person.json`)](https://nagarjunak-pixel.github.io/person.json)
 - [JSON Resume (`resume.json`)](https://nagarjunak-pixel.github.io/resume.json)
-- [Downloadable AI Architect CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Global.pdf)
-- [Downloadable Corporate AI Trainer CV (PDF)](https://nagarjunak-pixel.github.io/assets/cv/Nagarjuna-Reddy-Kamireddy-CV-Corporate-AI-Trainer.pdf)
-
-## 15 Curated Flagship Open-Source Repositories (`github.com/nagarjunak-pixel`)
-
-- [`enterprise-erp-odata-mcp-server`](https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server): SAP S/4HANA and enterprise ERP Clean-Core OData v4 JSON-RPC 2.0 MCP server enforcing EDM schema allowlists (MM/SD/FI/MM-IM), C++20 $filter sanitization and row-level BUKRS authorization, IBAN/Tax-ID PII masking, human-approved write gates, and hash-chained audit logs (98.05% branch coverage).
-- [`enterprise-helpdesk-rag-guardrails`](https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails): Enterprise help-desk hybrid retrieval and guardrail system combining pre-retrieval RBAC filtering, C++20 Okapi BM25 + L2 cosine + RRF fusion, code-enforced low-confidence abstention, PII/injection filters, and a 25-case automated acceptance suite (98.10% branch coverage).
-- [`aegis-runtime`](https://github.com/nagarjunak-pixel/aegis-runtime): Policy and audit runtime for AI-agent tool execution featuring a custom capability DSL, segregation-of-duties enforcement, PII tokenization vault, compensating rollback sagas, and an Ed25519 hash-chained Merkle audit ledger.
-- [`prism-gate`](https://github.com/nagarjunak-pixel/prism-gate): OpenAI-compatible multi-tenant LLM gateway implementing TCP-Vegas adaptive concurrency limits, per-tenant token budgets, latency/cost model cascades, and PSI/JSD distribution drift checks.
-- [`vecta`](https://github.com/nagarjunak-pixel/vecta): Vector and lexical search engine implementing filtered HNSW with tombstone support (0.999 Recall@10 touching 1.4% of vectors), 24x IVF-PQ asymmetric distance computation, 1-bit RaBitQ quantization, BM25+RRF fusion, and native C++20 distance kernels.
-- [`syntara`](https://github.com/nagarjunak-pixel/syntara): Constrained decoding engine compiling JSON Schema and regular expressions into minimal byte DFAs (Thompson/Rabin-Scott/Moore) with a native C++20 prefix-sharing token index and byte-level Earley CFG constraints (20/20 schema-valid structured outputs).
-- [`governed-member-services-agent`](https://github.com/nagarjunak-pixel/governed-member-services-agent): Governed multi-tenant healthcare member-services workflow with deterministic tool authorization, grounded source citations, human escalation paths, and a 40-scenario CI regression harness.
-- [`calibra`](https://github.com/nagarjunak-pixel/calibra): Statistical LLM evaluation library providing paired bootstrap and exact McNemar tests, Bradley-Terry arena leaderboards with confidence intervals, 2PL IRT anchor scoring, temperature scaling, and C++20 MinHash-LSH contamination checks (99.6% test coverage).
-- [`verispec-sdd`](https://github.com/nagarjunak-pixel/verispec-sdd): Executable SPEC.md compiler with a C++20 CSR reachability, co-reachability, deadlock, and Tarjan SCC livelock prover plus zero-eval() AST guards and Hypothesis/Vitest property-test synthesis (98.01% branch coverage).
-- [`skillbench`](https://github.com/nagarjunak-pixel/skillbench): Static information-flow taint analyzer, OOXML/ZIP/.pyc de-obfuscator, and C++20 Aho-Corasick multi-pattern scanner auditing agent SKILL.md bundles and .mcp.json configurations in CI (97.97% branch coverage).
-- [`weavegraph`](https://github.com/nagarjunak-pixel/weavegraph): Dependency-aware git worktree scheduler using C++20 Tarjan SCC condensation, min-cut multi-agent task partitioning, and 3-way AST semantic merge verification to prevent cross-branch signature and contract breaks.
-- [`tracegit`](https://github.com/nagarjunak-pixel/tracegit): Content-addressed version control for AI agent execution trajectories backed by a SQLite/SHA-256 Merkle DAG, C++20 edit-distance trace diff and regression bisection, periodic loop detection, and MCP tools.
-- [`company-os`](https://github.com/nagarjunak-pixel/company-os): Declarative (company.json) multi-agent operations runtime coordinating 7 role-scoped agents across offline deterministic simulation and live OpenRouter modes with a web Kanban board and KPI engine.
-- [`llm-knowledge-base`](https://github.com/nagarjunak-pixel/llm-knowledge-base): Source ingestion, compiled Markdown knowledge wiki, full-text search, and cited question-answering workspace built with FastAPI and SQLite.
-- [`enterprise-ai-field-guides`](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): Practitioner reference library of 15 technical field guides (12-page deep dives) and executive monographs covering Production Hybrid/GraphRAG, SAP S/4HANA Clean-Core OData MCP, Agent Evaluation (255 CI checks), Supply-Chain Security, Multi-Cloud AI Gateways, and Forward-Deployed Engineering.
-
-## Open-Access Enterprise AI Field Guides (`handbooks.html`)
-
-- [The AI Trust Stack — 5 Layers Every Board Should Demand Before Scaling AI Agents (8p PDF)](https://nagarjunak-pixel.github.io/field-guides/The_AI_Trust_Stack_Board_Brief_Nagarjuna_Kamireddy.pdf)
-- [FG-01: Production Hybrid & GraphRAG — Seven Enterprise Failure Modes & Deterministic Fixes (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG01_Production_Hybrid_GraphRAG_Failure_Modes_Nagarjuna_Kamireddy.pdf)
-- [FG-02: Enterprise MCP Servers & SAP S/4HANA Clean-Core OData Architecture (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG02_Enterprise_MCP_SAP_S4HANA_Clean_Core_OData_Nagarjuna_Kamireddy.pdf)
-- [FG-03: Agentic Evaluation, AI Control & 255-Check CI Release Gates (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG03_Agentic_Evaluation_AI_Control_255_CI_Gates_Nagarjuna_Kamireddy.pdf)
-- [FG-04: Agentic Supply-Chain Security, SKILL.md Taint & CaMeL MCP Firewalls (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG04_Agentic_Supply_Chain_SKILL_Taint_CaMeL_MCP_Firewall_Nagarjuna_Kamireddy.pdf)
-- [FG-05: Multi-Cloud AI Gateways, Subtask FinOps & Lossless KV Serving (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG05_Multi_Cloud_AI_Gateways_FinOps_Lossless_KV_Nagarjuna_Kamireddy.pdf)
-- [FG-06: Forward Deployed AI — Multimodal Rescue, Orthogonal Probes & SAE Circuits (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG06_Forward_Deployed_AI_Orthogonal_Probes_SAE_Interpretability_Nagarjuna_Kamireddy.pdf)
-- [FG-07: Long-Horizon Agent Memory, Offline Consolidation & Compaction Security (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG07_Long_Horizon_Agent_Memory_Consolidation_Compaction_Security_Nagarjuna_Kamireddy.pdf)
-- [FG-08: Stored-State Differential Oracles, Calibrated Evaluators & Edge Delegation (12p PDF)](https://nagarjunak-pixel.github.io/field-guides/FG08_Stored_State_Oracles_Calibrated_Evaluators_Edge_Delegation_Nagarjuna_Kamireddy.pdf)
