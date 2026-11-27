@@ -9,6 +9,20 @@
     <lastBuildDate>Mon, 23 Nov 2026 05:15:00 +0400</lastBuildDate>
     
     
+        <item>
+      <title>Post-Retrieval Enterprise RAG: Bi-Temporal Memory, Pruned RRF Cascades &amp; Cross-Page Table Stitching</title>
+      <link>https://nagarjunak-pixel.github.io/articles/post-retrieval-enterprise-rag-bitemporal-rrf.html</link>
+      <guid isPermaLink="true">https://nagarjunak-pixel.github.io/articles/post-retrieval-enterprise-rag-bitemporal-rrf.html</guid>
+      <pubDate>Fri, 27 Nov 2026 04:55:00 +0400</pubDate>
+      <description>Why enterprise RAG pipelines fail after recall@10 succeeds—and how bi-temporal subject addressing, 3-stage pruned Reciprocal Rank Fusion, and cross-page table stitching eliminate version confusion.</description>
+    </item>
+    <item>
+      <title>Prompts Propose, State Machines Govern: Checkpointed Multi-Agent Pipelines, BKT Mastery DAGs &amp; MaaS Assurance</title>
+      <link>https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html</link>
+      <guid isPermaLink="true">https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html</guid>
+      <pubDate>Fri, 27 Nov 2026 04:55:00 +0400</pubDate>
+      <description>Engineering crash-safe multi-agent workflows using LangGraph SqliteSaver checkpoints, transactional rollback guards, Bayesian Knowledge Tracing prerequisite DAGs, and 5-layer MaaS assurance.</description>
+    </item>
     <item>
       <title>LinkedIn Post: The Multi-Agent Operating System — Shared Coordination State, Neo4j Citations &amp; Syntara Token Masks</title>
       <link>https://www.linkedin.com/feed/update/urn:li:activity:7529862559496278016/</link>

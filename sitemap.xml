@@ -2,130 +2,155 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nagarjunak-pixel.github.io/</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/resume.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/projects.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/github-projects-atlas.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/handbooks.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/case-studies.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/training.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/roles.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/ai-architect-faq.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/linkedin-profile.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/sap-genai-integration-architect.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/forward-deployed-ai-architect.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/llms.txt</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/llms-full.txt</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/aiflow-255-llm-evaluation-ci-regression-gates.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/autonomous-sap-mcp-sap-rpt-1-governed-swarms-playbook.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/enterprise-ai-governance-nist-rmf-eu-ai-act.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/enterprise-transformation-casebook-2006-2026.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/from-sap-hana-pushdown-to-neo4j-graphrag.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/high-throughput-llm-gateway-finops-drift-detection.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/model-context-protocol-mcp-enterprise-oauth-architecture.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/rescuing-enterprise-genai-30-to-70-percent-accuracy.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/rlvr-post-training-grpo-dapo-dora-ring-attention.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/stoneage-copilot-search-plus-rules-over-fine-tuning.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/tracegit-syntara-deterministic-agent-traces-and-grammar-decoding.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/upskilling-enterprise-engineering-teams-agentic-ai.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/weavegraph-vecta-verispec-multi-agent-ast-merge-and-vector-search.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/articles/zero-trust-agent-control-plane-compensating-sagas.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/papers/deterministic-agentic-systems-cpp20-pytorch-atlas-2026.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/papers/governed-autonomous-sap-mcp-and-compound-ai-2026.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://nagarjunak-pixel.github.io/papers/index.html</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
+  </url>
+  <url>
+    <loc>https://nagarjunak-pixel.github.io/articles/post-retrieval-enterprise-rag-bitemporal-rrf.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://nagarjunak-pixel.github.io/field-guides/FG09_Post_Retrieval_RAG_BiTemporal_Memory_RRF_Cascades_Nagarjuna_Kamireddy.pdf</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://nagarjunak-pixel.github.io/field-guides/FG10_AI_Inference_FinOps_SLO_Goodput_MaaS_Assurance_Nagarjuna_Kamireddy.pdf</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://nagarjunak-pixel.github.io/codemeta.json</loc>
+    <lastmod>2026-11-27</lastmod>
+    <priority>0.85</priority>
   </url>
 </urlset>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prompts Propose, State Machines Govern: Checkpointed Multi-Agent Pipelines, BKT Mastery DAGs & MaaS Assurance | Nagarjuna Kamireddy</title>
+  <meta name="description" content="Engineering crash-safe multi-agent workflows using LangGraph SqliteSaver checkpoints, transactional rollback guards, Bayesian Knowledge Tracing prerequisite DAGs, and 5-layer MaaS assurance.">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Prompts Propose, State Machines Govern: Checkpointed Multi-Agent Pipelines, BKT Mastery DAGs & MaaS Assurance",
+  "description": "Engineering crash-safe multi-agent workflows using LangGraph SqliteSaver checkpoints, transactional rollback guards, Bayesian Knowledge Tracing prerequisite DAGs, and 5-layer MaaS assurance.",
+  "datePublished": "2026-11-27",
+  "dateModified": "2026-11-27",
+  "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html",
+  "author": {
+    "@type": "Person",
+    "@id": "https://nagarjunak-pixel.github.io/#person",
+    "name": "Nagarjuna Reddy Kamireddy",
+    "url": "https://nagarjunak-pixel.github.io/"
+  },
+  "keywords": [
+    "LangGraph",
+    "Multi-Agent Systems",
+    "Bayesian Knowledge Tracing",
+    "FinOps",
+    "PrismGate"
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI, RAG &amp; SAP</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/handbooks.html">Field Guides</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html">Articles</a></li>
+        <li><a href="/resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="section">
+      <div class="container" style="max-width: 820px;">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a></div>
+        <h1 style="font-size:clamp(1.75rem, 3.2vw, 2.35rem); line-height:1.2; margin:0.4rem 0 0.75rem;">Prompts Propose, State Machines Govern: Checkpointed Multi-Agent Pipelines, BKT Mastery DAGs & MaaS Assurance</h1>
+        <p style="color:var(--text-dim); font-size:0.9rem; margin-bottom:1.6rem;">Published 2026-11-27 · Nagarjuna Kamireddy</p>
+        <p style="color:var(--text-muted);">Across multi-step enterprise agent deployments, leaving state transitions implicit inside system prompts creates two predictable failure modes: tutoring and copilot agents leak premature answers or skip prerequisites, and tool-calling workflows leave corrupted partial writes behind when an upstream call fails mid-run. Across 5,760 failed trajectory continuations in <code>SecondChance</code> (<code>arXiv:2611.31586</code>), unaided frontier models recovered only 16% of the time and left 47.6% of databases in dirty residual states.</p>
+
+        <h2>1. Checkpointed Editorial StateGraphs &amp; Transactional Rollbacks (<code>langgraph-newsroom v1.1.0</code>)</h2>
+        <p style="color:var(--text-muted);"><a href="https://github.com/nagarjunak-pixel/langgraph-newsroom"><code>langgraph-newsroom</code></a> compiles 3-stage editorial production into an explicit LangGraph <code>StateGraph</code> backed by <code>SqliteSaver</code> checkpoint persistence and <code>interrupt_before=["editorial_gate"]</code> human approval gates. Version <code>v1.1.0</code> adds <code>TransactionalStageGuard</code>, capturing canonical SHA-256 pre-stage state snapshots and executing deterministic rollbacks whenever an interrupted write or ungrounded numeric claim is detected.</p>
+
+        <h2>2. Prerequisite DAGs, Bayesian Mastery &amp; HTN Learner Simulation (<code>adaptive-ai-tutor v1.1.0</code>)</h2>
+        <p style="color:var(--text-muted);"><a href="https://github.com/nagarjunak-pixel/adaptive-ai-tutor"><code>adaptive-ai-tutor</code></a> coordinates 12 specialized GPT-4o agents on Next.js, PostgreSQL, and Prisma. Progression across concepts is governed in code: Kahn topological sorting enforces prerequisite DAG order, Corbett &amp; Anderson Bayesian Knowledge Tracing updates posterior mastery <code>P(L_t)</code>, SM-2 schedules retention intervals, and <code>runHtnStudentSimulation</code> (inspired by <code>ReUST</code>, <code>arXiv:2611.34044</code>) verifies zero Socratic answer leaks across 25 multi-turn episodes.</p>
+
+        <h2>3. Gateway Goodput Pooling &amp; 5-Layer MaaS Assurance (<code>prism-gate</code>, <code>aegis-runtime</code>, <code>calibra</code>)</h2>
+        <p style="color:var(--text-muted);">Because GPU and server CapEx account for 87.3% of per-token serving TCO while tail SLOs cap isolated single-tenant cluster goodput at 59.6% (<code>arXiv:2611.31654</code>), pooling workloads behind <a href="https://github.com/nagarjunak-pixel/prism-gate"><code>prism-gate</code></a> TCP-Vegas concurrency control and per-hop model cascades recovers stranded capacity while cutting multi-agent DAG spend. Pairing <a href="https://github.com/nagarjunak-pixel/aegis-runtime"><code>aegis-runtime</code></a> capability policies with <a href="https://github.com/nagarjunak-pixel/calibra"><code>calibra</code></a> 2PL IRT canary anchors closes the service-integrity and monitor-evasion gaps documented in <code>arXiv:2611.34623</code> and <code>arXiv:2611.34934</code>. Download the companion 12-page guide: <a href="/field-guides/FG10_AI_Inference_FinOps_SLO_Goodput_MaaS_Assurance_Nagarjuna_Kamireddy.pdf">FG-10 PDF</a>.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Nagarjuna Reddy Kamireddy</h3>
+          <p>Lead AI Architect · AI Solutions Architect · GenAI Lead — Agentic AI &amp; RAG.<br>
+          AWS Certified Solutions Architect – Professional · NVIDIA-Certified Professional: Agentic AI.</p>
+          <p style="margin-top: 0.6rem;">
+            <a href="mailto:writetonagarjuna@gmail.com">writetonagarjuna@gmail.com</a> ·
+            <a href="https://www.linkedin.com/in/nagarjuna-kamireddy" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/nagarjunak-pixel" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+        <div>
+          <h3>Work &amp; Writing</h3>
+          <ul class="footer-links">
+            <li><a href="/">Overview</a></li>
+            <li><a href="/projects.html">Open-Source Projects</a></li>
+            <li><a href="/handbooks.html">Field Guides (PDF)</a></li>
+            <li><a href="/case-studies.html">Case Studies</a></li>
+            <li><a href="/training.html">Workshops</a></li>
+            <li><a href="/resume.html">Resume</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="https://github.com/nagarjunak-pixel" target="_blank" rel="noopener">GitHub (@nagarjunak-pixel)</a></li>
+            <li><a href="https://www.linkedin.com/in/nagarjuna-kamireddy" target="_blank" rel="noopener">LinkedIn (/in/nagarjuna-kamireddy)</a></li>
+            <li><a href="/github-projects-atlas.html">Repository Index</a></li>
+            <li><a href="/articles.html">Articles</a></li>
+            <li><a href="/feed.xml">Atom Feed</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Nagarjuna Reddy Kamireddy</span>
+        <span>Open-Source Systems &amp; Architecture Notes</span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

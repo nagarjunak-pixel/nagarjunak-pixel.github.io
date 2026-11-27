@@ -20,7 +20,7 @@
 - [weavegraph](https://github.com/nagarjunak-pixel/weavegraph): Dependency-aware git worktree scheduler with Tarjan SCC condensation and 3-way AST merge checks.
 - [tracegit](https://github.com/nagarjunak-pixel/tracegit): Content-addressed version control for agent execution traces with edit-distance diffing and regression bisection.
 - [calibra](https://github.com/nagarjunak-pixel/calibra): Paired bootstrap, exact McNemar, Bradley-Terry CI, 2PL IRT, temperature scaling, and MinHash-LSH contamination checks.
-- [enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): 15 open-access PDF field guides and handbooks on Hybrid RAG, Clean-Core OData MCP, Agent Evaluation, and Guardrails.
+- [enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): 17 open-access PDF field guides and handbooks on Hybrid RAG, Clean-Core OData MCP, Agent Evaluation, and Guardrails.
 
 ## Writing & Documentation
 
@@ -30,6 +30,8 @@
 - [Case Studies](https://nagarjunak-pixel.github.io/case-studies.html)
 - [Field Guides & Handbooks](https://nagarjunak-pixel.github.io/handbooks.html)
 - [Technical Articles](https://nagarjunak-pixel.github.io/articles.html)
+- [Post-Retrieval Enterprise RAG: Bi-Temporal Memory, Pruned RRF Cascades & Cross-Page Table Stitching](https://nagarjunak-pixel.github.io/articles/post-retrieval-enterprise-rag-bitemporal-rrf.html)
+- [Prompts Propose, State Machines Govern: Checkpointed Multi-Agent Pipelines, BKT Mastery DAGs & MaaS Assurance](https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html)
 - [Architecture FAQ](https://nagarjunak-pixel.github.io/ai-architect-faq.html)
 - [Contact](mailto:writetonagarjuna@gmail.com)
 
