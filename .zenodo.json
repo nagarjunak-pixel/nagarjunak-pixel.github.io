@@ -1,25 +1,22 @@
 {
-  "title": "Nagarjuna Reddy Kamireddy \u2014 Lead AI Architect Systems Atlas, Autonomous SAP Playbook & Open SFT/RAG Dataset (68 Verified Q&As)",
-  "upload_type": "dataset",
-  "publication_date": "2026-11-18",
+  "title": "Enterprise Agentic AI, Hybrid RAG, Clean-Core MCP & LLM Evaluation Reference Implementations",
+  "upload_type": "software",
+  "publication_date": "2026-11-27",
   "creators": [
     {
-      "name": "Kamireddy, Nagarjuna Reddy",
-      "affiliation": "CompanyOS Open-Source AI Lab, Independent Researcher"
+      "name": "Kamireddy, Nagarjuna Reddy"
     }
   ],
-  "description": "Open ChatML/Alpaca SFT & RAG knowledge dataset and technical architecture corpus covering Lead AI Architect Nagarjuna Reddy Kamireddy's LinkedIn thought-leadership, 22-year enterprise SAP HANA & John Deere production AI track record, and all 50 public GitHub repositories.",
+  "description": "Open-source engineering reference implementations and technical field guides covering hybrid retrieval (Vecta), agent runtime policy and audit (AegisRuntime), multi-tenant LLM gateways (PrismGate), grammar-constrained decoding (Syntara), Clean-Core OData MCP servers, and statistical evaluation (Calibra).",
   "access_right": "open",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
-    "Nagarjuna Reddy Kamireddy",
-    "Nagarjuna Kamireddy",
-    "Lead AI Architect",
     "Agentic AI",
+    "Hybrid RAG",
+    "Model Context Protocol",
     "SAP S/4HANA",
-    "MCP",
-    "GraphRAG",
+    "LLM Evaluation",
     "C++20",
-    "PyTorch"
+    "Python"
   ]
 }

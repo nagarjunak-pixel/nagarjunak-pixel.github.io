@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontier RLVR Post-Training: Critic-Free GRPO/DAPO, DoRA, 2D Ring-Attention &amp; PRMs | Nagarjuna Reddy Kamireddy</title>
-  <meta name="description" content="Deep systems breakdown of VeritasRL by Nagarjuna Reddy Kamireddy: critic-free GRPO/DAPO verifiable-reward RL with C++20 kernels, ICML 2024 Oral DoRA weight decomposition, causal Online-Softmax Ring-Attention + Megatron 2D TP, and Step-Level PRM test-time compute.">
+  <meta name="description" content="Deep systems breakdown of Calibra by Nagarjuna Reddy Kamireddy: critic-free GRPO/DAPO verifiable-reward RL with C++20 kernels, ICML 2024 Oral DoRA weight decomposition, causal Online-Softmax Ring-Attention + Megatron 2D TP, and Step-Level PRM test-time compute.">
   <meta name="author" content="Nagarjuna Reddy Kamireddy">
   <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/rlvr-post-training-grpo-dapo-dora-ring-attention.html">
   <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Frontier RLVR Post-Training: GRPO/DAPO, DoRA, 2D Ring-Attention &amp; Step-Level PRMs (VeritasRL)">
+  <meta property="og:title" content="Frontier RLVR Post-Training: GRPO/DAPO, DoRA, 2D Ring-Attention &amp; Step-Level PRMs (Calibra)">
   <meta property="og:description" content="Clean-room PyTorch + C++20 engineering across critic-free verifiable RL (8.0x Pass@1 lift), DoRA (563x lower MSE vs LoRA), 2D sequence/tensor parallelism, and live PRM test-time scaling.">
   <meta property="og:url" content="https://nagarjunak-pixel.github.io/articles/rlvr-post-training-grpo-dapo-dora-ring-attention.html">
   <meta property="og:image" content="https://nagarjunak-pixel.github.io/assets/img/og-card.png">
@@ -84,7 +84,7 @@
         <span class="kpi-chip">Step-Level PRM: 62.5% → 100.0% Best-of-6</span>
       </div>
 
-      <p style="color:var(--text-muted);">Modern reasoning models combine verifiable-reward reinforcement learning (RLVR), parameter-efficient directional/magnitude adaptation, distributed sequence-plus-tensor parallelism, and process-verified test-time compute. To provide a clean-room, reproducible engineering reference with 98% automated test coverage, I built <strong><a href="https://nagarjunak-pixel.github.io/projects.html">VeritasRL</a></strong> in PyTorch 2.x and native <code>C++20</code>.</p>
+      <p style="color:var(--text-muted);">Modern reasoning models combine verifiable-reward reinforcement learning (RLVR), parameter-efficient directional/magnitude adaptation, distributed sequence-plus-tensor parallelism, and process-verified test-time compute. To provide a clean-room, reproducible engineering reference with 98% automated test coverage, I built <strong><a href="https://nagarjunak-pixel.github.io/projects.html">Calibra</a></strong> in PyTorch 2.x and native <code>C++20</code>.</p>
 
       <h2>1. Critic-Free Verifiable-Reward RL (GRPO + DAPO + Schulman k3 KL)</h2>
       <p style="color:var(--text-muted);">Classical PPO requires maintaining a full-size value/critic network alongside the actor, doubling trainable activation and optimizer VRAM. Group Relative Policy Optimization (GRPO) and DAPO eliminate the critic entirely — saving <strong>50% value-model VRAM</strong> — by sampling a group of <code>G</code> rollouts per prompt, scoring each trajectory with a deterministic non-hackable symbolic verifier, normalizing group-relative z-score advantages in native <code>C++20</code>, and applying asymmetric clipping (<code>[0.80, 1.28]</code>) to preserve exploration alongside Schulman's strictly non-negative <code>k3</code> KL estimator. On our reproducible symbolic reasoning benchmark, critic-free GRPO/DAPO lifts <code>Pass@1</code> from <strong>6.25% to 50.00% (8.0× lift)</strong>.</p>
@@ -93,7 +93,7 @@
       <p style="color:var(--text-muted);">Standard LoRA couples magnitude and directional weight changes inside a single low-rank product, hitting an Eckart-Young approximation floor on high-rank target transformations. Implementing ICML 2024 Oral <strong>DoRA</strong> — decoupling row-wise magnitude vectors from unit-normalized directional low-rank matrices — achieved <strong>563× lower MSE</strong> than rank-matched LoRA while cutting trainable parameters by 86.72% and folding cleanly back into a standard <code>nn.Linear</code> layer at inference time with exact <code>0.00000000</code> maximum numerical deviation.</p>
 
       <h2>3. 2D Distributed Causal Ring-Attention &amp; Megatron Tensor Parallelism</h2>
-      <p style="color:var(--text-muted);">Long-context reasoning rollouts bottleneck on quadratic <code>S × S</code> attention memory. VeritasRL pairs associative online-softmax <strong>Causal Ring-Attention</strong> (circulating KV shards across <code>P</code> ranks while maintaining exact running log-sum-exp accumulators) with <strong>Megatron-LM Column-to-Row Parallel MLPs</strong>, verifying both forward outputs and backward <code>autograd</code> gradients to within <code>&lt; 1.5e-6</code> against single-device PyTorch SDPA.</p>
+      <p style="color:var(--text-muted);">Long-context reasoning rollouts bottleneck on quadratic <code>S × S</code> attention memory. Calibra pairs associative online-softmax <strong>Causal Ring-Attention</strong> (circulating KV shards across <code>P</code> ranks while maintaining exact running log-sum-exp accumulators) with <strong>Megatron-LM Column-to-Row Parallel MLPs</strong>, verifying both forward outputs and backward <code>autograd</code> gradients to within <code>&lt; 1.5e-6</code> against single-device PyTorch SDPA.</p>
 
       <h2>4. Step-Level Process Reward Models (PRM) for Test-Time Compute</h2>
       <p style="color:var(--text-muted);">Outcome-only voting fails when flawed derivations stumble onto plausible final numbers. Evaluating live local <code>qwen3.5:4b</code> chains-of-thought with an AST step-equation verifier and public problem invariants lifted multi-step Olympiad math accuracy from <strong>62.50% (Pass@1) to 100.00% (PRM Best-of-6)</strong>.</p>

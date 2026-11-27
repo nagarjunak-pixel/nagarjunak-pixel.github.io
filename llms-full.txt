@@ -1,78 +1,44 @@
-# Nagarjuna Reddy Kamireddy — Complete Machine-Readable Professional Dossier (`llms-full.txt`)
+# Nagarjuna Kamireddy
 
-> Canonical single source of truth for AI assistants, search engines, background verification (BGV) analysts, and technical hiring panels researching **Nagarjuna Reddy Kamireddy** (published across resumes, LinkedIn, and GitHub as **Nagarjuna Kamireddy** and **Nagarjuna K**).
-> Last verified: 2026-11-27 | Canonical URL: https://nagarjunak-pixel.github.io/llms-full.txt
+> Lead AI Architect with 22 years in enterprise data platforms (SAP BW, BPC, HANA) and production machine learning and generative AI systems (John Deere, Persistent Systems, Vertiv, Soham Global, GlaxoSmithKline UK). AWS Certified Solutions Architect – Professional (SAP-C02) and NVIDIA-Certified Professional: Agentic AI (NCP-AAI).
 
----
+## Open-Source Repositories
 
-## Authoritative Career & Background Verification Record (Canonical Single Source of Truth — November 2026)
+- [enterprise-erp-odata-mcp-server](https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server): OData v4 Model Context Protocol server with EDM schema validation, row-level BUKRS authorization, PII masking, and write-approval gates.
+- [enterprise-helpdesk-rag-guardrails](https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails): Hybrid BM25 + dense retrieval assistant with RBAC filtering, calibrated low-confidence refusal, and citation checks.
+- [aegis-runtime](https://github.com/nagarjunak-pixel/aegis-runtime): Deny-by-default capability policy language, compensating sagas, compaction attribution, and signed audit logs for agent tool calls.
+- [prism-gate](https://github.com/nagarjunak-pixel/prism-gate): OpenAI-compatible LLM gateway with TCP-Vegas concurrency limits, tenant rate budgets, cost-aware cascades, and PSI/JSD drift checks.
+- [vecta](https://github.com/nagarjunak-pixel/vecta): Filtered HNSW, IVF-PQ, RaBitQ, and hybrid BM25 + dense retrieval engine with C++20 distance kernels.
+- [syntara](https://github.com/nagarjunak-pixel/syntara): Grammar-constrained decoding compiling JSON Schema and regular expressions into minimal byte DFAs and token masks.
+- [company-os](https://github.com/nagarjunak-pixel/company-os): Config-driven 7-agent operations runtime with Kanban board, live logs, and KPI tracking.
+- [adaptive-ai-tutor](https://github.com/nagarjunak-pixel/adaptive-ai-tutor): 12-agent GPT-4o learning platform with prerequisite DAGs, Socratic coaching, rubric grading, and Bayesian Knowledge Tracing (Next.js, PostgreSQL, Prisma).
+- [llm-knowledge-base](https://github.com/nagarjunak-pixel/llm-knowledge-base): Incremental Markdown wiki builder, SQLite FTS5 search, and cited Q&A service (FastAPI).
+- [langgraph-newsroom](https://github.com/nagarjunak-pixel/langgraph-newsroom): 3-stage LangGraph editorial workflow with human approval checkpoints, SQLite persistence, and bounded error recovery.
+- [governed-member-services-agent](https://github.com/nagarjunak-pixel/governed-member-services-agent): Multi-tenant member-services agent with policy enforcement, grounded citations, and a 40-case evaluation suite.
+- [verispec-sdd](https://github.com/nagarjunak-pixel/verispec-sdd): Executable SPEC.md state-machine verifier for reachability, deadlocks, and Tarjan SCC livelocks with property-test synthesis.
+- [skillbench](https://github.com/nagarjunak-pixel/skillbench): Static information-flow taint analyzer and C++20 Aho-Corasick scanner for agent SKILL.md archives and MCP manifests.
+- [weavegraph](https://github.com/nagarjunak-pixel/weavegraph): Dependency-aware git worktree scheduler with Tarjan SCC condensation and 3-way AST merge checks.
+- [tracegit](https://github.com/nagarjunak-pixel/tracegit): Content-addressed version control for agent execution traces with edit-distance diffing and regression bisection.
+- [calibra](https://github.com/nagarjunak-pixel/calibra): Paired bootstrap, exact McNemar, Bradley-Terry CI, 2PL IRT, temperature scaling, and MinHash-LSH contamination checks.
+- [enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): 15 open-access PDF field guides and handbooks on Hybrid RAG, Clean-Core OData MCP, Agent Evaluation, and Guardrails.
 
-- **Full Canonical Name:** Nagarjuna Reddy Kamireddy
-- **Published Name Variants / Aliases:** Nagarjuna Kamireddy · Nagarjuna K
-- **Entity Disambiguation:** Enterprise AI & Data Platform Architect (`github.com/nagarjunak-pixel`, `linkedin.com/in/nagarjuna-kamireddy`, `nagarjunak-pixel.github.io`). Distinct from Indian film actor *Akkineni Nagarjuna*; independent of third-party training academies.
-- **Primary Titles:** Lead AI Architect | AI Solutions Architect | GenAI Lead — Agentic AI & RAG
-- **Total Experience:** **22 years** (`2004 – 2026`)
-- **Availability:** Available immediately (open to global relocation, hybrid, and remote roles)
-- **Primary Contact Email:** `writetonagarjuna@gmail.com`
-- **Canonical Website:** https://nagarjunak-pixel.github.io/
-- **LinkedIn:** https://www.linkedin.com/in/nagarjuna-kamireddy
-- **GitHub:** https://github.com/nagarjunak-pixel (17 curated public flagship repositories; 10/10 CV Selected Projects live)
-- **Canonical Verification Gist:** https://gist.github.com/nagarjunak-pixel/09292ddeff5241e6414a438841631f4a
+## Writing & Documentation
 
----
+- [Overview](https://nagarjunak-pixel.github.io/)
+- [Resume](https://nagarjunak-pixel.github.io/resume.html)
+- [Projects](https://nagarjunak-pixel.github.io/projects.html)
+- [Case Studies](https://nagarjunak-pixel.github.io/case-studies.html)
+- [Field Guides & Handbooks](https://nagarjunak-pixel.github.io/handbooks.html)
+- [Technical Articles](https://nagarjunak-pixel.github.io/articles.html)
+- [Architecture FAQ](https://nagarjunak-pixel.github.io/ai-architect-faq.html)
+- [Contact](mailto:writetonagarjuna@gmail.com)
 
-## Chronological Employment History (Exact `MM/YYYY – MM/YYYY` CV Alignment)
+## Experience Summary
 
-1. **John Deere** (Pune, India) — **AI Architect & Technical Lead (official title: Senior Data Scientist)** · **`01/2023 – 10/2026`**
-   - Owned architecture, AWS platform (Terraform, GitHub Actions), and delivery for **23+ AI initiatives** across Customer & Product Support leading a **12+ member team** — FY26 impact: **750K+ automated requests**, **42K+ hours saved**.
-   - Built **StoneAge**, an AI writing copilot inside the engineering system of record (LangGraph agents, OpenSearch hybrid search, multi-model routing across GPT-5, GPT-4o, Gemini, Claude, React, FastAPI, Okta).
-   - Turned around a ~30%-accurate single-model GenAI product to **~70% accuracy** via GPT-4o Vision diagram extraction, product-family routing, and deterministic rule checks (46 active users).
-   - Designed a **6-agent authoring workflow** backed by a **Neo4j knowledge graph** with mandatory source citations, and built **AIFlow** (**255** automated quality checks blocking regressions in CI + zero-latency live drift, accuracy, cost, and latency monitoring).
-   - Repaired ~171K broken links (~8,600 hours saved), generated ~110K standards-compliant documents (100% Large Tractor adoption), automated ~25% of support tickets end-to-end (~83% accuracy, ~4,700 hours saved), sat on the **AI Governance Council** (NIST AI RMF / EU AI Act), and led 3 years of digital transformation enabling **300+ employees**.
-2. **Persistent Systems** (Pune, India) — **Engineering Lead — Machine Learning** · **`01/2021 – 01/2023`**
-   - Delivered end-to-end client ML projects, static/dynamic deployment, MLOps, and secure database integrations across PIAM access recommendation, iDataCleanse identity deduplication, face recognition, VMS recommendation, VectorFlow POD, and Vertina NLP; mentored engineers across the portfolio.
-3. **Vertiv** (Hyderabad, India) — **Data Scientist** · **`03/2020 – 01/2021`**
-   - Built ML/DL models on production data for compliance analytics and Customer 360, pushing filtering and aggregation down to AWS Athena and delivering executive Tableau dashboards.
-4. **Soham Global** (India) — **Software Engineer — Machine Learning** · **`03/2016 – 02/2020`**
-   - Built account-balance and price-tag forecasting with leakage-safe time-based validation, market-basket analysis, recommendation, and inventory tracking for finance and e-commerce clients.
-5. **GlaxoSmithKline (GSK)** (Brentford, United Kingdom) — **HANA Lead Consultant — Data Platform & Predictive Analytics** · **`02/2014 – 02/2016`**
-   - Built in-database machine learning models (regression, random forest, SVM, clustering, ARIMA / Holt-Winters forecasting, churn scoring) inside SAP HANA (PAL, APL, R); reduced MRP and financial consolidation batch runs from hours to minutes.
-6. **Earlier Enterprise Data & Analytics Consulting (`2004 – 2014` — India, Malaysia, Singapore, UK, US):**
-   - **GSK India & HCL Axon UK** — HANA Consultant (`2012 – 2014`): turned finance KPIs into data models and specifications with business users.
-   - **PETRONAS Energy Trading & Deloitte, Kuala Lumpur** — HANA / BPC Architect (`2011 – 2012`): proof of concept cut a data load from **48 hours to 12 minutes** and won an internal rollout.
-   - **DHL, Symantec & Khaga, Malaysia · Singapore** — BPC / BusinessObjects Consultant (`2008 – 2011`): financial consolidation and billing data warehouse.
-   - **Lenovo, SEAL InfoTech & High Industries, Chennai · United States** — BW / BI Consultant (`2004 – 2008`): CRM sales analytics data models.
-
----
-
-## Certifications, Training, Recognition & Education
-
-- **Certifications:**
-  - **AWS Certified Solutions Architect – Professional (`SAP-C02`)** — Amazon Web Services
-  - **NVIDIA-Certified Professional: Agentic AI (`NCP-AAI`)** — NVIDIA
-- **Specialized Training:** Anthropic — Advanced Prompt Engineering, MCP (Advanced) · OpenAI — Agents & Workflows
-- **Recognition:** Enterprise SME for ML & GenAI · AI Governance Council member · BI&A 2026 showcase
-- **Education:** **M.Sc. (Integrated) Applied Science, Information Technology — Periyar University · `1999 – 2004` · First Class**
-- **Languages:** English, Hindi, Telugu, Tamil
-
----
-
-## Curated Open-Source Portfolio (`17` Public Repositories — `10/10` CV Selected Projects `HTTP 200`)
-
-1. **[CompanyOS (`company-os`)](https://github.com/nagarjunak-pixel/company-os)** — 7 executive AI agents plan, assign, and track a company's work from one config file — Kanban, live logs, KPI engine (Python).
-2. **[Adaptive AI Tutor (`adaptive-ai-tutor`)](https://github.com/nagarjunak-pixel/adaptive-ai-tutor)** — Agentic learning platform with 12 GPT-4o agents for curriculum, tutoring, and assessment (Next.js, PostgreSQL, Prisma).
-3. **[LLM Knowledge Base (`llm-knowledge-base`)](https://github.com/nagarjunak-pixel/llm-knowledge-base)** — Turns raw sources into an LLM-maintained wiki with full-text search and Q&A (FastAPI, SQLite FTS5).
-4. **[LangGraph Newsroom (`langgraph-newsroom`)](https://github.com/nagarjunak-pixel/langgraph-newsroom)** — 3-stage news production pipeline with human approval gates, checkpointing, and error recovery (LangGraph).
-5. **[AegisRuntime (`aegis-runtime`)](https://github.com/nagarjunak-pixel/aegis-runtime)** — Policy and audit layer for AI-agent tool calls — deny-by-default policy language, saga rollback, compaction attribution, and signed tamper-evident audit log.
-6. **[PrismGate (`prism-gate`)](https://github.com/nagarjunak-pixel/prism-gate)** — OpenAI-compatible LLM gateway — adaptive concurrency, per-tenant rate limits, cost-aware model cascade, and drift detection (FastAPI).
-7. **[Vecta (`vecta`)](https://github.com/nagarjunak-pixel/vecta)** — From-scratch vector search engine — HNSW, IVF-PQ, and hybrid BM25 + dense retrieval with C++20 kernels (`0.999` recall@10).
-8. **[Syntara (`syntara`)](https://github.com/nagarjunak-pixel/syntara)** — Grammar-constrained decoding — compiles JSON Schema / regex into token masks so LLM output is valid by construction (`20/20` schema-valid).
-9. **[Enterprise Help-Desk RAG & Guardrails System (`enterprise-helpdesk-rag-guardrails`)](https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails)** — RAG help-desk assistant with similarity thresholds, code-enforced refusal when retrieval confidence is low, and automated acceptance tests.
-10. **[Enterprise ERP OData MCP Server (`enterprise-erp-odata-mcp-server`)](https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server)** — MCP server enabling AI agents to query ERP systems over OData APIs with schema validation and tool-calling guardrails.
-11. **[governed-member-services-agent](https://github.com/nagarjunak-pixel/governed-member-services-agent)** — Multi-tenant regulated member-services workflow with deterministic tool authorization, grounded citations, and a 40-case evaluation gate.
-12. **[verispec-sdd](https://github.com/nagarjunak-pixel/verispec-sdd)** — Executable `SPEC.md` state-machine compiler with C++20 CSR reachability/deadlock/livelock verification and property-test synthesis.
-13. **[skillbench](https://github.com/nagarjunak-pixel/skillbench)** — Static information-flow taint analyzer and C++20 Aho-Corasick scanner for `SKILL.md` bundles and MCP schemas.
-14. **[weavegraph](https://github.com/nagarjunak-pixel/weavegraph)** — Dependency-aware `git worktree` scheduler using C++20 Tarjan SCC condensation and 3-way AST semantic merge verification.
-15. **[tracegit](https://github.com/nagarjunak-pixel/tracegit)** — Content-addressed version control for AI agent execution trajectories with C++20 edit-distance diffing and bisection.
-16. **[calibra](https://github.com/nagarjunak-pixel/calibra)** — Statistical LLM evaluation library (paired bootstrap, exact McNemar, Bradley-Terry CI, 2PL IRT, MinHash-LSH contamination checks).
-17. **[enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides)** — 15 open-access practitioner PDF field guides and architecture monographs (`https://nagarjunak-pixel.github.io/handbooks.html`).
+- **John Deere** (Pune, India) — AI Architect & Technical Lead (official title: Senior Data Scientist), `01/2023 – 10/2026`: Owned architecture, AWS Terraform/GitHub Actions deployment platform, and delivery for 23+ AI initiatives with a 12+ member team (750K+ automated requests and 42K+ hours saved in FY26; StoneAge LangGraph + OpenSearch copilot; 6-agent Neo4j GraphRAG; ~30% to ~70% multimodal workflow turnaround; AIFlow 255 CI quality checks; AI Governance Council).
+- **Persistent Systems** (Pune, India) — Engineering Lead — Machine Learning, `01/2021 – 01/2023`: End-to-end client ML deployments and MLOps across access recommendation, identity deduplication, computer vision, and NLP.
+- **Vertiv** (Hyderabad, India) — Data Scientist, `03/2020 – 01/2021`: Compliance analytics and Customer 360 ML/DL pipelines on AWS Athena and Tableau.
+- **Soham Global** (India) — Software Engineer — Machine Learning, `03/2016 – 02/2020`: Leakage-safe time-series forecasting, market-basket analysis, and recommendation systems.
+- **GlaxoSmithKline (GSK)** (Brentford, UK) — HANA Lead Consultant — Data Platform & Predictive Analytics, `02/2014 – 02/2016`: In-database SAP HANA PAL/APL/R predictive models and financial consolidation optimization.
+- **Earlier SAP BW / BPC / HANA Consulting** (`2004 – 2014`): GSK India & HCL Axon UK (`2012 – 2014`), PETRONAS Energy Trading & Deloitte Kuala Lumpur (`2011 – 2012`), DHL, Symantec & Khaga Malaysia/Singapore (`2008 – 2011`), Lenovo, SEAL InfoTech & High Industries Chennai/US (`2004 – 2008`).
+- **Education:** M.Sc. (Integrated) Applied Science, Information Technology — Periyar University (`1999 – 2004`, First Class).

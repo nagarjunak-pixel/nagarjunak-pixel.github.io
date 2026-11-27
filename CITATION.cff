@@ -1,22 +1,22 @@
 cff-version: 1.2.0
-message: "If you reference these enterprise AI architectures, benchmarks, or fine-tuning datasets, please cite them as below."
+message: "If you use or reference these open-source systems or technical guides, please cite them as below."
+type: software
 authors:
   - family-names: "Kamireddy"
     given-names: "Nagarjuna Reddy"
-    alias: "Nagarjuna Kamireddy"
+    email: "writetonagarjuna@gmail.com"
     website: "https://nagarjunak-pixel.github.io/"
-title: "Nagarjuna Reddy Kamireddy — Lead AI Architect Systems Atlas, Autonomous SAP Playbook & Open SFT/RAG Dataset"
-version: 2.0.0
-date-released: 2026-11-18
+title: "Enterprise Agentic AI, Hybrid RAG, Clean-Core MCP & LLM Evaluation Reference Implementations"
+version: 1.0.0
+date-released: "2026-11-27"
 url: "https://nagarjunak-pixel.github.io/"
-repository-code: "https://github.com/nagarjunak-pixel/nagarjunak-pixel.github.io"
+repository-code: "https://github.com/nagarjunak-pixel"
 keywords:
   - "Agentic AI"
-  - "Enterprise AI Architecture"
-  - "SAP S/4HANA"
+  - "Hybrid RAG"
   - "Model Context Protocol"
-  - "GraphRAG"
+  - "SAP S/4HANA"
   - "LLM Evaluation"
   - "C++20"
-  - "PyTorch"
-license: MIT
+  - "Python"
+license: Apache-2.0
