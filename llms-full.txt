@@ -6,11 +6,11 @@
 
 - [enterprise-erp-odata-mcp-server](https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server): OData v4 Model Context Protocol server with EDM schema validation, row-level BUKRS authorization, PII masking, and write-approval gates.
 - [enterprise-helpdesk-rag-guardrails](https://github.com/nagarjunak-pixel/enterprise-helpdesk-rag-guardrails): Hybrid BM25 + dense retrieval assistant with RBAC filtering, calibrated low-confidence refusal, and citation checks.
-- [aegis-runtime](https://github.com/nagarjunak-pixel/aegis-runtime): Deny-by-default capability policy language, compensating sagas, compaction attribution, and signed audit logs for agent tool calls.
-- [prism-gate](https://github.com/nagarjunak-pixel/prism-gate): OpenAI-compatible LLM gateway with TCP-Vegas concurrency limits, tenant rate budgets, cost-aware cascades, and PSI/JSD drift checks.
+- [aegis-runtime](https://github.com/nagarjunak-pixel/aegis-runtime): Deny-by-default capability policy language, out-of-sandbox credential broker, multi-actor session isolation, compensating sagas, compaction attribution, and signed audit logs.
+- [prism-gate](https://github.com/nagarjunak-pixel/prism-gate): OpenAI-compatible LLM gateway with TCP-Vegas concurrency limits, bounded zero-text decision routing, PipeAxes prefill slicing, cost-aware cascades, and switch-adapted drift checks.
 - [vecta](https://github.com/nagarjunak-pixel/vecta): Filtered HNSW, IVF-PQ, RaBitQ, and hybrid BM25 + dense retrieval engine with C++20 distance kernels.
-- [syntara](https://github.com/nagarjunak-pixel/syntara): Grammar-constrained decoding compiling JSON Schema and regular expressions into minimal byte DFAs and token masks.
-- [company-os](https://github.com/nagarjunak-pixel/company-os): Config-driven 7-agent operations runtime with Kanban board, live logs, and KPI tracking.
+- [syntara](https://github.com/nagarjunak-pixel/syntara): Grammar-constrained decoding compiling JSON Schema and regular expressions into C++20 byte DFAs, paired with amount-scaled cost-matrix decision optimization.
+- [company-os](https://github.com/nagarjunak-pixel/company-os): Config-driven 7-agent operations runtime with SHACL 3-way knowledge-graph merges, OKF procedure memory distillation, Kanban board, and KPI tracking.
 - [adaptive-ai-tutor](https://github.com/nagarjunak-pixel/adaptive-ai-tutor): 12-agent GPT-4o learning platform with prerequisite DAGs, Socratic coaching, rubric grading, and Bayesian Knowledge Tracing (Next.js, PostgreSQL, Prisma).
 - [llm-knowledge-base](https://github.com/nagarjunak-pixel/llm-knowledge-base): Incremental Markdown wiki builder, SQLite FTS5 search, and cited Q&A service (FastAPI).
 - [langgraph-newsroom](https://github.com/nagarjunak-pixel/langgraph-newsroom): 3-stage LangGraph editorial workflow with human approval checkpoints, SQLite persistence, and bounded error recovery.
@@ -20,7 +20,7 @@
 - [weavegraph](https://github.com/nagarjunak-pixel/weavegraph): Dependency-aware git worktree scheduler with Tarjan SCC condensation and 3-way AST merge checks.
 - [tracegit](https://github.com/nagarjunak-pixel/tracegit): Content-addressed version control for agent execution traces with edit-distance diffing and regression bisection.
 - [calibra](https://github.com/nagarjunak-pixel/calibra): Paired bootstrap, exact McNemar, Bradley-Terry CI, 2PL IRT, temperature scaling, and MinHash-LSH contamination checks.
-- [enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): 17 open-access PDF field guides and handbooks on Hybrid RAG, Clean-Core OData MCP, Agent Evaluation, and Guardrails.
+- [enterprise-ai-field-guides](https://github.com/nagarjunak-pixel/enterprise-ai-field-guides): 19 open-access PDF field guides and handbooks on Hybrid RAG, Clean-Core OData MCP, Agent Evaluation, and Guardrails.
 
 ## Writing & Documentation
 
@@ -30,6 +30,8 @@
 - [Case Studies](https://nagarjunak-pixel.github.io/case-studies.html)
 - [Field Guides & Handbooks](https://nagarjunak-pixel.github.io/handbooks.html)
 - [Technical Articles](https://nagarjunak-pixel.github.io/articles.html)
+- [From Probabilities to Ledger Decisions: Amount-Scaled Expected Utility, Counterfactual SQL Gates & SHACL Merges](https://nagarjunak-pixel.github.io/articles/cost-sensitive-decision-layers-and-counterfactual-sql-gates.html)
+- [Out-of-Sandbox Credential Brokers & Bounded Decision Gateways: Default-Deny Egress, Speaker Scopes & Sliced Prefill](https://nagarjunak-pixel.github.io/articles/zero-egress-credential-brokers-and-bounded-decision-gateways.html)
 - [Post-Retrieval Enterprise RAG: Bi-Temporal Memory, Pruned RRF Cascades & Cross-Page Table Stitching](https://nagarjunak-pixel.github.io/articles/post-retrieval-enterprise-rag-bitemporal-rrf.html)
 - [Prompts Propose, State Machines Govern: Checkpointed Multi-Agent Pipelines, BKT Mastery DAGs & MaaS Assurance](https://nagarjunak-pixel.github.io/articles/state-machine-governed-multi-agent-workflows.html)
 - [Architecture FAQ](https://nagarjunak-pixel.github.io/ai-architect-faq.html)

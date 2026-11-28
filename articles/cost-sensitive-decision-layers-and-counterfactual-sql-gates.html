@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Probabilities to Ledger Decisions: Amount-Scaled Expected Utility, Counterfactual SQL Gates &amp; SHACL Merges | Nagarjuna Kamireddy</title>
+  <meta name="description" content="Why symmetric cross-entropy and single-snapshot SQL benchmarks fail in enterprise financial pipelines—and how dollar-scaled cost matrices, counterfactual SQL perturbation, and SHACL 3-way merges make core-system AI auditable.">
+  <link rel="canonical" href="https://nagarjunak-pixel.github.io/articles/cost-sensitive-decision-layers-and-counterfactual-sql-gates.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "From Probabilities to Ledger Decisions: Amount-Scaled Expected Utility, Counterfactual SQL Gates & SHACL Merges",
+  "description": "Why symmetric cross-entropy and single-snapshot SQL benchmarks fail in enterprise financial pipelines—and how dollar-scaled cost matrices, counterfactual SQL perturbation, and SHACL 3-way merges make core-system AI auditable.",
+  "datePublished": "2026-11-28",
+  "dateModified": "2026-11-28",
+  "mainEntityOfPage": "https://nagarjunak-pixel.github.io/articles/cost-sensitive-decision-layers-and-counterfactual-sql-gates.html",
+  "author": {
+    "@type": "Person",
+    "@id": "https://nagarjunak-pixel.github.io/#person",
+    "name": "Nagarjuna Reddy Kamireddy",
+    "url": "https://nagarjunak-pixel.github.io/"
+  },
+  "keywords": [
+    "Cost-Sensitive Learning",
+    "Financial AI",
+    "Text-to-SQL Verification",
+    "SAP Clean-Core OData MCP",
+    "SHACL Knowledge Graphs",
+    "Syntara"
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">Nagarjuna Reddy Kamireddy</span>
+        <span class="brand-sub">Lead AI Architect · Agentic AI, RAG &amp; SAP</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <ul id="primary-nav" class="nav-links">
+        <li><a href="/">Overview</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/handbooks.html">Field Guides</a></li>
+        <li><a href="/case-studies.html">Case Studies</a></li>
+        <li><a href="/articles.html">Articles</a></li>
+        <li><a href="/resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="section">
+      <div class="container" style="max-width: 820px;">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/articles.html">Articles</a></div>
+        <h1 style="font-size:clamp(1.75rem, 3.2vw, 2.35rem); line-height:1.2; margin:0.4rem 0 0.75rem;">From Probabilities to Ledger Decisions: Amount-Scaled Expected Utility, Counterfactual SQL Gates &amp; SHACL Merges</h1>
+        <p style="color:var(--text-dim); font-size:0.9rem; margin-bottom:1.6rem;">Published 2026-11-28 · Nagarjuna Kamireddy</p>
+        <p style="color:var(--text-muted);">Across 12 years of SAP BW, BPC, and HANA financial consolidation and 10 years of production machine learning and generative AI delivery, the hardest gap in enterprise finance automation is rarely raw model fluency. Generic tabular classifiers and text-to-SQL assistants stall at CFO and audit review because symmetric loss functions and single-snapshot benchmarks ignore institutional exposure:</p>
+        <ul style="color:var(--text-muted);">
+          <li><strong>Magnitude-Blind Argmax Decisions (<code>arXiv:2611.34858</code>):</strong> Standard cross-entropy treats a $45 office-supply variance and a $500,000 duplicate settlement identically. Even when an entry is 88% likely to be clean, a 5% material-misstatement tail on a $500,000 wire carries $25,600 in expected loss under naive auto-posting.</li>
+          <li><strong>54.1% Coincidence Passes on Static SQL Snapshots (<code>arXiv:2611.34363</code>):</strong> Queries evaluated on a single frozen test database frequently pass via hardcoded limits or accidental join fan-out that break on live multi-entity ledgers.</li>
+          <li><strong>Noisy Multi-Agent Master-Data Merges (<code>arXiv:2611.34870</code>):</strong> Line-level triple diffs generate hundreds of false human conflict prompts when parallel agents enrich shared hierarchy metadata.</li>
+        </ul>
+
+        <h2>1. Amount-Scaled Institutional Cost Matrices &amp; KL Calibration (<code>syntara v1.1.0</code>)</h2>
+        <p style="color:var(--text-muted);">In <a href="https://github.com/nagarjunak-pixel/syntara"><code>syntara</code></a> (<code>src/syntara/cost_matrix.py</code>), <code>CostMatrixDecisionHead</code> pairs C++20 byte-DFA grammar-constrained extraction with closed-form expected-loss minimization over <code>C(action, outcome, amount_usd)</code>. Before applying dollar thresholds, binned Expected Calibration Error (<code>expected_calibration_error</code>) and <code>KL</code>-anchored Boltzmann action posteriors verify that predicted probabilities track empirical base rates without collapsing rare variance classes.</p>
+
+        <h2>2. Counterfactual SQL Perturbation &amp; Clean-Core OData Scopes</h2>
+        <p style="color:var(--text-muted);">Rather than trusting a single static fixture, counterfactual database perturbation mutates boundary fiscal dates, null ratios, and header-to-line-item join cardinalities across shadow states—cutting reward-hacked SQL passes from 54.1% to 1.9% with zero false rejections across 2,847 valid queries. For live ERP access, <a href="https://github.com/nagarjunak-pixel/enterprise-erp-odata-mcp-server"><code>enterprise-erp-odata-mcp-server</code></a> parses outbound OData v4 <code>$filter</code> and <code>$expand</code> expressions into an explicit AST to enforce company-code (<code>BUKRS</code>) boundaries outside the model prompt.</p>
+
+        <h2>3. SHACL Shape-Bounded 3-Way Knowledge Merges (<code>company-os v1.1.0</code>)</h2>
+        <p style="color:var(--text-muted);">When multiple role-scoped agents update shared operational state concurrently, <a href="https://github.com/nagarjunak-pixel/company-os"><code>company-os</code></a> (<code>company_os/shacl_procedure_merge.py</code>) canonicalizes entity aliases before diffing, auto-merges multi-valued set additions, and escalates only genuine <code>max_count = 1</code> functional collisions—matching the 845-to-33 human prompt reduction reported in <code>arXiv:2611.34870</code>. Download the companion 12-page field guide: <a href="/field-guides/FG11_Financial_Grade_Agentic_Verification_Cost_Sensitive_SQL_Nagarjuna_Kamireddy.pdf">FG-11 PDF</a>.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Nagarjuna Reddy Kamireddy</h3>
+          <p>Lead AI Architect · AI Solutions Architect · GenAI Lead — Agentic AI &amp; RAG.<br>
+          AWS Certified Solutions Architect – Professional · NVIDIA-Certified Professional: Agentic AI.</p>
+          <p style="margin-top: 0.6rem;">
+            <a href="mailto:writetonagarjuna@gmail.com">writetonagarjuna@gmail.com</a> ·
+            <a href="https://www.linkedin.com/in/nagarjuna-kamireddy" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/nagarjunak-pixel" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+        <div>
+          <h3>Work &amp; Writing</h3>
+          <ul class="footer-links">
+            <li><a href="/">Overview</a></li>
+            <li><a href="/projects.html">Open-Source Projects</a></li>
+            <li><a href="/handbooks.html">Field Guides (PDF)</a></li>
+            <li><a href="/case-studies.html">Case Studies</a></li>
+            <li><a href="/training.html">Workshops</a></li>
+            <li><a href="/resume.html">Resume</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="https://github.com/nagarjunak-pixel" target="_blank" rel="noopener">GitHub (@nagarjunak-pixel)</a></li>
+            <li><a href="https://www.linkedin.com/in/nagarjuna-kamireddy" target="_blank" rel="noopener">LinkedIn (/in/nagarjuna-kamireddy)</a></li>
+            <li><a href="/github-projects-atlas.html">Repository Index</a></li>
+            <li><a href="/articles.html">Articles</a></li>
+            <li><a href="/feed.xml">Atom Feed</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Nagarjuna Reddy Kamireddy</span>
+        <span>Open-Source Systems &amp; Architecture Notes</span>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
